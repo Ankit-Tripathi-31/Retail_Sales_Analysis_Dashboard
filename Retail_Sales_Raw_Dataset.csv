@@ -1,0 +1,1013 @@
+﻿Order_ID,Order_Date,Region,City,Customer_Segment,Sales_Channel,Product_Category,Product_Name,Quantity,Unit_Price,Unit_Cost,Discount_Rate,Payment_Method,Sales_Rep,Sales_Amount,Profit
+ORD-00001,2025-07-12,North,Delhi,Small Business,Retail Store,Technology,Monitor,4,155.8,90.96,0.25,Credit Card,Rep-01,467.4,103.56
+ORD-00002,2025-12-19,North,Lucknow,Corporate,Online,Technology,Printer,10,85.84,67.49,0.05,Net Banking,Rep-09,815.48,140.58
+ORD-00003,2024-12-10,North,Delhi,Consumer,Retail Store,Office Supplies,Pen Set,12,8.76,5.27,0.1,Credit Card,Rep-12,94.61,31.37
+ORD-00004,01-22-2025,East,Kolkata,Small Business,Retail Store,Furniture,Desk,12,283.77,247.2,0.0,Cash,Rep-12,3405.24,438.84
+ORD-00005,2024-08-26,Central,Bhopal,Corporate,Retail Store,Technology,Laptop,1,947.57,829.24,0.1,Net Banking,Rep-12,852.81,23.57
+ORD-00006,2025-09-15,South,Hyderabad,Consumer,Phone,Furniture,Office Chair,11,158.1,120.76,0.25,Debit Card,Rep-06,1304.32,-24.04
+ORD-00007,2024-02-02,West,Pune,Corporate,Retail Store,Furniture,Office Chair,11,177.01,110.73,0.0,Credit Card,Rep-07,1947.11,729.08
+ORD-00008,2025-10-20,Central,Indore,Consumer,Retail Store,Office Supplies,Storage Box,4,42.08,35.43,0.15,Debit Card,Rep-08,143.07,1.35
+ORD-00009,2024-05-21,Central,Raipur,Corporate,Online,Furniture,Table,10,187.84,165.13,0.05,Credit Card,Rep-04,1784.48,133.18
+ORD-00010,2025-04-24,South,Hyderabad,Corporate,Phone,Office Supplies,Binder,10,3.14,2.34,0.15,Credit Card,Rep-04,26.69,3.29
+ORD-00011,2024-09-26,Central,Raipur,Consumer,Phone,Office Supplies,Storage Box,2,23.26,16.28,0.05,Credit Card,Rep-10,44.19,11.63
+ORD-00012,2025-06-27,Central,Bhopal,Small Business,Retail Store,Furniture,Office Chair,6,321.63,278.1,0.2,Net Banking,Rep-01,1543.82,-124.78
+ORD-00013,2024-03-28,North,Lucknow,Corporate,Online,Office Supplies,Storage Box,4,11.01,9.5,0.2,Cash,Rep-05,35.23,-2.77
+ORD-00014,2024-08-04,South,,Small Business,Phone,Office Supplies,Pen Set,5,10.44,7.2,0.2,Debit Card,Rep-10,41.76,5.76
+ORD-00015,2024-08-18,West,Mumbai,Corporate,Online,Office Supplies,Storage Box,8,54.78,32.32,0.15,Cash,Rep-18,372.5,113.94
+ORD-00016,2024-02-02,South,Chennai,Consumer,Phone,Furniture,Desk,2,383.14,239.67,0.0,Debit Card,,766.28,286.94
+ORD-00017,2024-09-05,West,Pune,Corporate,Online,Technology,Phone,12,858.08,635.11,0.2,Credit Card,Rep-04,8237.57,616.25
+ORD-00018,2025-10-23,West,Mumbai,Consumer,Retail Store,Furniture,Table,8,₹313.24,241.89,0.0,UPI,Rep-04,2505.92,570.8
+ORD-00019,2024-09-12,South,Bengaluru,Corporate,Phone,Technology,Printer,8,110.84,71.15,0.05,Credit Card,Rep-02,842.38,273.18
+ORD-00020,2025-02-14,Central,Bhopal,Consumer,Retail Store,Office Supplies,Paper,4,6.66,4.72,0.15,Credit Card,Rep-13,22.64,3.76
+ORD-00021,2025-07-23,East,,Small Business,Retail Store,office supplies,Binder,5,9.61,8.44,0.25,Debit Card,,36.04,-6.16
+ORD-00022,2024-02-28,East,Kolkata,Small Business,Retail Store,technology,Laptop,10,981.08,781.76,0.0,Cash,Rep-17,9810.8,1993.2
+ORD-00023,2025-11-22,South,Bengaluru,Corporate,Online,Technology,Printer,2,267.3,199.5,0.0,Cash,Rep-08,534.6,135.6
+ORD-00024,2024-09-24,Central,Bhopal,Small Business,Phone,Furniture,Desk,7,362.95,262.24,0.2,null,Rep-08,2032.52,196.84
+ORD-00025,2025-09-28,East,Patna,,Online,Furniture,Bookcase,8,120.07,66.41,0.0,Cash,Rep-07,960.56,429.28
+ORD-00026,2025-03-24,Central,Raipur,Small Business,Retail Store,Technology,Monitor,2,319.82,205.98,1.25,Cash,Rep-17,575.68,163.72
+ORD-00027,2024-04-19,North,Lucknow,Small Business,Online,Office Supplies,Storage Box,11,13.39,8.53,0.05,UPI,Rep-10,139.93,46.1
+ORD-00028,2024-09-14,Central,Bhopal,Consumer,Phone,Technology,Monitor,4,271.87,194.87,0.1,Net Banking,Rep-09,978.73,199.25
+ORD-00029,2025-07-18,North,Lucknow,Corporate,Phone,Technology,Phone,11,886.87,704.71,0.05,Credit Card,Rep-04,9267.79,1515.98
+ORD-00030,2024-05-31,North,Jaipur,Consumer,Online,Office Supplies,Pen Set,9,2.58,1.91,0.1,UPI,Rep-12,20.9,3.71
+ORD-00031,2025-07-27,North,Jaipur,Small Business,Phone,Office Supplies,Pen Set,11,5.99,3.99,0.0,Debit Card,Rep-08,65.89,22.0
+ORD-00032,2025-02-25,South,Hyderabad,Small Business,Online,Office Supplies,Pen Set,7,2.4,2.05,0.25,UPI,Rep-06,12.6,-1.75
+ORD-00033,2024-08-21,North,Delhi,Consumer,Phone,Furniture,Desk,8,188.97,125.74,0.15,Debit Card,Rep-13,1285.0,279.08
+ORD-00034,2025-07-03,East,Bhubaneswar,Consumer,Online,Technology,Laptop,5,808.02,550.98,0.2,UPI,Rep-06,3232.08,477.18
+ORD-00035,2024-11-17,Central,Indore,,Phone,Office Supplies,Storage Box,1,13.64,9.06,0.15,Credit Card,Rep-13,11.59,2.53
+ORD-00036,2025-07-05,Central,Raipur,Small Business,Phone,Technology,Laptop,12,846.23,723.9,0.2,Debit Card,Rep-12,8123.81,-562.99
+ORD-00037,2024-11-03,West,,Corporate,Phone,Technology,Monitor,10,178.48,140.56,0.0,Net Banking,Rep-11,1784.8,379.2
+ORD-00038,2024-06-27,West,Ahmedabad,Small Business,Retail Store,Office Supplies,Pen Set,4,8.73,6.75,0.15,Net Banking,Rep-18,29.68,2.68
+ORD-00039,2025-04-21,North,Jaipur,Corporate,Phone,Technology,Phone,7,760.74,582.77,0.2,Debit Card,Rep-17,4260.14,180.75
+ORD-00040,26-Sep-2025,West,Pune,Consumer,Online,Office Supplies,Pen Set,11,3.36,2.58,0.2,UPI,Rep-08,29.57,1.19
+ORD-00041,2024-03-15,South,Chennai,Corporate,Phone,Technology,Laptop,4,1092.77,907.45,0.2,Cash,Rep-07,3496.86,-132.94
+ORD-00042,2024-04-19,West,Pune,Consumer,Online,Furniture,Office Chair,3,286.5,241.97,0.0,Cash,Rep-15,859.5,133.59
+ORD-00043,2025-07-26,North,Lucknow,Corporate,Retail Store,Furniture,Desk,8,153.34,118.12,0.15,Cash,Rep-17,1042.71,97.75
+ORD-00044,2024-09-10,West,,Corporate,Phone,Office Supplies,Binder,3,15.39,10.75,0.15,Net Banking,Rep-08,39.24,6.99
+ORD-00045,2024-03-23,East,Kolkata,Consumer,Online,Furniture,Bookcase,4,111.63,94.29,0.1,Net Banking,Rep-05,401.87,24.71
+ORD-00046,2025-03-06,South,Chennai,Small Business,Phone,Technology,Keyboard,6,55.7,31.78,0.15,Credit Card,Rep-13,284.07,93.39
+ORD-00047,2025-07-13, WEST ,Ahmedabad,Consumer,Retail Store,Technology,Monitor,5,288.37,209.82,0.15,Debit Card,Rep-09,1225.57,176.47
+ORD-00048,2025-04-23,West,Mumbai,Small Business,Phone,Furniture,Table,6,260.6,205.61,0.15,Credit Card,Rep-13,1329.06,95.4
+ORD-00049,2024-07-05,Central,Bhopal,Corporate,Retail Store,Furniture,Desk,2,357.1,298.56,0.05,UPI,Rep-07,678.49,81.37
+ORD-00050,2024-03-24,West,Pune,Consumer,Phone,Technology,Keyboard,5,71.4,45.21,0.15,Cash,Rep-02,303.45,77.4
+ORD-00051,2024-07-23,East,Kolkata,Small Business,Online,technology,Laptop,11,668.12,576.84,0.0,Debit Card,Rep-05,7349.32,1004.08
+ORD-00052,2025-09-13,West,Ahmedabad,Small Business,Online,Office Supplies,Pen Set,8,13.19,7.98,0.1,Debit Card,Rep-10,94.97,31.13
+ORD-00053,2024-07-22,North,Delhi,Small Business,Phone,Furniture,Bookcase,10,188.7,128.49,0.15,Debit Card,Rep-04,1603.95,319.05
+ORD-00054,2025-11-08,East,Bhubaneswar,Consumer,Phone,Office Supplies,Paper,10,20.22,14.68,0.1,UPI,Rep-01,181.98,35.18
+ORD-00055,2025-04-15,West,Ahmedabad,Consumer,Retail Store,Office Supplies,Paper,7,24.14,20.38,0.25,Debit Card,Rep-17,126.74,-15.92
+ORD-00056,2024-11-26, EAST ,Kolkata,Consumer,Retail Store,Furniture,Table,8,197.61,147.32,0.25,Net Banking,Rep-08,1185.66,7.1
+ORD-00057,2024-08-05,West,Pune,Corporate,Retail Store,Furniture,Table,6,87.75,53.53,0.1,UPI,Rep-09,473.85,152.67
+ORD-00058,2024-09-03,Central,Raipur,Corporate,Phone,Technology,Phone,2,406.88,289.39,0.15,Net Banking,Rep-15,691.7,112.92
+ORD-00059,2025-01-12,North,Jaipur,Small Business,Phone,Technology,Phone,7,699.66,538.11,0.1,UPI,Rep-14,4407.86,641.09
+ORD-00060,2024-07-16,Central,Indore,Consumer,Phone,Technology,Keyboard,5,38.0,22.41,0.05,Cash,Rep-06,180.5,68.45
+ORD-00061,2024-04-12,South,Bengaluru,Corporate,Online,Technology,Keyboard,5,69.34,51.79,0.2,UPI,Rep-06,277.36,18.41
+ORD-00062,2025-12-15,East,Kolkata,Small Business,Retail Store,Technology,Printer,3,140.35,102.82,0.0,Credit Card,Rep-01,421.05,112.59
+ORD-00063,2025-05-04,Central,Bhopal,Consumer,Retail Store,Technology,Keyboard,8,40.55,25.68,0.0,Net Banking,Rep-03,324.4,118.96
+ORD-00064,2024-03-28,Central,Bhopal,Consumer,Phone,Office Supplies,Paper,3,6.28,5.42,0.2,Net Banking,Rep-08,15.07,-1.19
+ORD-00065,2025-09-27,Central,Bhopal,Small Business,Phone,furniture,Table,5,312.24,203.2,0.15,Credit Card,Rep-07,1327.02,311.02
+ORD-00066,2024-01-03,South,Chennai,Corporate,Phone,Technology,Laptop,3,757.94,435.64,0.2,Cash,Rep-16,1819.06,512.14
+ORD-00067,2024-08-27,East,Bhubaneswar,Small Business,Phone,Technology,Monitor,12,170.68,97.88,0.15,Debit Card,Rep-14,1740.94,566.38
+ORD-00068,2024-11-10,North,Lucknow,Small Business,Phone,Furniture,Office Chair,5,342.79,195.28,0.0,UPI,Rep-15,1713.95,737.55
+ORD-00069,05-20-2025,North,Jaipur,Consumer,Phone,Furniture,Bookcase,12,136.48,97.6,0.1,Credit Card,Rep-14,1473.98,302.78
+ORD-00070,2025-08-12,East,Patna,Consumer,Phone,Furniture,Desk,2,191.57,158.21,0.25,UPI,Rep-02,287.36,-29.06
+ORD-00071,2025-05-18,South,Bengaluru,Corporate,Retail Store,Furniture,Table,5,129.0,89.51,0.2,Net Banking,Rep-11,516.0,68.45
+ORD-00072,2025-02-14,East,Patna,Consumer,Retail Store,Office Supplies,Pen Set,6,8.59,5.54,0.15,Credit Card,Rep-11,43.81,10.57
+ORD-00073,2025-07-09,East,Bhubaneswar,Corporate,Online,Technology,Keyboard,9,76.87,58.96,0.0,Debit Card,Rep-17,691.83,161.19
+ORD-00074,2025-07-16,East,Kolkata,Corporate,Retail Store,Office Supplies,Binder,11,9.96,6.15,0.0,Net Banking,Rep-04,109.56,41.91
+ORD-00075,2025-02-21,North,Delhi,Consumer,Online,Office Supplies,Pen Set,12,4.53,2.51,0.2,Net Banking,Rep-04,43.49,13.37
+ORD-00076,2025-04-28,South,Bengaluru,Corporate,Phone,Furniture,Bookcase,9,194.03,,0.15,Debit Card,Rep-13,1484.33,42.89
+ORD-00077,2025-06-03,South,Chennai,Consumer,Retail Store,Office Supplies,Pen Set,2,6.42,4.25,0.15,UPI,Rep-16,10.91,2.41
+ORD-00078,2024-11-25,South,Bengaluru,Small Business,Online,Furniture,Table,6,169.76,114.5,0.2,Cash,Rep-13,814.85,127.85
+ORD-00079,2025-01-25,South,Chennai,Small Business,Phone,Office Supplies,Binder,1,7.73,,0.15,Debit Card,Rep-16,6.57,0.52
+ORD-00080,2025-04-12,North,Delhi,Small Business,Online,Technology,Printer,6,271.33,158.16,0.15,Net Banking,Rep-05,1383.78,434.82
+ORD-00081,2024-12-02,North,Lucknow,Small Business,Retail Store,Furniture,Bookcase,6,178.42,136.39,0.15,UPI,Rep-16,909.94,91.6
+ORD-00082,2024-04-02,Central,Indore,Consumer,Phone,Technology,Laptop,4,934.02,821.14,0.1,Credit Card,Rep-15,3362.47,77.91
+ORD-00083,2025-01-18,South,Chennai,Consumer,Online,Office Supplies,Paper,1,10.14,6.56,0.0,Cash,Rep-14,10.14,3.58
+ORD-00084,2025-09-26,Central,Raipur,Consumer,Retail Store,Office Supplies,Pen Set,3,4.8,4.02,0.2,Cash,Rep-05,11.52,-0.54
+ORD-00085,2025-04-21,South,Chennai,Small Business,Phone,Furniture,Bookcase,8,108.51,91.87,0.0,Debit Card,Rep-03,868.08,133.12
+ORD-00086,31/31/2024,West,Mumbai,Corporate,Retail Store,Office Supplies,Storage Box,11,58.03,36.71,0.25,Credit Card,Rep-08,478.75,74.94
+ORD-00087,2024-01-09,West,Ahmedabad,Small Business,Phone,Furniture,Bookcase,12,116.09,,0.25,Credit Card,Rep-16,1044.81,96.69
+ORD-00088,2025-09-27,East,Bhubaneswar,Small Business,Phone,Office Supplies,Pen Set,10,14.83,11.27,0.05,Debit Card,Rep-04,140.88,28.18
+ORD-00089,2024-10-29,North,Jaipur,Small Business,Retail Store,Technology,Keyboard,1,58.47,34.69,0.25,Debit Card,Rep-07,43.85,9.16
+ORD-00090,2024-09-20,South,Chennai,Corporate,Phone,Office Supplies,Storage Box,9,34.09,28.09,0.1,UPI,Rep-04,276.13,23.32
+ORD-00091,02-10-2025,West,Ahmedabad,Corporate,Online,Office Supplies,Pen Set,4,15.76,12.18,0.25,Net Banking,Rep-01,47.28,-1.44
+ORD-00092,2025-01-25,East,Patna,Corporate,Online,Furniture,Table,6,261.66,166.55,0.25,Debit Card,Rep-16,1177.47,178.17
+ORD-00093,2025-04-20,North,Lucknow,Corporate,Phone,furniture,Bookcase,10,102.06,77.53,0.0,Net Banking,Rep-04,1020.6,245.3
+ORD-00094,2025-07-04,South,Bengaluru,Corporate,Retail Store,Technology,Laptop,5,1098.17,639.22,0.0,UPI,Rep-18,5490.85,2294.75
+ORD-00095,2024-10-13,West,Mumbai,Small Business,Retail Store,Furniture,Office Chair,7,286.12,215.5,0.15,Debit Card,Rep-15,1702.41,193.91
+ORD-00096,2025-10-22,West,Pune,Consumer,Retail Store,Office Supplies,Storage Box,2,59.01,43.06,0.1,UPI,Rep-07,106.22,20.1
+ORD-00097,2024-01-22,North,Delhi,Corporate,Online,Office Supplies,Binder,2,13.93,10.6,0.25,Debit Card,Rep-07,20.89,-0.31
+ORD-00098,31/31/2024,North,Lucknow,Consumer,Retail Store,Office Supplies,Pen Set,10,5.46,3.59,0.05,Debit Card,,51.87,15.97
+ORD-00099,2025-01-01,Central,Bhopal,Small Business,Retail Store,Technology,Phone,2,679.69,403.39,0.0,Credit Card,Rep-06,1359.38,552.6
+ORD-00100,2025-01-05,East,Patna,Small Business,Online,Technology,Keyboard,9,23.52,16.63,0.0,Net Banking,Rep-17,211.68,62.01
+ORD-00101,2025-04-14,South,Hyderabad,Consumer,Online,Office Supplies,Paper,12,20.23,14.61,0.25,Net Banking,Rep-13,182.07,6.75
+ORD-00102,2024-11-25,West,Ahmedabad,Consumer,Online,Office Supplies,Binder,12,18.37,15.55,0.0,Debit Card,Rep-09,220.44,33.84
+ORD-00103,2025-06-01,Central,Raipur,Corporate,Online,Office Supplies,Storage Box,7,59.72,38.66,0.2,Credit Card,Rep-18,334.43,63.81
+ORD-00104,2024-04-07,South,Chennai,Corporate,Retail Store,Furniture,Office Chair,7,181.85,123.95,0.15,UPI,Rep-12,1082.01,214.36
+ORD-00105,2024-04-08,South,,Small Business,Retail Store,Office Supplies,Binder,2,3.64,2.11,0.0,Debit Card,Rep-18,7.28,3.06
+ORD-00106,2025-03-09,North,Lucknow,Consumer,Retail Store,Furniture,Bookcase,11,83.22,69.76,0.1,Cash,Rep-10,823.88,56.52
+ORD-00107,2024-04-20,East,Bhubaneswar,Small Business,Retail Store,Technology,Printer,4,114.04,71.16,0.15,Credit Card,Rep-09,387.74,103.1
+ORD-00108,2025-10-20,Central,Raipur,Consumer,Phone,Technology,Keyboard,9,88.09,66.29,0.2,UPI,Rep-01,634.25,37.64
+ORD-00109,2025-08-02,South,Hyderabad,Corporate,Online,Technology,Monitor,6,187.76,157.17,0.05,Debit Card,Rep-01,1070.23,127.21
+ORD-00110,2024-11-15,North,Lucknow,Corporate,Phone,Office Supplies,Pen Set,7,8.72,5.25,0.1,Cash,Rep-03,54.94,18.19
+ORD-00111,2025-03-10,North,Jaipur,Small Business,Retail Store,Technology,Printer,-1,228.27,158.93,0.1,Net Banking,Rep-09,205.44,46.51
+ORD-00112,2025-08-30,South,Chennai,Small Business,Phone,Office Supplies,Paper,6,12.46,9.64,0.1,UPI,Rep-02,-67.28,9.44
+ORD-00113,2024-09-18, SOUTH ,Chennai,Corporate,Online,Furniture,Desk,1,181.77,146.0,0.05,Credit Card,Rep-16,172.68,26.68
+ORD-00114,2025-11-15,West,Pune,Consumer,Retail Store,Technology,Keyboard,9,67.78,49.78,0.2,Credit Card,Rep-14,488.02,40.0
+ORD-00115,2025-10-17,North,Jaipur,Corporate,Online,Furniture,Desk,6,330.3,225.75,0.2,Net Banking,Rep-01,1585.44,230.94
+ORD-00116,2024-04-18,East,Kolkata,Corporate,Phone,Technology,Printer,8,263.05,152.33,0.1,Net Banking,Rep-17,1893.96,675.32
+ORD-00117,2024-03-19,North,Lucknow,Small Business,Online,Furniture,Bookcase,12,124.51,100.49,0.1,Cash,Rep-17,1344.71,138.83
+ORD-00118,2024-08-29,South,Bengaluru,Consumer,Retail Store,Office Supplies,Storage Box,6,45.82,37.52,0.25,Debit Card,Rep-06,206.19,-18.93
+ORD-00119,2025-07-31,Central,Raipur,Corporate,Phone,Technology,Laptop,3,1078.08,768.73,0.25,Cash,Rep-11,2425.68,119.49
+ORD-00120,2025-08-28,East,Kolkata,Corporate,Phone,Technology,Laptop,8,848.99,690.05,0.1,Credit Card,Rep-10,6112.73,592.33
+ORD-00121,2024-04-02,West,Ahmedabad,Small Business,Phone,Furniture,Desk,6,432.68,330.02,0.0,Net Banking,Rep-15,2596.08,615.96
+ORD-00122,2024-11-25,Central,Raipur,Corporate,Phone,Furniture,Desk,8,463.62,354.72,0.2,Debit Card,Rep-02,2967.17,129.41
+ORD-00123,2024-09-10,West,Ahmedabad,Corporate,Retail Store,Technology,Monitor,12,121.08,73.49,0.25,Cash,Rep-17,1089.72,207.84
+ORD-00124,2024-02-23,Central,Raipur,Small Business,Retail Store,Technology,Monitor,5,196.85,152.37,0.1,Credit Card,Rep-11,885.83,123.98
+ORD-00125,2025-09-09,North,Delhi,Corporate,Online,Furniture,Table,5,148.04,128.54,0.25,Cash,Rep-05,555.15,-87.55
+ORD-00126,2025-01-20,East,Patna,Corporate,Online,Technology,Keyboard,3,59.63,38.89,0.0,Cash,Rep-03,178.89,62.22
+ORD-00127,2025-05-12,West,Mumbai,Consumer,Online,Furniture,Desk,6,223.55,148.16,,Debit Card,Rep-03,1274.24,385.28
+ORD-00128,2024-02-08,East,Patna,Corporate,Phone,Office Supplies,Paper,9,19.96,16.8,0.25,Debit Card,Rep-13,134.73,-16.47
+ORD-00129,2025-11-23,South,Hyderabad,Consumer,Retail Store,Technology,Printer,3,238.66,163.62,0.0,Cash,Rep-10,715.98,225.12
+ORD-00130,2024-07-17,West,Pune,Small Business,Phone,Technology,Phone,5,877.64,744.51,0.15,Net Banking,Rep-15,3729.97,7.42
+ORD-00131,2024-09-13,East,Kolkata,Small Business,Retail Store,Office Supplies,Binder,3,16.7,9.95,0.2,UPI,Rep-18,40.08,10.23
+ORD-00132,2025-06-09,North,Delhi,Corporate,Online,Office Supplies,Paper,5,4.85,3.1,0.05,Debit Card,Rep-15,23.04,7.54
+ORD-00133,2024-03-24,East,Bhubaneswar,Consumer,Online,office supplies,Binder,1,9.14,5.74,0.1,UPI,Rep-04,8.23,2.49
+ORD-00134,2024-05-22,East,Patna,Corporate,Retail Store,Office Supplies,Pen Set,1,6.59,5.14,0.15,Cash,Rep-01,5.6,0.46
+ORD-00135,03-09-2025,North,Delhi,Corporate,Online,Technology,Phone,3,606.72,455.6,,UPI,Rep-04,1365.12,-1.68
+ORD-00136,2024-01-17,North,Lucknow,Small Business,Phone,Technology,Printer,8,93.82,70.08,0.15,Debit Card,Rep-05,637.98,77.34
+ORD-00137,2024-03-28,East,Patna,Corporate,Online,Furniture,Bookcase,4,168.43,129.56,0.05,Cash,Rep-18,640.03,121.79
+ORD-00138,2025-01-17,Central,Indore,Small Business,Online,Office Supplies,Paper,7,22.21,16.87,0.0,UPI,Rep-03,155.47,37.38
+ORD-00139,2024-12-26,East,Patna,Corporate,Phone,Technology,Laptop,10,980.83,582.64,0.1,Debit Card,Rep-15,8827.47,3001.07
+ORD-00140,2024-07-25,West,Mumbai,Consumer,Online,Office Supplies,Pen Set,2,13.46,7.57,0.15,UPI,Rep-10,22.88,7.74
+ORD-00141,31/12/2024,Central,Bhopal,Small Business,Retail Store,Furniture,Table,5,89.89,55.11,0.25,UPI,Rep-04,337.09,61.54
+ORD-00142,2024-07-10,East,Bhubaneswar,Small Business,Retail Store,Furniture,Table,12,198.73,131.54,0.15,UPI,Rep-17,2027.05,448.57
+ORD-00143,2024-11-24,East,Kolkata,Consumer,Retail Store,Office Supplies,Binder,2,9.75,7.12,0.05,UPI,Rep-10,18.52,4.28
+ORD-00144,2024-12-27,West,Ahmedabad,Corporate,Retail Store,Furniture,Table,3,266.24,185.72,0.1,Credit Card,Rep-03,718.85,161.69
+ORD-00145,2025-03-24,West,Mumbai,Consumer,Online,Furniture,Office Chair,1,117.12,90.62,0.2,Debit Card,Rep-12,93.7,3.08
+ORD-00146,2025-01-15,East,Bhubaneswar,Consumer,Phone,Furniture,Desk,10,161.38,139.29,0.15,Debit Card,Rep-17,1371.73,-21.17
+ORD-00147,2025-05-26,East,Patna,Corporate,Phone,Furniture,Bookcase,4,242.5,192.25,0.0,Credit Card,Rep-09,970.0,201.0
+ORD-00148,,East,Kolkata,Corporate,Online,Office Supplies,Pen Set,10,6.57,4.05,0.15,Net Banking,Rep-03,55.84,15.34
+ORD-00149,2025-12-29,East,Patna,Small Business,Phone,Office Supplies,Paper,9,14.93,12.41,0.1,Debit Card,Rep-12,120.93,9.24
+ORD-00150,2025-07-21,Central,Raipur,Corporate,Retail Store,Technology,Phone,3,403.88,225.64,0.15,Cash,Rep-05,1029.89,352.97
+ORD-00151,2025-06-22,Central,Indore,Corporate,Phone,Office Supplies,Paper,5,11.76,9.26,0.25,Credit Card,Rep-05,44.1,-2.2
+ORD-00152,2025-07-18,East,Patna,Small Business,Online,Office Supplies,Binder,8,14.24,8.44,0.1,Debit Card,Rep-14,102.53,35.01
+ORD-00153,2024-11-26,Central,Raipur,Consumer,Retail Store,Office Supplies,Paper,2,14.4,8.7,0.1,Cash,Rep-10,25.92,8.52
+ORD-00154,2024-04-05,North,Lucknow,Small Business,Online,Technology,Printer,5,107.54,80.95,0.1,Cash,Rep-05,483.93,79.18
+ORD-00155,2025-10-18,South,Hyderabad,Corporate,Phone,Office Supplies,Storage Box,10,10.14,5.85,0.0,Debit Card,Rep-14,101.4,42.9
+ORD-00156,05-09-2025,Central,Bhopal,Small Business,Retail Store,Office Supplies,Binder,11,11.82,10.23,0.25,UPI,,97.52,-15.01
+ORD-00157,2025-09-13,North,Delhi,Corporate,Phone,Office Supplies,Pen Set,8,8.65,5.34,0.15,UPI,Rep-12,58.82,16.1
+ORD-00158,2024-05-05,West,Pune,Corporate,Online,Technology,Monitor,9,240.41,151.4,0.1,Debit Card,Rep-04,1947.32,584.72
+ORD-00159,2025-08-14,North,Lucknow,Corporate,Online,Technology,Keyboard,10,46.36,37.94,0.05,Debit Card,Rep-16,440.42,61.02
+ORD-00160,2024-09-03,Central,Bhopal,Small Business,Retail Store,Furniture,Bookcase,8,64.4,46.16,0.15,Credit Card,Rep-02,437.92,68.64
+ORD-00161,2024-09-27,East,Patna,,Retail Store,Furniture,Table,5,224.91,155.68,0.0,UPI,Rep-02,1124.55,346.15
+ORD-00162,2025-05-31,West,Pune,Small Business,Retail Store,Technology,Printer,4,159.76,91.74,0.1,Cash,Rep-04,575.14,208.18
+ORD-00163,2025-01-09,South,Bengaluru,Consumer,Phone,Office Supplies,Binder,6,16.31,11.97,0.1,Cash,Rep-13,88.07,16.25
+ORD-00164,2024-06-01,Central,Raipur,Small Business,Online,Technology,Laptop,3,971.12,700.55,0.15,UPI,Rep-11,2476.36,374.71
+ORD-00165,2025-12-26,South,Hyderabad,Corporate,Retail Store,Furniture,Bookcase,10,123.91,89.92,0.2,Credit Card,Rep-12,991.28,92.08
+ORD-00166,2025-10-06,East,Kolkata, Small Business ,Retail Store,Office Supplies,Binder,10,7.54,6.32,0.25,UPI,Rep-08,56.55,-6.65
+ORD-00167,2025-01-24,North,Delhi,Small Business,Online,Furniture,Office Chair,9,277.58,223.62,0.2,Credit Card,Rep-04,1998.58,-14.0
+ORD-00168,2025-05-28,South,Hyderabad,Corporate,Phone,Technology,Monitor,7,137.86,85.1,0.25,Credit Card,Rep-05,723.77,128.07
+ORD-00169,2024-06-26,Central,Indore,Small Business,Retail Store,Technology,Monitor,11,219.59,143.51,0.15,Cash,Rep-12,2053.17,474.56
+ORD-00170,2024-10-31,East,Bhubaneswar,Small Business,Online,Furniture,Office Chair,4,162.07,101.17,0.1,Net Banking,Rep-11,583.45,178.77
+ORD-00171,2025-02-08, WEST ,Pune,Consumer,Retail Store,Furniture,Bookcase,5,83.16,60.64,0.25,Credit Card,Rep-10,311.85,8.65
+ORD-00172,2025-07-05,North,Jaipur,Small Business,Phone,Furniture,Table,11,149.24,92.62,0.15,UPI,Rep-05,1395.39,376.57
+ORD-00173,2024-08-26,North,Delhi,Consumer,Retail Store,Furniture,Office Chair,4,86.75,54.17,0.2,UPI,Rep-16,277.6,60.92
+ORD-00174,2025-05-02,North,Jaipur,Small Business,Online,Technology,Office Chair,1,17.43,11.93,0.05,UPI,Rep-11,16.56,4.63
+ORD-00175,2024-02-08,East,Kolkata,Corporate,Online,Office Supplies,Paper,11,15.63,12.41,0.2,Credit Card,Rep-13,137.54,1.03
+ORD-00176,2024-12-09,West,Pune,Corporate,Phone,Technology,Monitor,1,102.32,76.63,0.2,Cash,Rep-17,81.86,5.23
+ORD-00177,2024-12-04,West,Mumbai,Small Business,Retail Store,Office Supplies,Pen Set,9,9.49,7.75,0.05,UPI,Rep-06,81.14,11.39
+ORD-00178,2025-10-16,North,Jaipur,Corporate,Phone,Office Supplies,Storage Box,10,43.07,26.18,0.05,UPI,Rep-03,409.16,147.36
+ORD-00179,2025-01-27,West,Mumbai,Corporate,Retail Store,Office Supplies,Pen Set,3,9.64,5.32,0.05,UPI,Rep-10,27.47,11.51
+ORD-00180,2025-11-14,Central,Bhopal,Corporate,Retail Store,Office Supplies,Paper,5,17.38,10.91,0.25,Debit Card,Rep-13,65.17,10.62
+ORD-00181,2024-08-14,Central,Bhopal,Consumer,Retail Store,Office Supplies,Storage Box,12,14.11,9.47,0.1,Debit Card,Rep-15,152.39,38.75
+ORD-00182,2025-11-27,Central,Raipur,Consumer,Phone,Furniture,Table,9,296.54,237.65,0.05,Net Banking,Rep-17,2535.42,396.57
+ORD-00183,07-26-2024,East,Patna,Small Business,Online,Technology,Printer,2,93.59,79.36,0.2,Debit Card,Rep-11,149.74,-8.98
+ORD-00184,2025-04-01,Central,Bhopal,Corporate,Online,Furniture,Office Chair,12,262.44,222.19,0.0,Cash,Rep-14,3149.28,483.0
+ORD-00185,09-17-2024,West,Mumbai,Small Business,Online,Furniture,Table,11,297.87,165.97,0.25,Cash,Rep-03,2457.43,631.76
+ORD-00186,2025-04-28,North,Delhi,Corporate,Retail Store,Furniture,Desk,9,497.65,435.66,0.0,Debit Card,Rep-05,4478.85,557.91
+ORD-00187,2025-11-30,West,Ahmedabad,Small Business,Online,Furniture,Table,8,314.8,212.16,0.15,UPI,Rep-04,2140.64,443.36
+ORD-00188,2024-01-24,South,Chennai,Corporate,Phone,Office Supplies,Binder,9,4.29,3.54,0.05,Cash,Rep-14,36.68,4.82
+ORD-00189,2024-04-25,Central,Bhopal,Small Business,Retail Store,Furniture,Office Chair,4,222.01,142.3,0.05,Cash,Rep-01,843.64,274.44
+ORD-00190,2024-02-19,South,Bengaluru,Small Business,Online,Technology,Laptop,10,665.11,513.31,0.2,Net Banking,Rep-15,5320.88,187.78
+ORD-00191,2025-08-12,South,Chennai,Small Business,Phone,Furniture,Desk,3,301.56,189.16,0.1,UPI,Rep-08,814.21,246.73
+ORD-00192,28/08/2025,East,Patna,Consumer,Phone,Office Supplies,Pen Set,7,6.81,5.0,0.0,Net Banking,Rep-18,47.67,12.67
+ORD-00193,2025-03-02,West,Pune,Consumer,Retail Store,Technology,Monitor,11,267.84,175.48,0.2,Net Banking,Rep-06,2356.99,426.71
+ORD-00194,2024-02-29,Central,Raipur,Corporate,Retail Store,Furniture,Office Chair,5,352.99,288.01,0.05,Cash,Rep-17,1676.7,236.65
+ORD-00195,2025-01-14,South,Bengaluru,Small Business,Phone,Furniture,Bookcase,4,122.75,104.87,0.0,Debit Card,Rep-02,491.0,71.52
+ORD-00196,2025-07-26,East,Kolkata,Corporate,Online,Furniture,Desk,2,175.27,138.29,0.2,UPI,Rep-10,280.43,3.85
+ORD-00197,2025-12-13,North,Lucknow,Small Business,Online,Technology,Phone,12,326.26,277.9,0.15,Net Banking,Rep-08,3327.85,-6.95
+ORD-00198,2024-09-24,Central,Indore,Small Business,Retail Store,Technology,Monitor,7,216.56,144.78,0.25,Net Banking,Rep-04,1136.94,123.48
+ORD-00199,2024-08-14,West,,Consumer,Online,Office Supplies,Storage Box,4,27.28,15.42,0.15,UPI,Rep-18,92.75,31.07
+ORD-00200,2025-08-06,Central,Bhopal,Corporate,Phone,Furniture,Table,5,121.15,75.83,0.1,UPI,Rep-09,545.18,166.03
+ORD-00201,13-Jul-2025,West,Pune,Consumer,Phone,Office Supplies,Binder,8,5.03,3.05,0.1,Credit Card,Rep-17,36.22,11.82
+ORD-00202,2025-10-07,North,Delhi,Consumer,Phone,Office Supplies,Paper,11,4.07,2.79,0.0,Debit Card,Rep-01,44.77,14.08
+ORD-00203,2025-05-09,South,Hyderabad,Corporate,Online,Furniture,Bookcase,1,177.39,152.23,0.25,Credit Card,Rep-18,133.04,-19.19
+ORD-00204,01-18-2024,Central,Raipur, Small Business ,Phone,Furniture,Desk,9,388.88,339.32,0.2,Net Banking,Rep-06,2799.94,-253.94
+ORD-00205,2024-12-28,North,Jaipur,Corporate,Online,Office Supplies,Pen Set,4,5.07,3.21,0.2,UPI,Rep-13,16.22,3.38
+ORD-00206,2025-10-27,West,Mumbai,Consumer,Retail Store,Furniture,Office Chair,5,295.73,226.45,0.0,Net Banking,Rep-13,1478.65,346.4
+ORD-00207,2025-10-22,Central,Indore,Small Business,Online,Furniture,Desk,12,168.55,139.72,0.15,Cash,Rep-02,1719.21,42.57
+ORD-00208,2024-10-14,South,Hyderabad,Small Business,Phone,Technology,Printer,8,139.64,108.34,0.0,Credit Card,Rep-06,1117.12,250.4
+ORD-00209,2024-03-19,East,Bhubaneswar,Consumer,Phone,Technology,Phone,10,343.72,282.16,0.25,Debit Card,Rep-13,2577.9,-243.7
+ORD-00210,2024-12-20,Central,Bhopal,Consumer,Retail Store,Technology,Phone,12,720.71,573.69,0.2,Debit Card,Rep-03,6918.82,34.54
+ORD-00211,2025-04-06,East,Bhubaneswar,Consumer,Retail Store,Furniture,Table,6,88.0,71.15,0.1,Cash,Rep-13,475.2,48.3
+ORD-00212,2024-09-09, WEST ,Ahmedabad,Consumer,Online,Technology,Printer,11,163.62,105.94,0.2,UPI,Rep-05,1439.86,274.52
+ORD-00213,2024-01-06,West,Pune,Corporate,Retail Store,Technology,Office Chair,12,8.23,4.82,0.1,UPI,Rep-04,88.88,31.04
+ORD-00214,01-27-2024,South,Bengaluru,Corporate,Phone,Technology,Keyboard,8,56.77,38.87,0.2,Credit Card,Rep-11,363.33,52.37
+ORD-00215,2024-09-05,West,Ahmedabad,Small Business,Online,Technology,Keyboard,7,73.44,62.23,0.25,Net Banking,Rep-06,385.56,-50.05
+ORD-00216,2025-03-07,South,Chennai, Corporate ,Online,Technology,Monitor,8,136.48,94.64,0.05,UPI,Rep-09,1037.25,280.13
+ORD-00217,2024-11-07,South,Bengaluru,Corporate,Retail Store,Office Supplies,Binder,10,13.1,7.67,0.15,Cash,Rep-13,111.35,34.65
+ORD-00218,2025-09-09,East,Patna,Consumer,Retail Store,Furniture,Table,11,343.04,222.68,0.05,UPI,Rep-06,3584.77,1135.29
+ORD-00219,2024-09-05,West,Pune,Corporate,Retail Store,Office Supplies,Storage Box,12,44.14,38.37,0.15,Net Banking,Rep-12,450.23,-10.21
+ORD-00220,17/07/2025,North,Delhi,Small Business,Retail Store,Office Supplies,Pen Set,10,17.96,13.92,0.05,Debit Card,Rep-15,170.62,31.42
+ORD-00221,2024-09-04,East,,Small Business,Online,Office Supplies,Paper,7,17.81,13.52,0.05,Net Banking,Rep-13,118.44,23.8
+ORD-00222,2025-12-09,North,Jaipur,Small Business,Online,Furniture,Table,10,188.22,160.88,0.2,UPI,Rep-18,1505.76,-103.04
+ORD-00223,2024-06-19,Central,Raipur,Small Business,Online,Office Supplies,Paper,2,19.92,15.33,0.25,Cash,Rep-13,29.88,-0.78
+ORD-00224,2025-06-15,East,Patna,Small Business,Phone,Office Supplies,Binder,2,2.19,1.36,0.1,Cash,Rep-08,3.94,1.22
+ORD-00225,2024-01-26, WEST ,Pune,Consumer,Retail Store,Furniture,Table,11,238.92,143.29,0.2,Net Banking,Rep-03,2102.5,526.31
+ORD-00226,17-Jun-2025,North,Jaipur,Corporate,Retail Store,Office Supplies,Pen Set,6,6.99,5.65,0.15,Credit Card,Rep-15,35.65,1.75
+ORD-00227,2024-12-17, WEST ,Ahmedabad,Consumer,Phone,Technology,Monitor,1,302.55,168.66,0.0,Debit Card,Rep-08,302.55,133.89
+ORD-00228,2025-02-18,Central,Raipur,Consumer,Online,Technology,Phone,6,613.9,384.62,0.15,Net Banking,Rep-13,3130.89,823.17
+ORD-00229,2024-08-07,North,Delhi,Corporate,Phone,Office Supplies,Pen Set,8,11.48,6.33,0.15,Credit Card,Rep-04,78.06,27.42
+ORD-00230,2025-05-16,Central,Raipur,Small Business,Retail Store,Technology,Monitor,-4,214.39,165.37,0.1,Cash,Rep-13,771.8,110.32
+ORD-00231,2025-11-20,Central,Raipur,Corporate,Phone,Furniture,Desk,6,240.79,181.49,0.15,Cash,Rep-03,1228.03,139.09
+ORD-00232,2025-06-07,South,Chennai,Corporate,Phone,Technology,Phone,5,326.02,253.92,0.1,Debit Card,Rep-13,1467.09,197.49
+ORD-00233,2025-05-16,West,Pune,Consumer,Online,Technology,Printer,12,282.22,206.9,0.05,UPI,Rep-15,3217.31,734.51
+ORD-00234,2025-07-29,Central,Raipur,Small Business,Retail Store,Technology,Monitor,1,221.15,181.13,0.05,Net Banking,Rep-16,210.09,28.96
+ORD-00235,2024-08-13,West,Pune, Consumer ,Retail Store,Office Supplies,Binder,8,5.01,2.81,0.2,Debit Card,Rep-18,32.06,9.58
+ORD-00236,2024-04-25,East,Patna,,Retail Store,Technology,Keyboard,10,70.69,51.7,0.15,Cash,Rep-12,600.87,83.87
+ORD-00237,2024-04-14,Central,Raipur,Small Business,Online,Office Supplies,Paper,12,12.71,11.14,0.05,UPI,Rep-02,144.89,11.21
+ORD-00238,2024-08-30,West,Mumbai,Small Business,Phone,Technology,Laptop,8,1039.38,837.7,1.25,UPI,Rep-14,8315.04,1613.44
+ORD-00239,2024-10-14,South,Hyderabad,Small Business,Online,Furniture,Office Chair,4,335.8,223.57,0.2,UPI,Rep-10,1074.56,180.28
+ORD-00240,2024-10-10,East,Patna,Consumer,Phone,Furniture,Desk,3,485.11,413.89,0.15,Debit Card,Rep-08,1237.03,-4.64
+ORD-00241,02/10/2024,South,Hyderabad,Corporate,Retail Store,Office Supplies,Pen Set,11,8.28,6.13,0.05,Net Banking,Rep-03,86.53,19.1
+ORD-00242,2025-05-14,North,Jaipur,Small Business,Online,Furniture,Bookcase,12,237.9,166.54,0.1,Credit Card,Rep-15,2569.32,570.84
+ORD-00243,2024-11-26,East,Bhubaneswar,Corporate,Phone,Office Supplies,Binder,4,19.43,13.86,0.05,Cash,Rep-05,73.83,18.39
+ORD-00244,2025-04-15,Central,Bhopal,Consumer,Online,Office Supplies,Storage Box,11,47.64,27.77,0.0,Net Banking,Rep-15,524.04,218.57
+ORD-00245,2024-11-05,North,Delhi,Corporate,Online,Office Supplies,Binder,4,19.92,16.75,0.05,UPI,Rep-09,75.7,8.7
+ORD-00246,2024-08-27,North,Jaipur,Small Business,Online,Furniture,Office Chair,1,200.79,158.54,0.1,Credit Card,Rep-01,180.71,22.17
+ORD-00247,2024-01-09,South,Hyderabad,Corporate,Online,Furniture,Office Chair,10,144.64,100.8,0.25,Net Banking,Rep-05,1084.8,76.8
+ORD-00248,2025-01-11,West,Pune,Consumer,Retail Store,Technology,Keyboard,2,69.81,40.77,0.0,Debit Card,Rep-05,139.62,58.08
+ORD-00249,2024-08-06,North,Lucknow,Small Business,Online,Furniture,Desk,10,360.01,239.73,0.15,Net Banking,Rep-15,3060.09,662.79
+ORD-00250,2024-12-25,South,Chennai,Corporate,Online,Technology,Laptop,3,988.6,781.89,0.2,Debit Card,Rep-09,2372.64,26.97
+ORD-00251,2025-12-08,North,Delhi,Small Business,Retail Store,Technology,Printer,10,₹238.66,192.61,0.1,Debit Card,Rep-17,2147.94,221.84
+ORD-00252,2024-04-25,Central,Bhopal,Corporate,Phone,Furniture,Table,5,254.47,181.52,0.05,Cash,Rep-03,1208.73,301.13
+ORD-00253,2025-08-05,Central,Indore,Corporate,Phone,Office Supplies,Paper,6,23.55,15.96,0.05,Debit Card,Rep-16,134.24,38.48
+ORD-00254,2025-02-11,North,Lucknow,,Phone,Technology,Laptop,1,767.98,656.2,0.0,Cash,Rep-14,767.98,111.78
+ORD-00255,2024-03-26,West,,Consumer,Phone,Office Supplies,Paper,11,14.8,8.89,0.2,Debit Card,Rep-05,130.24,32.45
+ORD-00256,2024-03-08,Central,Indore,Small Business,Retail Store,Technology,Printer,11,247.91,192.07,0.25,Debit Card,Rep-02,2045.26,-67.51
+ORD-00257,2025-11-13,South,Hyderabad,Small Business,Phone,Technology,Keyboard,2,49.0,27.84,0.2,Debit Card,Rep-04,78.4,22.72
+ORD-00258,2024-09-22,North,Delhi,Corporate,Online,Office Supplies,Paper,3,13.92,10.06,0.1,UPI,Rep-04,37.58,7.4
+ORD-00259,2025-08-13,North,Lucknow,Consumer,Retail Store,Technology,Keyboard,5,54.29,42.62,0.1,Net Banking,Rep-17,244.31,31.21
+ORD-00260,2025-08-10,East,Patna,Small Business,Online,Technology,Printer,3,160.89,129.55,0.1,Debit Card,Rep-17,434.4,45.75
+ORD-00261,2024-06-02,North,Delhi,Consumer,Phone,Technology,Laptop,4,670.69,453.64,0.1,Net Banking,Rep-08,2414.48,599.92
+ORD-00262,2025-05-29,East,Patna,Consumer,Online,Technology,Monitor,5,306.5,206.28,0.2,Debit Card,Rep-17,1226.0,194.6
+ORD-00263,2025-07-20,North,Jaipur,Consumer,Retail Store,Office Supplies,Paper,8,22.05,14.51,0.1,Debit Card,Rep-10,158.76,42.68
+ORD-00264,2024-07-19,Central,Raipur,Small Business,Online,Office Supplies,Pen Set,8,7.89,6.94,0.15,Debit Card,Rep-01,53.65,-1.87
+ORD-00265,2024-12-09,West,Mumbai,Small Business,Retail Store,Technology,Printer,6,219.91,184.61,0.25,UPI,Rep-04,989.6,-118.06
+ORD-00266,2024-05-25,South,Hyderabad,Corporate,Online,Furniture,Office Chair,7,232.37,202.38,0.0,Credit Card,Rep-08,1626.59,209.93
+ORD-00267,2025-06-01, CENTRAL ,Bhopal,Small Business,Retail Store,Furniture,Bookcase,8,245.17,181.83,0.0,Credit Card,Rep-02,1961.36,506.72
+ORD-00268,2025-02-06,West,Ahmedabad,Small Business,Retail Store,Office Supplies,Pen Set,4,6.67,5.71,0.1,UPI,Rep-15,24.01,1.17
+ORD-00269,2024-04-18,East,Kolkata,Corporate,Retail Store,Technology,Phone,3,756.96,443.55,0.2,UPI,Rep-14,1816.7,486.05
+ORD-00270,04-02-2024,North,Delhi,Small Business,Retail Store,Furniture,Office Chair,8,171.74,142.77,0.1,Cash,Rep-02,1236.53,94.37
+ORD-00271,2025-02-09,South,Hyderabad,Consumer,Phone,Office Supplies,Storage Box,3,12.74,11.08,0.05,UPI,Rep-09,36.31,3.07
+ORD-00272,04-18-2025,South,Bengaluru,Consumer,Online,Technology,Keyboard,8,56.7,35.86,0.2,Credit Card,Rep-02,362.88,76.0
+ORD-00273,2025-08-23,South,Chennai,Consumer,Online,Technology,Keyboard,6,66.47,38.4,0.25,Credit Card,Rep-07,299.12,68.72
+ORD-00274,2025-08-10,West,Pune,Small Business,Retail Store,Office Supplies,Paper,6,5.7,3.23,0.15,Net Banking,Rep-01,29.07,9.69
+ORD-00275,2025-04-01, WEST ,Mumbai,Consumer,Phone,Office Supplies,Pen Set,6,5.44,3.49,0.05,Cash,Rep-08,31.01,10.07
+ORD-00276,2024-07-23,East,Patna,Small Business,Online,Furniture,Table,1,103.68,61.72,0.15,Cash,Rep-01,88.13,26.41
+ORD-00277,2025-08-02,West,Ahmedabad,Corporate,Retail Store,Office Supplies,Storage Box,8,36.31,,0.15,UPI,Rep-06,246.91,54.19
+ORD-00278,2025-04-28,North,Lucknow,Corporate,Phone,Technology,Phone,1,832.25,473.83,0.1,Debit Card,Rep-06,749.02,275.19
+ORD-00279,2024-08-12,North,Lucknow,,Retail Store,Technology,Phone,5,596.9,339.31,0.25,Debit Card,Rep-06,2238.38,541.83
+ORD-00280,2025-08-04,South,Hyderabad,Consumer,Phone,Furniture,Bookcase,10,65.36,43.53,0.25,Debit Card,Rep-16,490.2,54.9
+ORD-00281,2024-01-21,Central,Raipur,Corporate,Online,Technology,Keyboard,1,21.77,16.3,0.05,null,Rep-07,20.68,4.38
+ORD-00282,2024-05-25,South,Bengaluru,Small Business,Retail Store,Furniture,Office Chair,6,89.65,66.66,0.05,Credit Card,Rep-12,511.01,111.05
+ORD-00283,2025-03-23,West,Ahmedabad,Corporate,Phone,Furniture,Bookcase,5,121.29,96.02,0.05,UPI,Rep-06,576.13,96.03
+ORD-00284,2025-12-06,Central,Indore,Consumer,Online,Office Supplies,Storage Box,4,42.61,28.76,0.05,Credit Card,Rep-13,161.92,46.88
+ORD-00285,2025-08-02,Central,Bhopal,Corporate,Online,Technology,Printer,6,282.63,176.05,0.2,UPI,Rep-03,1356.62,300.32
+ORD-00286,2025-11-17,South,Hyderabad,Small Business,Retail Store,Furniture,Bookcase,3,180.88,148.53,0.0,Net Banking,Rep-01,542.64,97.05
+ORD-00287,2024-02-19,East,Bhubaneswar,Corporate,Phone,Technology,Laptop,6,765.5,603.01,0.0,Net Banking,Rep-06,4593.0,974.94
+ORD-00288,2025-08-14,West,Ahmedabad,Small Business,Online,Furniture,Table,6,227.43,187.29,0.0,Debit Card,Rep-15,1364.58,240.84
+ORD-00289,2024-03-16,North,Jaipur,Consumer,Retail Store,Office Supplies,Paper,5,3.44,2.97,0.1,Debit Card,Rep-03,15.48,0.63
+ORD-00290,12-22-2025,Central,Bhopal,,Phone,Office Supplies,Paper,6,16.07,13.58,0.2,Debit Card,Rep-14,77.14,-4.34
+ORD-00291,2025-07-07,South,Chennai,Small Business,Retail Store,Technology,Monitor,4,343.6,268.03,0.15,UPI,Rep-08,1168.24,96.12
+ORD-00292,2024-01-04,North,Jaipur,Consumer,Retail Store,Technology,Printer,9,264.77,150.39,0.05,Cash,Rep-16,2263.78,910.27
+ORD-00293,2024-04-28,South,Chennai,Corporate,Retail Store,Technology,Phone,3,664.82,469.55,0.0,Net Banking,Rep-09,1994.46,585.81
+ORD-00294,2025-04-01,North,Delhi,Corporate,Retail Store,Office Supplies,Binder,3,8.68,5.83,0.15,Net Banking,Rep-09,22.13,4.64
+ORD-00295,2025-11-15,South,Chennai,Small Business,Retail Store,Office Supplies,Paper,3,19.55,11.38,0.25,Cash,Rep-08,43.99,9.85
+ORD-00296,2025-05-01,Central,Raipur,Consumer,Retail Store,Technology,Keyboard,9,46.4,36.04,0.2,UPI,Rep-03,334.08,9.72
+ORD-00297,2025-11-24,West,Ahmedabad,Consumer,Online,Office Supplies,Paper,9,15.57,12.68,0.2,Net Banking,Rep-06,112.1,-2.02
+ORD-00298,2025-03-21,South,Bengaluru, Small Business ,Online,Office Supplies,Pen Set,3,2.68,2.35,0.0,Cash,Rep-09,8.04,0.99
+ORD-00299,2024-10-09,East,Patna,Corporate,Online,Office Supplies,Paper,2,11.54,8.45,0.15,Cash,Rep-17,19.62,2.72
+ORD-00300,2024-04-12,West,Mumbai,Small Business,Online,Technology,Phone,3,618.29,494.8,0.2,UPI,Rep-18,1483.9,-0.5
+ORD-00301,2024-02-08,East,Kolkata,Corporate,Retail Store,Office Supplies,Storage Box,7,42.05,31.58,0.2,Debit Card,Rep-13,235.48,14.42
+ORD-00302,2024-10-02,North,Jaipur,Consumer,Retail Store,Furniture,Bookcase,12,105.14,74.32,0.25,UPI,Rep-10,946.26,54.42
+ORD-00303,2024-11-24,East,Bhubaneswar,Small Business,Retail Store,Office Supplies,Paper,4,5.96,4.15,0.25,Cash,Rep-03,17.88,1.28
+ORD-00304,2024-02-27,South,Hyderabad,Consumer,Online,Furniture,Table,12,210.8,176.27,0.2,UPI,Rep-17,2023.68,-91.56
+ORD-00305,2024-07-24,West,Mumbai,Consumer,Online,Technology,Printer,10,86.37,72.45,0.05,Net Banking,Rep-02,820.51,96.01
+ORD-00306,2024-05-06,East,Patna,Consumer,Online,Office Supplies,Storage Box,6,50.82,34.61,0.2,UPI,Rep-16,243.94,36.28
+ORD-00307,2024-09-21,Central,Raipur,Small Business,Online,Furniture,Table,10,228.86,138.22,0.1,UPI,Rep-01,2059.74,677.54
+ORD-00308,07-30-2024,West,Pune,Small Business,Retail Store,Technology,Printer,4,268.56,167.66,0.25,Cash,Rep-01,805.68,135.04
+ORD-00309,2025-09-14,North,Jaipur,,Phone,Furniture,Office Chair,11,127.16,79.33,0.0,UPI,Rep-14,1398.76,526.13
+ORD-00310,2025-09-30,West,Pune,Small Business,Online,Office Supplies,Binder,5,5.93,4.59,0.1,null,Rep-17,26.68,3.73
+ORD-00311,2024-10-10,East,Patna,Corporate,Retail Store,Furniture,Bookcase,5,190.04,108.53,0.15,UPI,Rep-10,807.67,265.02
+ORD-00312,2024-11-23,South,Hyderabad,Consumer,Phone,Technology,Phone,1,773.53,528.59,0.2,Credit Card,Rep-16,618.82,90.23
+ORD-00313,2025-08-08,East,Kolkata,Corporate,Phone,Technology,Keyboard,7,44.12,32.75,0.0,Debit Card,Rep-18,308.84,79.59
+ORD-00314,2025-07-25,West,Mumbai,Corporate,Online,Office Supplies,Storage Box,9,23.61,19.54,0.05,Net Banking,Rep-05,201.87,26.01
+ORD-00315,2024-12-29,East,Kolkata,Small Business,Retail Store,Office Supplies,Pen Set,11,16.39,9.5,0.25,Net Banking,Rep-11,135.22,30.72
+ORD-00316,2025-10-11, EAST ,Patna,Small Business,Phone,Technology,Monitor,8,312.8,177.58,0.15,Credit Card,Rep-16,2127.04,706.4
+ORD-00317,2024-06-03,South,Bengaluru,Consumer,Retail Store,Furniture,Table,9,160.56,134.45,0.0,Net Banking,Rep-15,1445.04,234.99
+ORD-00318,2024-11-16,South,Hyderabad,Consumer,Online,Technology,Phone,2,566.93,496.4,0.25,Net Banking,Rep-09,850.39,-142.41
+ORD-00319,,South,Bengaluru,Small Business,Retail Store,Office Supplies,Pen Set,10,14.23,11.51,0.15,Net Banking,Rep-13,120.96,5.86
+ORD-00320,2024-01-15,West,,Small Business,Online,Office Supplies,Binder,1,2.68,2.12,0.05,Credit Card,Rep-01,2.55,0.43
+ORD-00321,2024-11-09,South,Bengaluru,Consumer,Online,Technology,Monitor,5,132.23,94.69,0.15,UPI,Rep-10,561.98,88.53
+ORD-00322,2025-05-16,West,Pune,Consumer,Online,Office Supplies,Storage Box,7,54.17,35.92,0.05,Net Banking,Rep-01,360.23,108.79
+ORD-00323,2024-05-06,South,Chennai,Small Business,Phone,Technology,Phone,4,727.15,521.02,0.2,Credit Card,Rep-13,2326.88,242.8
+ORD-00324,2024-01-21,East,Kolkata,Small Business,Online,Office Supplies,Paper,10,24.88,14.57,0.25,Net Banking,Rep-15,186.6,40.9
+ORD-00325,2025-10-07,West,Mumbai,Corporate,Retail Store,Technology,Monitor,8,275.47,214.71,0.05,Credit Card,Rep-17,2093.57,375.89
+ORD-00326,2025-09-24,East,Kolkata,Corporate,Online,Office Supplies,Pen Set,7,15.29,10.99,0.0,Credit Card,Rep-16,107.03,30.1
+ORD-00327,2024-10-29,South,Bengaluru,Consumer,Phone,Furniture,Bookcase,9,244.89,191.54,0.1,Net Banking,Rep-07,1983.61,259.75
+ORD-00328,2025-11-16,West,Pune,Consumer,Online,Technology,Laptop,1,952.23,786.19,0.0,Cash,Rep-03,952.23,166.04
+ORD-00329,2024-02-21,North,Delhi,Consumer,Online,Office Supplies,Pen Set,8,17.82,11.35,0.1,UPI,Rep-12,128.3,37.5
+ORD-00330,2024-05-21,East,Patna,Small Business,Online,Furniture,Desk,2,440.5,243.68,0.0,UPI,Rep-12,881.0,393.64
+ORD-00331,2025-02-14,West,Pune,Corporate,Retail Store,Office Supplies,Storage Box,12,12.83,7.83,0.1,Net Banking,Rep-16,138.56,44.6
+ORD-00332,2024-06-12,West,,Corporate,Phone,Office Supplies,Pen Set,2,4.12,2.35,0.25,Net Banking,Rep-15,6.18,1.48
+ORD-00333,2024-05-13,South,Chennai,Corporate,Online,Furniture,Bookcase,10,65.48,55.03,0.25,Net Banking,Rep-15,491.1,-59.2
+ORD-00334,2025-08-13,North,Lucknow,Small Business,Online,Technology,Monitor,1,276.14,199.7,0.25,UPI,Rep-17,207.1,7.4
+ORD-00335,2025-11-10,Central,Raipur,Small Business,Retail Store,Office Supplies,Paper,7,17.56,12.45,0.05,Debit Card,Rep-18,116.77,29.62
+ORD-00336,2024-03-17,Central,Indore,Corporate,Online,Technology,Phone,9,801.75,670.99,0.15,UPI,Rep-09,6133.39,94.48
+ORD-00337,2025-08-09,North,Jaipur,Consumer,Retail Store,Furniture,Table,7,300.62,210.89,0.0,Net Banking,Rep-11,2104.34,628.11
+ORD-00338,2024-01-01,North,Delhi,Small Business,Phone,office supplies,Paper,2,11.88,8.72,0.0,UPI,Rep-17,23.76,6.32
+ORD-00339,2025-04-10,Central,Indore,Small Business,Phone,Technology,Keyboard,6,42.25,34.62,0.0,Cash,Rep-16,253.5,45.78
+ORD-00340,2024-12-29,East,Patna, Corporate ,Phone,Office Supplies,Paper,2,19.71,10.85,0.05,Cash,Rep-12,37.45,15.75
+ORD-00341,,North,Delhi,Corporate,Phone,Technology,Phone,8,341.29,271.34,0.25,Debit Card,Rep-07,2047.74,-122.98
+ORD-00342,2024-04-20,North,Jaipur,Consumer,Phone,office supplies,Binder,4,10.23,8.05,0.05,Cash,Rep-04,38.87,6.67
+ORD-00343,2025-03-19,West,Ahmedabad,Corporate,Phone,Furniture,Office Chair,8,71.43,40.43,0.25,Debit Card,Rep-06,428.58,105.14
+ORD-00344,2025-03-04,South,Hyderabad,Small Business,Online,Technology,Printer,10,274.19,230.56,0.2,UPI,Rep-13,2193.52,-112.08
+ORD-00345,2025-06-08,East,Bhubaneswar,Small Business,Phone,Office Supplies,Binder,3,4.49,3.51,0.2,UPI,Rep-18,10.78,0.25
+ORD-00346,2024-05-15,South,Hyderabad,Small Business,Online,Technology,Printer,12,143.93,122.92,0.1,Cash,Rep-18,1554.44,79.4
+ORD-00347,2025-12-28,East,Bhubaneswar,Small Business,Phone,Office Supplies,Storage Box,9,32.98,28.4,0.2,Cash,Rep-10,237.46,-18.14
+ORD-00348,2024-07-23, WEST ,Pune,Consumer,Retail Store,Office Supplies,Paper,1,11.38,8.78,0.0,UPI,Rep-05,11.38,2.6
+ORD-00349,2025-04-08,North,Delhi,Small Business,Phone,Office Supplies,Storage Box,4,47.19,31.54,0.0,Cash,Rep-08,188.76,62.6
+ORD-00350,2025-12-02,Central,Indore,Small Business,Online,Furniture,Bookcase,12,186.25,126.26,0.15,Credit Card,Rep-09,1899.75,384.63
+ORD-00351,2025-01-11,South,Hyderabad,Small Business,Phone,Office Supplies,Binder,4,18.41,14.44,0.25,Cash,Rep-07,55.23,-2.53
+ORD-00352,2024-05-02,South,Chennai,Consumer,Retail Store,Technology,Phone,11,298.4,236.5,0.05,UPI,Rep-18,3118.28,516.78
+ORD-00353,2024-06-07,East,Kolkata,Consumer,Retail Store,Technology,Printer,5,81.24,63.71,0.15,Cash,Rep-02,345.27,26.72
+ORD-00354,2025-12-25,Central,Indore,Small Business,Online,Office Supplies,Storage Box,8,49.08,32.79,0.2,Debit Card,Rep-17,314.11,51.79
+ORD-00355,2024-08-14,North,Delhi,Small Business,Retail Store,Office Supplies,Pen Set,7,10.69,6.2,0.15,UPI,Rep-12,63.61,20.21
+ORD-00356,2025-10-26,East,Kolkata,Consumer,Phone,Technology,Printer,9,184.47,151.6,0.2,UPI,Rep-15,1328.18,-36.22
+ORD-00357,2024-04-26,South,Chennai,Corporate,Phone,Office Supplies,Pen Set,1,12.92,8.73,0.1,UPI,Rep-01,11.63,2.9
+ORD-00358,10-30-2024,Central,Raipur,Consumer,Retail Store,Office Supplies,Storage Box,9,49.75,35.35,0.15,Cash,Rep-03,380.59,62.44
+ORD-00359,2025-10-06,North,Delhi,Small Business,Retail Store,Technology,Printer,9,81.61,50.56,0.0,Credit Card,Rep-07,734.49,279.45
+ORD-00360,2024-06-06,Central,Bhopal,Corporate,Phone,Office Supplies,Binder,11,16.7,13.3,0.0,UPI,Rep-02,183.7,37.4
+ORD-00361,2024-09-21,North,Jaipur,Corporate,Retail Store,Technology,Phone,5,612.75,503.15,0.2,Net Banking,Rep-14,2451.0,-64.75
+ORD-00362,2025-08-22,East,Kolkata,Small Business,Online,technology,Laptop,9,652.65,492.13,0.25,UPI,Rep-17,4405.39,-23.78
+ORD-00363,2025-11-07,North,Delhi,Corporate,Online,Technology,Monitor,10,121.63,82.21,0.15,Cash,Rep-08,1033.86,211.76
+ORD-00364,2025-10-25,South,Chennai,Consumer,Phone,Office Supplies,Storage Box,11,15.49,13.05,0.25,Cash,Rep-05,127.79,-15.76
+ORD-00365,2024-11-08,North,Delhi,Small Business,Phone,Technology,Printer,10,166.7,143.78,0.2,UPI,Rep-07,1333.6,-104.2
+ORD-00366,2024-07-17,West,Mumbai,Consumer,Phone,Office Supplies,Pen Set,3,4.94,4.08,0.2,Cash,Rep-02,11.86,-0.38
+ORD-00367,2025-08-17,Central,Indore,Corporate,Retail Store,Furniture,Desk,5,368.67,214.72,0.1,Debit Card,Rep-08,1659.02,585.42
+ORD-00368,2025-11-06,North,Jaipur,Small Business,Phone,Technology,Laptop,4,793.0,522.07,0.15,Debit Card,Rep-12,2696.2,607.92
+ORD-00369,2025-10-18,East,Bhubaneswar,Corporate,Retail Store,Office Supplies,Pen Set,1,7.01,5.5,0.05,Debit Card,Rep-11,6.66,1.16
+ORD-00370,2025-09-13,West,Mumbai,Corporate,Online,Furniture,Bookcase,5,152.52,92.73,0.0,Cash,Rep-07,762.6,298.95
+ORD-00371,2025-10-08,East,Kolkata, Small Business ,Phone,Office Supplies,Paper,12,4.66,3.87,0.0,Net Banking,Rep-07,55.92,9.48
+ORD-00372,2025-08-26,North,Lucknow,Corporate,Online,Furniture,Table,11,289.3,196.59,0.1,Net Banking,Rep-17,2864.07,701.58
+ORD-00373,2025-09-20,Central,Raipur,Consumer,Phone,Technology,Monitor,9,102.65,85.18,0.05,Debit Card,Rep-15,877.66,111.04
+ORD-00374,2025-05-10,South,Chennai,Consumer,Online,Technology,Printer,11,271.88,215.56,0.05,Net Banking,Rep-08,2841.15,469.99
+ORD-00375,2025-01-04,North,Jaipur,Corporate,Retail Store,Technology,Phone,1,684.58,581.58,0.2,Credit Card,Rep-02,547.66,-33.92
+ORD-00376,2025-07-11,East,Patna,Consumer,Retail Store,Technology,Printer,11,262.52,167.2,0.25,Net Banking,Rep-12,2165.79,326.59
+ORD-00377,2024-12-27,Central,Indore,Corporate,Retail Store,Office Supplies,Paper,9,8.53,6.15,0.05,Cash,Rep-01,72.93,17.58
+ORD-00378,2024-08-04,Central,Bhopal,Consumer,Online,Office Supplies,Binder,3,6.14,4.68,0.2,UPI,Rep-04,14.74,0.7
+ORD-00379,2024-08-03,South,Hyderabad,Consumer,Phone,Furniture,Bookcase,12,81.53,57.72,0.25,Net Banking,Rep-01,-733.77,41.13
+ORD-00380,2025-08-09,South,Bengaluru,Consumer,Online,Technology,Printer,10,115.45,83.03,0.25,UPI,Rep-06,865.88,35.58
+ORD-00381,2024-08-09,Central,Indore,Small Business,Retail Store,Office Supplies,Paper,12,19.02,16.41,0.1,Net Banking,Rep-06,205.42,8.5
+ORD-00382,2025-06-07,South,Chennai,Consumer,Phone,Office Supplies,Pen Set,10,₹15.13,11.43,0.05,UPI,Rep-15,143.74,29.44
+ORD-00383,2025-06-19,Central,Raipur, Small Business ,Retail Store,Furniture,Office Chair,7,197.2,109.54,0.0,Debit Card,Rep-04,1380.4,613.62
+ORD-00384,2025-11-06,South,Bengaluru,Small Business,Phone,Furniture,Desk,9,301.33,175.0,0.0,Credit Card,Rep-14,2711.97,1136.97
+ORD-00385,2025-05-08,Central,Indore,Corporate,Phone,Furniture,Desk,12,311.93,268.16,0.05,Cash,Rep-04,3556.0,338.08
+ORD-00386,10-Jul-2025,West,Pune,Corporate,Online,Technology,Keyboard,4,83.26,53.58,0.0,Credit Card,Rep-01,333.04,118.72
+ORD-00387,2025-02-22,Central,Indore,Consumer,Online,Furniture,Desk,7,361.82,295.03,,Net Banking,Rep-09,1899.55,-165.66
+ORD-00388,2025-02-10,East,Kolkata,Corporate,Phone,Office Supplies,Binder,10,8.58,7.53,0.1,Cash,Rep-16,77.22,1.92
+ORD-00389,2025-12-23,South,Chennai,Small Business,Online,furniture,Table,5,346.9,230.22,0.2,Credit Card,Rep-08,1387.6,236.5
+ORD-00390,17-Jul-2025,West,Ahmedabad,Small Business,Phone,Office Supplies,Pen Set,2,5.43,4.4,0.15,Credit Card,Rep-06,9.23,0.43
+ORD-00391,2025-03-21,West,Mumbai,Consumer,Retail Store,Office Supplies,Paper,2,21.11,18.06,0.15,Debit Card,Rep-12,35.89,-0.23
+ORD-00392,2025-09-03,North,Delhi,Consumer,Phone,Furniture,Table,7,₹245.77,158.41,0.2,Net Banking,Rep-15,1376.31,267.44
+ORD-00393,2025-12-16,North,Delhi,Small Business,Online,Technology,Printer,5,122.84,88.26,0.2,Credit Card,Rep-12,491.36,50.06
+ORD-00394,2025-02-08,South,Chennai,Small Business,Online,Office Supplies,Pen Set,2,17.95,11.96,0.15,Cash,Rep-01,30.51,6.59
+ORD-00395,2024-10-10,North,Delhi,Small Business,Online,Office Supplies,Storage Box,12,51.15,34.01,0.2,Net Banking,Rep-13,491.04,82.92
+ORD-00396,2024-10-28,Central,Indore,Consumer,Phone,Technology,Phone,7,579.05,332.31,0.2,UPI,Rep-18,3242.68,916.51
+ORD-00397,2025-04-14,Central,Raipur,Corporate,Phone,Technology,Keyboard,7,57.24,45.79,0.05,Credit Card,Rep-16,380.65,60.12
+ORD-00398,2024-08-23,North,Jaipur,Corporate,Retail Store,Technology,Keyboard,11,74.15,57.35,0.05,Cash,Rep-18,774.87,144.02
+ORD-00399,2024-12-16,North,Delhi,Small Business,Online,Office Supplies,Storage Box,4,22.94,17.72,0.15,Net Banking,Rep-11,78.0,7.12
+ORD-00400,2024-07-13,East,Bhubaneswar,Small Business,Online,Technology,Printer,5,120.21,93.21,0.25,Debit Card,Rep-08,450.79,-15.26
+ORD-00401,2024-04-19,East,,Consumer,Phone,Technology,Phone,4,793.62,477.35,0.1,Net Banking,Rep-01,2857.03,947.63
+ORD-00402,2025-08-11,Central,Indore,Corporate,Online,Office Supplies,Binder,6,13.17,11.15,0.15,Cash,Rep-09,67.17,0.27
+ORD-00403,2025-07-07,West,Mumbai,Small Business,Retail Store,Technology,Printer,3,91.91,65.06,0.15,Net Banking,Rep-06,234.37,39.19
+ORD-00404,2025-01-23,West,Ahmedabad,Consumer,Retail Store,Office Supplies,Binder,6,₹14.41,11.13,0.0,UPI,Rep-09,86.46,19.68
+ORD-00405,2024-07-07,South,Chennai,Corporate,Online,Furniture,Office Chair,5,225.54,149.58,0.2,Net Banking,Rep-12,902.16,154.26
+ORD-00406,2025-12-03,East,Kolkata, Consumer ,Phone,Office Supplies,Storage Box,8,17.35,15.15,0.05,UPI,Rep-08,131.86,10.66
+ORD-00407,2024-01-10,Central,Bhopal,Corporate,Retail Store,Furniture,Table,4,119.38,71.55,1.25,Debit Card,Rep-17,358.14,71.94
+ORD-00408,2024-04-11,Central,,Consumer,Online,Office Supplies,Binder,5,6.52,3.69,0.2,Debit Card,Rep-09,26.08,7.63
+ORD-00409,2025-07-27, WEST ,Ahmedabad,Corporate,Retail Store,Office Supplies,Paper,8,19.38,12.97,0.1,Credit Card,Rep-14,139.54,35.78
+ORD-00410,2024-10-18,North,Jaipur,Corporate,Phone,Furniture,Office Chair,10,260.05,189.23,0.25,Cash,Rep-16,1950.38,58.08
+ORD-00411,2024-06-20,West,Ahmedabad,Corporate,Retail Store,Office Supplies,Binder,10,7.16,6.2,,Cash,Rep-13,53.7,-8.3
+ORD-00412,2024-09-30,North,Lucknow,Small Business,Retail Store,Technology,Monitor,4,178.37,115.25,0.25,UPI,Rep-15,535.11,74.11
+ORD-00413,2024-08-28,East,Patna,Corporate,Phone,Office Supplies,Binder,7,5.01,2.96,0.0,Credit Card,Rep-07,35.07,14.35
+ORD-00414,2024-01-27,South,Chennai,Small Business,Online,Furniture,Desk,2,474.72,347.01,0.15,Credit Card,Rep-09,807.02,113.0
+ORD-00415,2025-10-03,Central,Bhopal,Consumer,Phone,Technology,Keyboard,5,32.2,20.73,0.25,Debit Card,Rep-01,120.75,17.1
+ORD-00416,2025-07-15,North,Jaipur,Consumer,Phone,Office Supplies,Storage Box,8,32.29,27.72,0.2,Cash,Rep-06,206.66,-15.1
+ORD-00417,2024-12-21,Central,Indore,Small Business,Online,Furniture,Table,9,252.74,164.83,0.2,Credit Card,Rep-15,1819.73,336.26
+ORD-00418,2024-05-19,East,Bhubaneswar,Corporate,Retail Store,Furniture,Bookcase,3,117.68,85.05,0.0,Cash,Rep-01,353.04,97.89
+ORD-00419,2025-09-03,West,Mumbai,Consumer,Phone,Office Supplies,Binder,5,2.16,1.76,0.15,UPI,Rep-07,9.18,0.38
+ORD-00420,2025-02-03, WEST ,Pune,Consumer,Retail Store,Office Supplies,Binder,7,6.5,5.16,0.25,Credit Card,Rep-14,34.12,-2.0
+ORD-00421,2025-02-26,South,Bengaluru,Consumer,Online,Furniture,Bookcase,5,183.21,149.67,0.2,Debit Card,Rep-10,732.84,-15.51
+ORD-00422,2024-01-20,North,Delhi,Consumer,Phone,Office Supplies,Binder,5,14.61,8.94,0.15,Credit Card,Rep-06,62.09,17.39
+ORD-00423,2024-06-03,North,Delhi,Corporate,Online,Technology,Phone,12,534.97,335.33,0.0,UPI,Rep-14,6419.64,2395.68
+ORD-00424,2024-05-29,East,,Corporate,Retail Store,Office Supplies,Binder,6,10.35,6.82,0.0,Credit Card,Rep-18,62.1,21.18
+ORD-00425,2024-09-11,West,Pune,Corporate,Online,Technology,Monitor,7,307.06,267.64,0.0,Credit Card,Rep-07,2149.42,275.94
+ORD-00426,2025-11-28,West,Pune,Corporate,Online,Office Supplies,Paper,9,17.65,12.46,0.05,Credit Card,,150.91,38.77
+ORD-00427,2025-11-13,Central,Bhopal,Consumer,Online,Technology,Keyboard,11,37.41,31.53,0.1,Net Banking,Rep-11,370.36,23.53
+ORD-00428,2024-02-13,North,Lucknow,Small Business,Retail Store,Technology,Monitor,10,129.91,71.83,0.05,Cash,Rep-05,1234.14,515.84
+ORD-00429,02/10/2025,East,Kolkata,Consumer,Retail Store,Office Supplies,Pen Set,3,10.0,7.54,0.25,Debit Card,Rep-18,22.5,-0.12
+ORD-00430,2025-03-25,North,Lucknow,Consumer,Online,Technology,Phone,6,888.09,710.21,0.25,Net Banking,Rep-12,3996.4,-264.86
+ORD-00431,2025-12-14,South,Chennai,Consumer,Phone,Technology,Laptop,8,967.98,626.53,0.2,Debit Card,Rep-18,6195.07,1182.83
+ORD-00432,2025-07-21,East,Kolkata,Consumer,Phone,Technology,Keyboard,5,80.07,68.2,0.2,Debit Card,Rep-15,320.28,-20.72
+ORD-00433,2024-07-08,East,Kolkata,Small Business,Retail Store,Office Supplies,Storage Box,8,8.04,5.76,0.25,Cash,Rep-08,48.24,2.16
+ORD-00434,2024-06-06,East,Patna,Corporate,Retail Store,Office Supplies,Binder,4,11.43,9.17,0.15,Net Banking,Rep-11,38.86,2.18
+ORD-00435,2024-02-02,North,Delhi,Consumer,Retail Store,Technology,Laptop,1,1025.84,624.69,0.05,Debit Card,Rep-04,974.55,349.86
+ORD-00436,2024-09-19,North,Delhi,Corporate,Online,Furniture,Table,11,212.28,165.88,0.2,null,Rep-03,1868.06,43.38
+ORD-00437,2025-10-16,North,Delhi,Corporate,Phone,Office Supplies,Pen Set,11,9.86,6.95,0.0,Net Banking,Rep-12,108.46,32.01
+ORD-00438,2024-03-20,North,Delhi,Small Business,Online,Office Supplies,Storage Box,9,10.11,8.34,0.0,Credit Card,Rep-08,90.99,15.93
+ORD-00439,2024-07-02,Central,Raipur,Small Business,Phone,Furniture,Office Chair,9,286.77,216.9,0.2,Net Banking,Rep-04,2064.74,112.64
+ORD-00440,2024-07-03,Central,Raipur,Corporate,Phone,Furniture,Table,12,259.62,157.08,0.0,UPI,Rep-06,3115.44,1230.48
+ORD-00441,2024-11-28,Central,Indore,Corporate,Phone,Office Supplies,Binder,6,18.24,16.0,0.2,Net Banking,Rep-11,87.55,-8.45
+ORD-00442,2024-09-17,Central,Indore,Corporate,Retail Store,Technology,Printer,4,162.51,139.05,0.2,Net Banking,Rep-01,520.03,-36.17
+ORD-00443,2024-08-15,North,Delhi,Corporate,Online,Office Supplies,Paper,9,5.97,3.3,0.1,UPI,Rep-18,48.36,18.66
+ORD-00444,2024-09-28,Central,Indore,Small Business,Online,Furniture,Office Chair,2,82.45,49.59,0.1,Debit Card,Rep-09,148.41,49.23
+ORD-00445,28-Nov-2024,East,Bhubaneswar,Consumer,Retail Store,Technology,Keyboard,10,83.84,48.25,0.25,Cash,Rep-04,628.8,146.3
+ORD-00446,2024-02-27,Central,Indore,Corporate,Retail Store,Office Supplies,Paper,12,20.78,11.97,0.15,Net Banking,Rep-04,211.96,68.32
+ORD-00447,2025-06-20,South,Bengaluru,Corporate,Phone,Office Supplies,Paper,11,20.1,11.41,0.15,Cash,Rep-05,187.94,62.43
+ORD-00448,2025-04-01,East,Patna,Small Business,Phone,Furniture,Office Chair,3,86.67,76.19,0.25,Credit Card,Rep-08,195.01,-33.56
+ORD-00449,2024-02-20,West,Ahmedabad,Corporate,Retail Store,Technology,Keyboard,3,24.91,17.61,0.0,Credit Card,Rep-13,74.73,21.9
+ORD-00450,2025-10-29,Central,Raipur,Consumer,Phone,Furniture,Office Chair,3,228.7,162.6,0.05,Cash,Rep-17,651.79,163.99
+ORD-00451,2025-11-18,South,Chennai,Corporate,Retail Store,Technology,Monitor,7,180.85,104.81,0.2,UPI,Rep-07,1012.76,279.09
+ORD-00452,2025-03-28,East,Patna,Consumer,Retail Store,Furniture,Desk,5,167.7,126.34,0.1,Credit Card,Rep-08,754.65,122.95
+ORD-00453,2024-09-05,South,Hyderabad,Consumer,Retail Store,Office Supplies,Pen Set,12,15.64,12.42,0.0,Credit Card,Rep-11,187.68,38.64
+ORD-00454,2024-07-27,North,Lucknow,Small Business,Retail Store,Technology,Keyboard,1,39.89,29.02,0.25,Cash,Rep-16,29.92,0.9
+ORD-00455,2025-11-10,Central,Raipur,Consumer,Retail Store,Office Supplies,Pen Set,12,13.18,8.89,0.0,Debit Card,Rep-02,158.16,51.48
+ORD-00456,2024-03-09,East,Bhubaneswar,Small Business,Retail Store,Technology,Printer,5,91.68,79.02,0.25,UPI,Rep-04,343.8,-51.3
+ORD-00457,2024-04-11,North,Jaipur,Corporate,Phone,Technology,Keyboard,4,88.48,77.18,0.2,Cash,Rep-03,283.14,-25.58
+ORD-00458,2025-06-26,South,Chennai,Corporate,Retail Store,Technology,Keyboard,9,84.48,47.57,1.25,Net Banking,Rep-06,760.32,332.19
+ORD-00459,2025-05-28, NORTH ,Jaipur,Consumer,Phone,Furniture,Bookcase,6,178.79,157.1,0.05,UPI,Rep-13,1019.1,76.5
+ORD-00460,2024-03-30,North,Lucknow,Corporate,Phone,Office Supplies,Storage Box,4,15.89,12.18,0.15,Cash,Rep-08,54.03,5.31
+ORD-00461,2025-07-09,West,Mumbai,Consumer,Phone,Technology,Phone,7,880.85,580.18,0.2,Debit Card,Rep-18,4932.76,871.5
+ORD-00462,2025-03-16,South,Bengaluru,Small Business,Phone,Office Supplies,Storage Box,12,44.67,37.98,0.2,Debit Card,Rep-11,428.83,-26.93
+ORD-00463,2024-11-22,North,Jaipur,Corporate,Retail Store,Furniture,Desk,3,227.04,179.35,0.05,Net Banking,Rep-09,647.06,109.01
+ORD-00464,2025-09-12,South,Hyderabad,Small Business,Online,Office Supplies,Paper,-3,7.06,5.32,0.2,Cash,Rep-08,16.94,0.98
+ORD-00465,2025-09-11,South,Chennai,Small Business,Phone,Office Supplies,Storage Box,2,43.78,26.02,0.15,UPI,Rep-06,74.43,22.39
+ORD-00466,2024-01-16,West,Pune,Corporate,Online,Furniture,Office Chair,3,133.78,91.62,0.0,Debit Card,Rep-07,401.34,126.48
+ORD-00467,2024-09-09,North,Jaipur,Corporate,Online,Technology,Keyboard,10,51.75,43.26,0.1,Cash,Rep-13,465.75,33.15
+ORD-00468,2024-02-13,East,Kolkata,Small Business,Phone,Furniture,Desk,9,143.73,118.28,0.15,Net Banking,Rep-02,1099.53,35.01
+ORD-00469,2024-10-19,Central,Indore,Consumer,Retail Store,Furniture,Desk,4,216.47,182.24,0.15,UPI,Rep-02,736.0,7.04
+ORD-00470,2024-07-03,Central,Raipur,Small Business,Phone,Office Supplies,Binder,11,10.13,7.25,0.25,Debit Card,Rep-13,83.57,3.82
+ORD-00471,2025-04-10,West,Mumbai,Corporate,Retail Store,Technology,Laptop,3,854.16,722.29,0.25,Debit Card,Rep-04,1921.86,-245.01
+ORD-00472,2025-06-07,North,Lucknow,Consumer,Retail Store,Technology,Keyboard,11,42.22,33.08,0.2,Cash,Rep-13,371.54,7.66
+ORD-00473,2024-05-28,North,Delhi,Small Business,Online,Office Supplies,Storage Box,10,53.31,32.17,0.05,Net Banking,Rep-10,506.44,184.74
+ORD-00474,2024-07-26,East,Kolkata,Small Business,Retail Store,Office Supplies,Binder,5,13.28,11.24,0.0,Credit Card,Rep-15,66.4,10.2
+ORD-00475,2025-11-06,West,Pune,Corporate,Retail Store,Office Supplies,Paper,10,22.42,13.94,0.05,Net Banking,Rep-03,212.99,73.59
+ORD-00476,2024-07-31,Central,Bhopal,Consumer,Online,Furniture,Office Chair,9,161.78,118.75,0.25,Credit Card,Rep-12,1092.01,23.26
+ORD-00477,2024-03-30,North,Delhi,Consumer,Retail Store,Technology,Laptop,11,910.14,590.21,0.2,Debit Card,Rep-06,8009.23,1516.92
+ORD-00478,2024-04-05,East,Bhubaneswar,Corporate,Retail Store,Furniture,Office Chair,8,317.28,272.03,0.1,Net Banking,Rep-03,2284.42,108.18
+ORD-00479,2024-10-08,West,Pune,Small Business,Retail Store,Office Supplies,Paper,5,13.36,10.41,0.0,Cash,Rep-07,66.8,14.75
+ORD-00480,2024-03-30,South,Chennai,Small Business,Phone,Furniture,Desk,10,391.89,283.94,0.25,Cash,Rep-10,2939.17,99.77
+ORD-00481,2024-05-12,West,Ahmedabad,Small Business,Retail Store,Furniture,Bookcase,5,159.82,106.56,0.2,Cash,Rep-16,639.28,106.48
+ORD-00482,25-Jan-2024,West,Pune,Small Business,Online,Office Supplies,Pen Set,12,6.65,3.66,0.05,Debit Card,Rep-14,75.81,31.89
+ORD-00483,2024-07-25,West,Ahmedabad,Corporate,Retail Store,Technology,Monitor,9,301.51,166.95,0.05,Credit Card,Rep-10,2577.91,1075.36
+ORD-00484,2025-08-05,East,Patna,Consumer,Online,Furniture,Bookcase,1,81.63,54.09,0.1,Debit Card,Rep-11,73.47,19.38
+ORD-00485,2024-06-08,East,Patna,Corporate,Phone,Office Supplies,Binder,8,16.35,9.72,0.25,UPI,Rep-15,98.1,20.34
+ORD-00486,2025-07-22,West,Ahmedabad,Consumer,Online,Office Supplies,Paper,9,9.59,7.42,0.25,Cash,Rep-11,64.73,-2.05
+ORD-00487,2025-10-03,East,Patna,Consumer,Phone,Technology,Phone,5,796.48,696.6,0.1,Cash,Rep-13,3584.16,101.16
+ORD-00488,2025-02-27,South,Bengaluru,Corporate,Online,Furniture,Bookcase,12,222.99,124.97,0.25,UPI,Rep-15,2006.91,507.27
+ORD-00489,2024-04-04,East,Bhubaneswar,Small Business,Online,Technology,Monitor,3,128.06,103.3,0.0,Net Banking,Rep-17,-384.18,74.28
+ORD-00490,2024-05-26,South,Bengaluru,Small Business,Phone,Technology,Keyboard,12,80.54,64.91,0.1,Debit Card,Rep-07,869.83,90.91
+ORD-00491,2025-08-31,North,Delhi,Corporate,Retail Store,Furniture,Desk,1,224.39,174.29,0.0,Credit Card,Rep-04,224.39,50.1
+ORD-00492,2024-08-02,Central,Indore,Consumer,Online,Office Supplies,Storage Box,1,38.03,28.93,0.1,UPI,Rep-09,34.23,5.3
+ORD-00493,2024-04-27,Central,Bhopal,Small Business,Phone,Technology,Keyboard,11,23.82,14.34,0.05,Cash,Rep-04,248.92,91.18
+ORD-00494,2025-08-10,South,Bengaluru,Consumer,Online,Furniture,Bookcase,5,86.9,70.85,0.25,UPI,Rep-11,325.88,-28.37
+ORD-00495,2025-01-27,Central,Bhopal,Consumer,Retail Store,Furniture,Office Chair,1,225.34,127.69,0.25,Net Banking,Rep-06,169.0,41.31
+ORD-00496,11-17-2025,Central,Raipur,Consumer,Retail Store,Office Supplies,Binder,10,8.4,6.89,0.1,Cash,Rep-05,75.6,6.7
+ORD-00497,04-21-2025,North,,Consumer,Online,Office Supplies,Binder,2,10.2,7.78,0.25,Debit Card,Rep-09,15.3,-0.26
+ORD-00498,2024-04-25, EAST ,Bhubaneswar,Corporate,Retail Store,Furniture,Bookcase,6,146.12,83.52,0.0,Debit Card,Rep-10,876.72,375.6
+ORD-00499,2024-11-29,East,Patna,Small Business,Online,Furniture,Office Chair,9,103.97,84.52,0.25,UPI,Rep-18,701.8,-58.88
+ORD-00500,2025-05-08,West,Pune,Consumer,Retail Store,Furniture,Table,4,247.64,149.2,0.2,Debit Card,Rep-14,792.45,195.65
+ORD-00501,2024-03-20,West,Ahmedabad,Small Business,Phone,Furniture,Bookcase,9,191.89,147.5,0.05,Net Banking,Rep-04,1640.66,313.16
+ORD-00502,2025-02-19,Central,Bhopal,Small Business,Online,Furniture,Bookcase,9,78.55,47.77,0.15,Cash,Rep-13,600.91,170.98
+ORD-00503,13-Oct-2025,East,Kolkata,Consumer,Phone,Furniture,Desk,2,187.04,157.64,0.05,Debit Card,Rep-15,355.38,40.1
+ORD-00504,2024-11-20,Central,Indore,Small Business,Phone,Technology,Printer,10,178.38,138.23,0.05,UPI,Rep-14,1694.61,312.31
+ORD-00505,2024-10-28,East,Kolkata,Corporate,Phone,Office Supplies,Paper,10,24.7,20.49,0.15,Credit Card,Rep-01,209.95,5.05
+ORD-00506,2025-12-20,Central,Raipur,Corporate,Phone,Office Supplies,Storage Box,2,52.78,33.13,0.0,UPI,Rep-13,105.56,39.3
+ORD-00507,2025-01-28,West,Pune,Corporate,Online,Furniture,Office Chair,11,127.23,77.88,0.05,UPI,Rep-05,1329.55,472.87
+ORD-00508,2024-05-19,South,Bengaluru,Consumer,Phone,Technology,Laptop,3,974.6,747.63,0.15,Net Banking,Rep-15,2485.23,242.34
+ORD-00509,01-28-2025,Central,Indore,Consumer,Online,Office Supplies,Pen Set,8,₹10.15,8.33,0.2,Net Banking,Rep-01,64.96,-1.68
+ORD-00510,2025-08-13,Central,Indore,Consumer,Online,Furniture,Office Chair,12,235.57,201.59,0.15,Cash,Rep-16,2402.81,-16.27
+ORD-00511,2024-10-13,East,Bhubaneswar,Small Business,Online,Technology,Keyboard,12,21.0,16.62,0.25,Cash,Rep-03,189.0,-10.44
+ORD-00512,2024-02-24,South,Chennai,Small Business,Online,Furniture,Desk,11,353.48,230.87,0.2,Net Banking,Rep-15,3110.62,571.05
+ORD-00513,2024-02-06,Central,Raipur,Small Business,Phone,Office Supplies,Storage Box,7,26.35,17.01,0.1,UPI,Rep-09,166.01,46.94
+ORD-00514,2025-10-01,North,,Corporate,Retail Store,Office Supplies,Pen Set,10,2.83,2.31,0.1,Credit Card,Rep-05,25.47,2.37
+ORD-00515,2024-09-20,Central,Bhopal,Small Business,Online,Technology,Monitor,5,133.13,85.31,0.1,Cash,Rep-06,599.09,172.54
+ORD-00516,2024-08-29,Central,Indore,Consumer,Phone,Office Supplies,Binder,6,16.54,13.37,0.1,Credit Card,Rep-11,89.32,9.1
+ORD-00517,2024-08-31,North,Lucknow,Corporate,Phone,Office Supplies,Pen Set,8,14.04,,0.15,Debit Card,Rep-07,95.47,5.15
+ORD-00518,2025-04-20,Central,Indore,Corporate,Retail Store,Office Supplies,Storage Box,1,41.4,23.49,0.0,Net Banking,Rep-18,41.4,17.91
+ORD-00519,2024-01-13,South,Chennai,Corporate,Retail Store,Furniture,Table,8,₹150.91,126.34,0.2,UPI,Rep-17,965.82,-44.9
+ORD-00520,2025-10-29,North,Jaipur,Corporate,Retail Store,Technology,Printer,11,157.84,118.61,0.15,UPI,Rep-04,1475.8,171.09
+ORD-00521,2025-11-19,East,Patna,Consumer,Phone,Office Supplies,Binder,8,15.92,10.03,0.25,UPI,Rep-06,95.52,15.28
+ORD-00522,2025-12-02,East,Bhubaneswar,Corporate,Online,Furniture,Desk,2,104.78,75.79,0.0,UPI,Rep-09,209.56,57.98
+ORD-00523,2024-08-10,South,Hyderabad,Small Business,Online,Technology,Printer,2,92.51,70.93,0.2,Credit Card,Rep-03,148.02,6.16
+ORD-00524,2024-10-28,Central,Indore,Small Business,Online,Technology,Printer,3,277.12,169.27,0.25,Net Banking,Rep-09,623.52,115.71
+ORD-00525,2024-03-04,West,Pune,Corporate,Retail Store,Office Supplies,Storage Box,5,16.42,10.53,0.0,null,Rep-09,82.1,29.45
+ORD-00526,2024-07-01,East,Patna,Corporate,Online,Technology,Laptop,8,1090.74,819.58,0.05,Debit Card,Rep-18,8289.62,1732.98
+ORD-00527,2024-03-13,West,Ahmedabad,Small Business,Retail Store,Technology,Laptop,8,971.93,545.74,0.0,Net Banking,Rep-01,7775.44,3409.52
+ORD-00528,2024-12-03,West,Pune,Small Business,Online,Technology,Laptop,1,949.07,569.47,0.1,Cash,Rep-16,854.16,284.69
+ORD-00529,08/05/2025,West,Mumbai,Small Business,Phone,Furniture,Desk,9,190.34,164.62,0.15,UPI,Rep-11,1456.1,-25.48
+ORD-00530,2025-04-15,East,Bhubaneswar,Small Business,Online,Furniture,Desk,6,313.85,180.95,0.1,Debit Card,Rep-18,1694.79,609.09
+ORD-00531,2025-01-02,North,Jaipur,Consumer,Phone,Office Supplies,Pen Set,5,13.13,9.95,0.0,Net Banking,Rep-07,65.65,15.9
+ORD-00532,2024-03-05,South,Hyderabad, Small Business ,Retail Store,Technology,Laptop,12,1098.37,781.43,0.05,Net Banking,Rep-18,12521.42,3144.26
+ORD-00533,2024-02-13,West,Pune,Consumer,Online,Office Supplies,Paper,1,10.46,8.47,0.1,Cash,Rep-15,9.41,0.94
+ORD-00534,2025-05-15,Central,Raipur,Consumer,Retail Store,Technology,Printer,4,283.46,224.7,0.0,Cash,Rep-02,1133.84,235.04
+ORD-00535,2024-04-09,South,Chennai,Small Business,Online,Office Supplies,Pen Set,1,4.76,4.04,0.0,Cash,Rep-03,4.76,0.72
+ORD-00536,2025-11-25,North,Jaipur,Corporate,Online,Technology,Printer,10,128.53,88.77,0.05,Cash,Rep-18,1221.03,333.33
+ORD-00537,2024-10-07,South,Bengaluru,Corporate,Online,Technology,Phone,1,635.51,362.79,0.1,UPI,Rep-18,571.96,209.17
+ORD-00538,2024-06-10,South,Bengaluru,Corporate,Online,Furniture,Desk,3,139.99,105.29,0.25,Credit Card,Rep-01,314.98,-0.89
+ORD-00539,2024-07-30,South,Bengaluru,Small Business,Retail Store,Office Supplies,Storage Box,7,44.06,34.3,0.15,Cash,Rep-15,262.16,22.06
+ORD-00540,2025-05-26,West,,Consumer,Phone,Technology,Phone,10,699.59,426.33,0.2,UPI,Rep-12,5596.72,1333.42
+ORD-00541,2025-09-25,West,Pune,Small Business,Phone,Technology,Phone,4,326.38,284.71,0.2,Debit Card,Rep-15,1044.42,-94.42
+ORD-00542,2025-04-30,South,Chennai,Consumer,Online,Technology,Phone,2,767.8,636.08,0.25,Credit Card,Rep-02,1151.7,-120.46
+ORD-00543,2024-02-23,East,Patna,Consumer,Online,Technology,Keyboard,5,40.07,22.61,0.15,Credit Card,Rep-16,170.3,57.25
+ORD-00544,22-Jul-2024,Central,Raipur,Small Business,Retail Store,Technology,Phone,12,539.13,354.52,0.2,Debit Card,Rep-04,5175.65,921.41
+ORD-00545,2024-08-13,East,Kolkata,Corporate,Phone,Technology,Phone,12,518.19,349.22,0.05,Net Banking,Rep-02,5907.37,1716.73
+ORD-00546,2024-07-17,West,Ahmedabad,Corporate,Retail Store,Technology,Printer,8,119.17,70.91,0.1,Debit Card,Rep-11,858.02,290.74
+ORD-00547,2025-04-14,South,Chennai,Consumer,Retail Store,Technology,Printer,1,₹141.73,117.78,0.0,Debit Card,Rep-10,141.73,23.95
+ORD-00548,2024-03-29,Central,Indore,Small Business,Retail Store,Technology,Printer,3,207.19,172.41,0.2,Debit Card,Rep-16,497.26,-19.97
+ORD-00549,2025-08-16, WEST ,Mumbai, Small Business ,Online,Technology,Keyboard,12,80.44,52.93,0.05,Cash,Rep-01,917.02,281.86
+ORD-00550,2025-06-27,West,Pune,Corporate,Phone,Office Supplies,Paper,8,19.14,10.74,0.2,Credit Card,Rep-15,122.5,36.58
+ORD-00551,2024-05-15,West,Pune,Corporate,Online,Technology,Printer,1,232.5,200.76,0.15,Credit Card,Rep-01,197.62,-3.14
+ORD-00552,2024-01-25,West,Pune,Corporate,Online,Office Supplies,Pen Set,12,9.35,7.45,0.2,Net Banking,Rep-06,89.76,0.36
+ORD-00553,2024-02-03,East,Bhubaneswar,Corporate,Retail Store,office supplies,Paper,11,4.56,3.01,0.25,Cash,Rep-18,37.62,4.51
+ORD-00554,2025-06-11,Central,Raipur,Corporate,Online,Office Supplies,Paper,10,22.38,19.19,0.25,Credit Card,Rep-13,167.85,-24.05
+ORD-00555,2024-03-09,East,Patna,Small Business,Online,Furniture,Desk,6,246.57,181.08,0.25,Debit Card,,1109.57,23.09
+ORD-00556,2025-12-20,South,Bengaluru,Small Business,Online,Furniture,Table,12,333.57,279.36,0.2,UPI,Rep-12,3202.27,-150.05
+ORD-00557,2025-05-12,East,Patna,Small Business,Online,Furniture,Table,5,94.7,62.87,0.1,Net Banking,Rep-18,426.15,111.8
+ORD-00558,2024-03-08,Central,Bhopal,Corporate,Online,Office Supplies,Binder,10,8.63,7.44,0.25,Credit Card,Rep-13,64.73,-9.67
+ORD-00559,2025-05-23,South,Bengaluru,Consumer,Phone,Technology,Laptop,2,724.14,564.86,0.0,Credit Card,Rep-10,1448.28,318.56
+ORD-00560,2024-01-22,West,Pune,Consumer,Online,Office Supplies,Pen Set,8,₹7.55,5.99,0.15,Credit Card,Rep-08,51.34,3.42
+ORD-00561,2025-05-12,Central,Raipur,Small Business,Phone,Office Supplies,Binder,10,8.17,6.61,0.25,Cash,Rep-18,61.28,-4.82
+ORD-00562,2025-01-15,West,Pune,Consumer,Online,Furniture,Office Chair,5,126.67,79.15,0.1,UPI,Rep-10,570.01,174.26
+ORD-00563,2025-12-26,West,Ahmedabad,Small Business,Online,Office Supplies,Pen Set,12,10.57,9.21,0.05,Debit Card,Rep-08,120.5,9.98
+ORD-00564,2024-07-29,North,Lucknow,Small Business,Online,Technology,Monitor,10,131.62,88.45,0.1,UPI,Rep-12,1184.58,300.08
+ORD-00565,2025-05-26,South,Bengaluru,Corporate,Retail Store,Furniture,Office Chair,9,169.51,115.86,0.0,Debit Card,Rep-01,1525.59,482.85
+ORD-00566,2025-08-10,Central,Raipur,Consumer,Phone,Office Supplies,Storage Box,11,44.68,37.78,0.15,Net Banking,Rep-11,417.76,2.18
+ORD-00567,2025-02-15,North,,Consumer,Retail Store,office supplies,Paper,3,17.92,11.68,0.0,UPI,Rep-03,53.76,18.72
+ORD-00568,2024-03-26,East,Patna,Corporate,Phone,Technology,Phone,10,592.18,363.95,0.1,Credit Card,Rep-17,5329.62,1690.12
+ORD-00569,2025-01-04,West,Pune,Consumer,Phone,Technology,Monitor,10,251.27,213.53,0.0,Net Banking,Rep-12,2512.7,377.4
+ORD-00570,2024-03-30,West,Mumbai,Small Business,Retail Store,Furniture,Bookcase,6,126.76,106.29,0.15,Net Banking,Rep-15,646.48,8.74
+ORD-00571,2025-09-04,East,Kolkata,Consumer,Online,Technology,Keyboard,12,82.23,67.9,0.05,UPI,Rep-16,937.42,122.62
+ORD-00572,16/10/2025,Central,Indore,Corporate,Online,Office Supplies,Paper,10,19.63,10.84,0.0,Cash,Rep-15,196.3,87.9
+ORD-00573,2025-05-17,Central,Bhopal,Corporate,Phone,Office Supplies,Pen Set,4,4.98,3.21,0.15,UPI,Rep-16,16.93,4.09
+ORD-00574,2025-10-17,Central,Raipur,Corporate,Online,Office Supplies,Pen Set,1,14.66,9.33,0.05,UPI,Rep-14,13.93,4.6
+ORD-00575,2024-03-09,South,Hyderabad,Small Business,Retail Store,Technology,Office Chair,1,109.39,77.96,0.1,Cash,Rep-16,98.45,20.49
+ORD-00576,2025-01-17,Central,Raipur,Small Business,Phone,Furniture,Bookcase,11,190.32,156.07,0.25,Credit Card,Rep-09,1570.14,-146.63
+ORD-00577,2024-06-16,South,Bengaluru,Corporate,Retail Store,Furniture,Office Chair,6,222.14,132.11,0.25,Net Banking,Rep-12,-999.63,206.97
+ORD-00578,2025-10-05,North,Delhi,Consumer,Phone,Technology,Printer,11,285.99,175.59,0.2,Debit Card,Rep-18,2516.71,585.22
+ORD-00579,2025-07-01,East,Patna,Corporate,Online,Office Supplies,Storage Box,5,43.64,29.22,0.25,Credit Card,Rep-05,163.65,17.55
+ORD-00580,2024-06-07,Central,Raipur,Consumer,Online,Technology,Keyboard,7,40.52,23.66,0.05,Cash,Rep-17,269.46,103.84
+ORD-00581,2024-05-14,Central,Bhopal,Corporate,Retail Store,Office Supplies,Paper,7,13.13,7.73,0.0,UPI,Rep-12,91.91,37.8
+ORD-00582,2024-05-01,South,Bengaluru,Consumer,Phone,Office Supplies,Storage Box,3,44.91,35.73,0.0,Debit Card,Rep-08,134.73,27.54
+ORD-00583,2025-05-10,East,Bhubaneswar,Consumer,Online,Technology,Phone,2,526.12,302.86,0.0,Credit Card,Rep-02,1052.24,446.52
+ORD-00584,2025-11-14,Central,Bhopal,Consumer,Online,Furniture,Table,2,325.3,186.03,0.0,Cash,Rep-07,650.6,278.54
+ORD-00585,2024-10-11,Central,Raipur,Corporate,Retail Store,Office Supplies,Pen Set,11,7.62,4.56,0.0,Debit Card,Rep-17,83.82,33.66
+ORD-00586,2025-06-25,Central,Bhopal,Small Business,Online,Technology,Printer,2,101.8,81.63,0.2,UPI,Rep-06,162.88,-0.38
+ORD-00587,2025-12-15, CENTRAL ,Raipur,Consumer,Retail Store,Technology,Laptop,4,1064.21,752.03,0.25,Credit Card,Rep-06,3192.63,184.51
+ORD-00588,2024-11-17,East,Kolkata,Corporate,Online,Office Supplies,Binder,4,11.26,6.61,0.15,Cash,Rep-05,38.28,11.84
+ORD-00589,2024-04-28,West,Pune,Corporate,Retail Store,Office Supplies,Storage Box,9,45.55,29.98,0.0,Cash,Rep-10,409.95,140.13
+ORD-00590,2024-03-12,West,Pune,Small Business,Retail Store,Technology,Keyboard,5,88.87,54.42,0.15,Debit Card,Rep-01,377.7,105.6
+ORD-00591,2024-05-26,West,Pune,Corporate,Phone,Office Supplies,Binder,8,11.41,6.6,0.25,Cash,Rep-04,68.46,15.66
+ORD-00592,2025-03-10,South,Hyderabad,Corporate,Retail Store,Technology,Phone,-6,380.17,224.49,0.15,Cash,Rep-09,1938.87,591.93
+ORD-00593,2024-04-20,West,Mumbai,Corporate,Retail Store,Furniture,Table,8,218.08,175.21,0.05,Net Banking,Rep-08,1657.41,255.73
+ORD-00594,2025-01-26,South,Hyderabad,Small Business,Retail Store,Technology,Laptop,2,874.16,761.2,0.0,Debit Card,Rep-10,1748.32,225.92
+ORD-00595,2024-07-25,Central,Indore,Small Business,Retail Store,Office Supplies,Paper,11,19.54,15.86,0.15,Net Banking,Rep-17,182.7,8.24
+ORD-00596,2024-11-18,East,Bhubaneswar,Corporate,Retail Store,Furniture,Desk,1,496.28,335.78,0.0,Credit Card,Rep-02,496.28,160.5
+ORD-00597,2025-02-02,South,Chennai,Consumer,Phone,Furniture,Bookcase,12,91.19,54.2,0.15,Net Banking,Rep-18,930.14,279.74
+ORD-00598,09-26-2024,Central,Indore,Small Business,Retail Store,Furniture,Table,9,310.67,176.58,0.2,Cash,Rep-12,2236.82,647.6
+ORD-00599,2025-08-20,East,Kolkata,Small Business,Retail Store,Technology,Laptop,10,670.3,445.84,0.1,Net Banking,Rep-04,6032.7,1574.3
+ORD-00600,2024-08-28,West,Ahmedabad,Corporate,Phone,Furniture,Bookcase,7,126.74,79.92,0.25,Credit Card,Rep-03,665.38,105.94
+ORD-00601,03-08-2025,East,Patna,Small Business,Retail Store,Technology,Phone,1,599.97,421.24,0.0,UPI,Rep-01,599.97,178.73
+ORD-00602,2025-05-15,West,Mumbai,Small Business,Phone,Furniture,Bookcase,7,168.37,124.41,0.1,Debit Card,Rep-11,1060.73,189.86
+ORD-00603,2024-07-25,West,Pune,Small Business,Online,Furniture,Bookcase,3,176.82,153.82,0.1,Cash,,477.41,15.95
+ORD-00604,2024-04-04,East,Patna,Small Business,Online,Technology,Monitor,10,200.51,151.61,0.05,Cash,Rep-11,1904.84,388.74
+ORD-00605,2025-10-29,East,Bhubaneswar,Small Business,Retail Store,Technology,Printer,8,173.96,141.35,0.1,Net Banking,Rep-18,1252.51,121.71
+ORD-00606,2025-07-14,East,Kolkata,Consumer,Phone,Technology,Keyboard,5,61.87,47.74,0.15,Cash,Rep-06,262.95,24.25
+ORD-00607,2025-03-20,Central,Raipur,Small Business,Phone,Furniture,Table,5,333.03,272.07,0.2,Credit Card,Rep-17,1332.12,-28.23
+ORD-00608,2025-03-21,South,Chennai,Corporate,Online,Furniture,Office Chair,4,119.66,96.04,0.25,Debit Card,Rep-14,358.98,-25.18
+ORD-00609,2024-04-26,East,Kolkata,Consumer,Online,Office Supplies,Pen Set,5,12.99,8.88,0.05,Debit Card,Rep-10,61.7,17.3
+ORD-00610,2024-10-06,West,Mumbai,Consumer,Retail Store,Furniture,Table,7,254.67,157.04,0.0,UPI,Rep-18,1782.69,683.41
+ORD-00611,2024-03-26,South,Chennai,Small Business,Retail Store,Office Supplies,Paper,12,13.69,7.78,0.0,Credit Card,Rep-14,164.28,70.92
+ORD-00612,2024-08-29,East,Kolkata,Small Business,Phone,Office Supplies,Paper,7,23.75,19.67,0.25,Cash,Rep-04,124.69,-13.0
+ORD-00613,2024-11-16,Central,Indore,Small Business,Phone,Office Supplies,Storage Box,8,54.0,40.39,0.05,Net Banking,Rep-08,410.4,87.28
+ORD-00614,2024-09-17,West,Ahmedabad,Consumer,Retail Store,Technology,Laptop,3,746.35,518.73,0.1,Cash,Rep-12,2015.15,458.96
+ORD-00615,2024-05-28,North,Jaipur,Corporate,Phone,Technology,Keyboard,8,66.21,55.63,0.1,UPI,Rep-10,476.71,31.67
+ORD-00616,2025-11-18,North,Delhi,Corporate,Phone,Office Supplies,Paper,12,17.57,13.67,0.0,Net Banking,Rep-10,210.84,46.8
+ORD-00617,2025-02-06,East,Bhubaneswar,Corporate,Online,Office Supplies,Paper,9,22.07,14.97,0.15,Debit Card,Rep-10,168.84,34.11
+ORD-00618,2024-02-04,South,Chennai,Consumer,Retail Store,Office Supplies,Pen Set,8,12.1,8.28,0.25,Net Banking,Rep-14,72.6,6.36
+ORD-00619,2025-03-06,East,Patna,Small Business,Phone,Office Supplies,Paper,3,18.37,10.51,0.2,UPI,Rep-15,44.09,12.56
+ORD-00620,2025-02-14,North,Delhi,Small Business,Retail Store,office supplies,Pen Set,11,9.09,5.41,0.25,UPI,,74.99,15.48
+ORD-00621,2025-08-31,North,,Corporate,Retail Store,Technology,Printer,12,293.33,235.2,0.25,Net Banking,Rep-16,2639.97,-182.43
+ORD-00622,2025-01-11,South,Bengaluru,Corporate,Retail Store,Technology,Printer,6,255.9,147.87,0.05,Cash,Rep-08,1458.63,571.41
+ORD-00623,2024-06-21,North,Delhi,Corporate,Phone,Office Supplies,Pen Set,2,17.59,11.19,0.05,Net Banking,Rep-09,33.42,11.04
+ORD-00624,2025-06-22,South,Chennai,Corporate,Phone,Technology,Monitor,3,336.81,186.81,0.0,Net Banking,Rep-04,1010.43,450.0
+ORD-00625,2025-03-17,South,Bengaluru,Small Business,Online,Office Supplies,Pen Set,5,6.61,4.47,0.15,UPI,Rep-07,28.09,5.74
+ORD-00626,04-06-2025, WEST ,Mumbai,Corporate,Phone,Technology,Phone,1,438.63,275.33,0.1,Net Banking,Rep-03,394.77,119.44
+ORD-00627,2025-12-26,North,Jaipur,Small Business,Phone,Furniture,Bookcase,12,135.54,106.45,0.05,UPI,Rep-03,1545.16,267.76
+ORD-00628,2025-09-12,North,Lucknow,Small Business,Phone,Furniture,Desk,6,472.43,401.43,0.15,Credit Card,Rep-01,2409.39,0.81
+ORD-00629,07-26-2025, EAST ,Kolkata,Small Business,Online,Furniture,Table,5,343.93,231.26,0.25,UPI,Rep-06,1289.74,133.44
+ORD-00630,2025-03-19,Central,Bhopal,Corporate,Online,Furniture,Bookcase,8,85.06,66.72,0.1,UPI,Rep-02,612.43,78.67
+ORD-00631,2024-09-26,South,Hyderabad,Corporate,Phone,Furniture,Bookcase,12,128.51,82.68,0.15,UPI,Rep-14,1310.8,318.64
+ORD-00632,2025-03-26,South,Bengaluru,Consumer,Online,Technology,Keyboard,3,56.68,43.08,0.25,Credit Card,Rep-08,127.53,-1.71
+ORD-00633,2025-05-21,South,Bengaluru,Corporate,Retail Store,Technology,Monitor,3,276.49,162.66,0.15,Cash,Rep-16,705.05,217.07
+ORD-00634,2024-07-03,West,Mumbai,Small Business,Phone,Furniture,Office Chair,2,185.37,155.06,0.05,UPI,Rep-07,352.2,42.08
+ORD-00635,2024-03-19,Central,Bhopal,Corporate,Phone,Office Supplies,Paper,9,19.87,13.66,0.05,Credit Card,Rep-11,169.89,46.95
+ORD-00636,2024-06-06,North,Delhi,Consumer,Retail Store,Technology,Laptop,7,818.1,675.92,0.0,Net Banking,Rep-15,5726.7,995.26
+ORD-00637,2025-04-08,East,Bhubaneswar,Small Business,Phone,Furniture,Desk,6,487.91,368.56,0.25,Cash,Rep-05,2195.6,-15.76
+ORD-00638,2025-09-08,South,Chennai,Consumer,Retail Store,Office Supplies,Storage Box,6,49.5,28.38,0.25,UPI,Rep-06,222.75,52.47
+ORD-00639,2025-02-16,South,Chennai,Small Business,Phone,Office Supplies,Binder,2,2.37,1.43,0.05,Debit Card,Rep-04,4.5,1.64
+ORD-00640,2025-09-09,East,Kolkata,Corporate,Phone,Furniture,Table,12,297.72,252.54,0.1,Credit Card,Rep-12,3215.38,184.9
+ORD-00641,2024-04-02, CENTRAL ,Indore,Corporate,Phone,Technology,Keyboard,7,50.73,37.95,0.2,Debit Card,Rep-14,284.09,18.44
+ORD-00642,2025-12-03,West,Ahmedabad,Consumer,Retail Store,Technology,Printer,6,294.12,183.53,0.25,Cash,Rep-17,1323.54,222.36
+ORD-00643,2024-05-10,North,Lucknow,Corporate,Online,Technology,Keyboard,2,83.04,53.9,0.15,Cash,Rep-14,141.17,33.37
+ORD-00644,2024-04-06,East,Bhubaneswar,Small Business,Phone,Furniture,Desk,1,305.37,210.77,0.2,Cash,Rep-09,244.3,33.53
+ORD-00645,2024-07-02,East,Kolkata,Corporate,Online,Technology,Laptop,9,657.32,505.03,0.25,Credit Card,Rep-14,4436.91,-108.36
+ORD-00646,,East,Kolkata,Consumer,Online,Technology,Keyboard,11,48.75,32.3,0.1,Cash,Rep-09,482.62,127.32
+ORD-00647,03/05/2025,North,Jaipur,,Retail Store,Furniture,Desk,1,257.97,156.5,0.0,Cash,Rep-16,257.97,101.47
+ORD-00648,2024-11-05,East,Kolkata,Consumer,Online,Furniture,Bookcase,12,188.02,145.3,0.25,Credit Card,Rep-07,1692.18,-51.42
+ORD-00649,2024-09-04,North,Jaipur,Small Business,Phone,Office Supplies,Pen Set,1,5.35,3.2,0.25,Debit Card,Rep-03,4.01,0.81
+ORD-00650,2024-06-05,East,Patna,Small Business,Retail Store,Office Supplies,Pen Set,8,8.75,5.29,0.0,Net Banking,Rep-16,70.0,27.68
+ORD-00651,09/01/2024,North,Delhi,Small Business,Phone,Office Supplies,Pen Set,4,6.72,3.81,0.15,Net Banking,Rep-14,22.85,7.61
+ORD-00652,2025-09-18, WEST ,Ahmedabad,Corporate,Online,Office Supplies,Storage Box,1,33.35,23.99,0.15,Credit Card,Rep-17,28.35,4.36
+ORD-00653,2025-04-29,North,Delhi,Corporate,Phone,Furniture,Bookcase,9,72.07,49.56,0.25,UPI,Rep-15,486.47,40.43
+ORD-00654,03-Jun-2025,West,Mumbai,Small Business,Phone,Technology,Monitor,12,148.05,102.83,0.1,UPI,Rep-15,1598.94,364.98
+ORD-00655,2025-01-03,South,Chennai,Consumer,Phone,Office Supplies,Binder,7,17.0,13.01,0.25,Debit Card,Rep-10,89.25,-1.82
+ORD-00656,2025-03-01,North,Jaipur,Corporate,Online,Office Supplies,Pen Set,3,5.19,3.7,0.2,Debit Card,Rep-18,12.46,1.36
+ORD-00657,2025-05-30,North,Delhi,Consumer,Retail Store,Office Supplies,Storage Box,5,26.57,16.15,0.05,Net Banking,Rep-04,126.21,45.46
+ORD-00658,2024-02-17,Central,Raipur,Corporate,Online,Technology,Printer,4,187.0,151.29,0.1,Cash,Rep-04,673.2,68.04
+ORD-00659,,North,Lucknow,Consumer,Phone,Office Supplies,Binder,8,19.33,16.85,0.0,Credit Card,Rep-17,154.64,19.84
+ORD-00660,2025-12-26,North,Jaipur,Small Business,Retail Store,Technology,Laptop,4,1059.94,837.73,0.05,Credit Card,Rep-05,4027.77,676.85
+ORD-00661,2024-01-07,East,Kolkata,Corporate,Retail Store,Technology,Phone,2,801.59,697.37,0.15,UPI,Rep-17,1362.7,-32.04
+ORD-00662,2024-09-08,South,Bengaluru,Small Business,Retail Store,Technology,Monitor,12,288.71,218.76,0.1,Debit Card,Rep-05,3118.07,492.95
+ORD-00663,2025-01-05,West,Mumbai,Corporate,Online,Furniture,Table,8,337.0,273.72,0.2,Credit Card,Rep-17,2156.8,-32.96
+ORD-00664,2025-02-06,North,Delhi,Small Business,Phone,Technology,Monitor,7,345.49,239.51,0.05,Debit Card,Rep-02,2297.51,620.94
+ORD-00665,2024-11-07,Central,Raipur,Small Business,Retail Store,Office Supplies,Binder,7,17.94,13.14,0.25,UPI,Rep-01,94.19,2.21
+ORD-00666,2025-07-11,East,Patna,Small Business,Phone,Office Supplies,Pen Set,12,8.46,5.23,0.25,Net Banking,Rep-12,76.14,13.38
+ORD-00667,2024-05-09,West,Ahmedabad,Small Business,Retail Store,Office Supplies,Storage Box,2,9.92,6.73,0.1,Debit Card,Rep-03,17.86,4.4
+ORD-00668,2025-07-06,Central,Raipur,Corporate,Online,Furniture,Bookcase,11,90.41,76.29,0.0,UPI,Rep-14,994.51,155.32
+ORD-00669,2024-02-18,Central,Raipur,Consumer,Retail Store,Technology,Laptop,6,766.89,511.5,0.2,UPI,Rep-01,3681.07,612.07
+ORD-00670,2025-10-04,West,Ahmedabad,Small Business,Phone,Technology,Phone,12,892.85,701.63,0.2,Debit Card,Rep-12,8571.36,151.8
+ORD-00671,2024-09-10,East,Kolkata,Corporate,Phone,technology,Printer,11,110.79,79.93,0.15,Cash,Rep-07,1035.89,156.66
+ORD-00672,2024-03-04,East,Bhubaneswar,Consumer,Retail Store,Furniture,Office Chair,12,210.48,121.46,,Debit Card,Rep-15,2146.9,689.38
+ORD-00673,08-21-2025,North,Jaipur,Small Business,Retail Store,Furniture,Table,10,230.92,193.46,0.15,Net Banking,Rep-16,1962.82,28.22
+ORD-00674,2025-12-22,West,Ahmedabad,Small Business,Online,Office Supplies,Pen Set,9,4.03,2.83,0.25,Debit Card,Rep-15,27.2,1.73
+ORD-00675,2025-02-22,West,Mumbai,Consumer,Retail Store,Technology,Phone,9,490.07,366.83,0.0,Cash,Rep-10,4410.63,1109.16
+ORD-00676,2025-05-12,North,Delhi,Consumer,Online,Furniture,Desk,6,221.97,144.3,0.1,Cash,Rep-14,1198.64,332.84
+ORD-00677,2024-05-05,North,Lucknow,Corporate,Online,Office Supplies,Storage Box,5,19.21,13.66,0.25,Credit Card,Rep-14,72.04,3.74
+ORD-00678,2025-09-12,West,Mumbai,Consumer,Phone,Furniture,Table,6,290.96,240.15,0.15,Net Banking,Rep-15,1483.9,43.0
+ORD-00679,2025-01-31,West,Mumbai,Corporate,Retail Store,Technology,Monitor,2,299.95,226.7,0.25,Cash,Rep-02,449.92,-3.48
+ORD-00680,2025-12-25,West,Pune,Small Business,Phone,Office Supplies,Paper,3,18.56,14.07,0.2,Credit Card,Rep-18,44.54,2.33
+ORD-00681,2025-06-18,North,Delhi,Corporate,Phone,Technology,Printer,9,206.91,179.16,0.0,Credit Card,Rep-04,1862.19,249.75
+ORD-00682,2025-08-16,Central,Indore,Consumer,Phone,Technology,Laptop,5,1004.04,827.13,0.05,Cash,Rep-11,4769.19,633.54
+ORD-00683,2025-06-24,West,Pune,Corporate,Retail Store,Furniture,Table,1,171.79,118.01,0.05,Credit Card,Rep-04,163.2,45.19
+ORD-00684,2025-02-21,North,Lucknow,Consumer,Online,Furniture,Bookcase,3,94.71,56.91,0.0,Cash,Rep-11,284.13,113.4
+ORD-00685,2024-11-27,South,Chennai,Corporate,Online,Technology,Laptop,5,825.47,492.82,0.1,Credit Card,Rep-07,3714.62,1250.52
+ORD-00686,2024-04-27,South,Chennai,Consumer,Retail Store,Office Supplies,Pen Set,8,10.14,6.87,0.2,Net Banking,Rep-18,64.9,9.94
+ORD-00687,2025-08-23,West,Ahmedabad,Consumer,Online,Technology,Laptop,7,935.09,597.36,0.0,Cash,Rep-05,6545.63,2364.11
+ORD-00688,2024-05-25,East,Bhubaneswar,Small Business,Online,Furniture,Table,2,308.5,190.39,0.2,Debit Card,Rep-18,493.6,112.82
+ORD-00689,2025-09-27,West,Pune,Small Business,Online,Office Supplies,Binder,1,2.02,1.75,0.15,Credit Card,Rep-02,1.72,-0.03
+ORD-00690,08-05-2024,West,Ahmedabad,Small Business,Retail Store,Technology,Monitor,11,195.04,161.49,0.1,Credit Card,Rep-06,1930.9,154.51
+ORD-00691,2025-07-23,Central,Indore,Corporate,Online,Furniture,Bookcase,2,135.11,111.34,0.0,Cash,Rep-17,270.22,47.54
+ORD-00692,2024-09-08,East,Patna,Corporate,Retail Store,Office Supplies,Storage Box,11,21.59,15.1,0.25,Debit Card,Rep-15,178.12,12.02
+ORD-00693,2024-01-10,Central,Raipur,Consumer,Retail Store,Technology,Phone,11,849.47,600.79,0.2,Cash,Rep-16,7475.34,866.65
+ORD-00694,2024-05-06,West,Pune,Corporate,Phone,Furniture,Desk,9,112.38,78.32,0.25,UPI,Rep-13,758.56,53.68
+ORD-00695,2024-08-14,South,Hyderabad,Consumer,Retail Store,Office Supplies,Paper,2,13.18,9.18,0.05,UPI,Rep-07,25.04,6.68
+ORD-00696,2024-02-07,North,Jaipur,Corporate,Phone,Office Supplies,Storage Box,12,19.5,16.95,0.15,Cash,Rep-07,198.9,-4.5
+ORD-00697,2024-06-23,North,Lucknow,Consumer,Phone,Technology,Keyboard,2,80.24,57.38,0.2,Cash,Rep-06,128.38,13.62
+ORD-00698,2025-06-19,North,Lucknow,Corporate,Online,Furniture,Desk,3,203.85,169.67,0.2,Credit Card,Rep-18,489.24,-19.77
+ORD-00699,2025-10-27,Central,Bhopal,Corporate,Retail Store,Technology,Printer,8,80.43,61.25,0.15,Net Banking,Rep-09,546.92,56.92
+ORD-00700,2024-08-17,North,Delhi,Corporate,Retail Store,Office Supplies,Binder,8,8.51,7.16,0.0,Cash,Rep-15,68.08,10.8
+ORD-00701,2024-08-19,East,Patna,Corporate,Online,Technology,Phone,6,303.18,247.56,0.2,Debit Card,Rep-07,1455.26,-30.1
+ORD-00702,2024-01-25,South,Hyderabad,Small Business,Retail Store,Technology,Laptop,11,931.38,659.78,0.0,UPI,Rep-08,10245.18,2987.6
+ORD-00703,2024-03-15,North,Lucknow,Small Business,Retail Store,Furniture,Bookcase,1,216.11,175.49,0.2,Credit Card,Rep-15,172.89,-2.6
+ORD-00704,2024-05-10,Central,Bhopal,Corporate,Online,Technology,Laptop,1,819.83,468.5,0.25,UPI,Rep-14,614.87,146.37
+ORD-00705,24/09/2025,North,Jaipur,,Phone,Technology,Laptop,9,673.49,459.69,0.15,Cash,Rep-01,5152.2,1014.99
+ORD-00706,2025-11-22,West,Mumbai,Corporate,Phone,Furniture,Table,10,247.19,189.05,0.1,UPI,Rep-07,2224.71,334.21
+ORD-00707,2024-05-09,North,Lucknow,Small Business,Retail Store,Technology,Printer,12,94.86,80.48,0.05,UPI,Rep-14,1081.4,115.64
+ORD-00708,2024-11-15,West,Ahmedabad,Corporate,Phone,Office Supplies,Binder,3,6.38,3.64,0.0,UPI,Rep-10,19.14,8.22
+ORD-00709,2025-01-12,Central,Bhopal,Small Business,Phone,Office Supplies,Pen Set,3,9.51,6.31,0.2,Debit Card,Rep-02,22.82,3.89
+ORD-00710,2024-07-25,South,Bengaluru,Corporate,Online,Furniture,Desk,7,237.53,180.85,0.05,Net Banking,Rep-15,1579.57,313.62
+ORD-00711,2025-04-10,Central,Bhopal,Corporate,Online,Office Supplies,Storage Box,10,23.58,14.23,0.1,Credit Card,Rep-08,212.22,69.92
+ORD-00712,2025-01-19,South,Bengaluru,Corporate,Online,Furniture,Office Chair,4,228.65,186.67,0.1,Credit Card,Rep-12,823.14,76.46
+ORD-00713,2025-10-08,North,Lucknow,Corporate,Online,Technology,Laptop,9,701.84,488.01,0.1,Credit Card,Rep-07,5684.9,1292.81
+ORD-00714,2024-09-08,South,Bengaluru,Consumer,Online,Technology,Phone,5,717.24,595.08,0.1,Debit Card,Rep-09,3227.58,252.18
+ORD-00715,2024-08-03,North,Jaipur,Corporate,Online,Technology,Phone,7,675.66,447.06,0.0,UPI,Rep-12,4729.62,1600.2
+ORD-00716,2024-05-13,South,Bengaluru,Consumer,Phone,Office Supplies,Binder,12,3.18,2.68,0.05,Net Banking,Rep-12,36.25,4.09
+ORD-00717,2025-07-02,East,Bhubaneswar,Consumer,Retail Store,Furniture,Office Chair,1,321.82,197.08,0.2,Debit Card,Rep-02,257.46,60.38
+ORD-00718,2025-09-21,East,Kolkata,Consumer,Phone,Office Supplies,Binder,4,15.09,12.24,0.15,Net Banking,Rep-17,51.31,2.35
+ORD-00719,2025-05-09,East,Patna,Corporate,Retail Store,Furniture,Table,3,166.89,120.73,0.1,UPI,Rep-13,450.6,88.41
+ORD-00720,2025-02-09,Central,Bhopal,Corporate,Retail Store,Office Supplies,Pen Set,4,₹16.32,13.62,0.15,Net Banking,Rep-06,55.49,1.01
+ORD-00721,2024-12-26,East,Kolkata,Small Business,Online,Technology,Laptop,3,988.23,,0.1,Net Banking,Rep-17,2668.22,602.75
+ORD-00722,2024-11-20,Central,Indore,Corporate,Online,technology,Keyboard,8,47.44,38.69,0.1,Debit Card,Rep-15,341.57,32.05
+ORD-00723,2025-06-09,South,Hyderabad,Small Business,Online,Technology,Laptop,6,1055.66,874.15,0.1,UPI,Rep-08,5700.56,455.66
+ORD-00724,2024-12-03,North,Jaipur,Corporate,Phone,Technology,Monitor,1,236.51,145.43,0.1,UPI,Rep-07,212.86,67.43
+ORD-00725,2025-02-17,Central,Indore,Small Business,Phone,Office Supplies,Storage Box,1,48.04,39.46,0.1,Credit Card,Rep-16,43.24,3.78
+ORD-00726,2025-04-30,Central,Bhopal,Small Business,Phone,Office Supplies,Pen Set,7,5.64,4.5,0.25,Cash,Rep-15,29.61,-1.89
+ORD-00727,2025-12-15,West,Pune,Consumer,Retail Store,Furniture,Desk,6,438.32,352.47,0.15,Net Banking,Rep-18,2235.43,120.61
+ORD-00728,05-Nov-2025,North,Jaipur,Corporate,Online,Furniture,Office Chair,5,381.31,272.61,0.0,Net Banking,Rep-14,1906.55,543.5
+ORD-00729,2024-05-22,West,Mumbai,Corporate,Phone,Office Supplies,Storage Box,6,38.52,31.17,0.2,Cash,Rep-13,184.9,-2.12
+ORD-00730,2024-12-02,West,Ahmedabad,Corporate,Phone,Technology,Keyboard,2,55.09,38.93,0.05,UPI,Rep-03,104.67,26.81
+ORD-00731,2024-01-28,South,Bengaluru,Consumer,Online,Technology,Printer,3,87.05,65.21,0.25,Net Banking,Rep-10,195.86,0.23
+ORD-00732,2024-06-24,South,Chennai,Corporate,Retail Store,Technology,Printer,2,₹180.03,129.82,0.1,Debit Card,Rep-04,324.05,64.41
+ORD-00733,2024-07-29,South,Chennai,Corporate,Phone,Furniture,Table,12,98.57,58.44,0.05,Net Banking,Rep-06,1123.7,422.42
+ORD-00734,2024-10-09,Central,Bhopal,Consumer,Online,Furniture,Bookcase,10,98.56,76.48,0.25,Net Banking,Rep-03,739.2,-25.6
+ORD-00735,2025-04-16,West,Pune,Small Business,Online,Furniture,Office Chair,9,178.53,149.99,0.2,Credit Card,Rep-10,1285.42,-64.49
+ORD-00736,2024-07-02,West,Ahmedabad, Small Business ,Retail Store,Furniture,Bookcase,7,176.48,121.24,0.05,Net Banking,Rep-13,1173.59,324.91
+ORD-00737,2024-06-10,South,Chennai,Small Business,Phone,Office Supplies,Paper,7,18.37,11.56,0.0,UPI,Rep-03,128.59,47.67
+ORD-00738,2024-04-17,South,Hyderabad,Corporate,Retail Store,Office Supplies,Binder,9,4.18,2.4,0.1,Net Banking,Rep-06,33.86,12.26
+ORD-00739,2025-04-17,East,Bhubaneswar,Corporate,Phone,Technology,Laptop,8,662.02,515.83,0.25,Net Banking,Rep-07,3972.12,-154.52
+ORD-00740,2025-04-20,West,Pune,Corporate,Online,technology,Monitor,2,277.27,,0.05,Credit Card,Rep-18,526.81,161.95
+ORD-00741,06-23-2024,South,Bengaluru,Small Business,Online,Office Supplies,Binder,3,10.47,8.67,0.1,Debit Card,Rep-10,28.27,2.26
+ORD-00742,2024-06-06,North,Jaipur,Corporate,Online,Furniture,Table,3,100.95,78.09,0.0,Debit Card,Rep-02,302.85,68.58
+ORD-00743,2025-11-06,Central,Bhopal,Corporate,Phone,Technology,Laptop,11,1015.18,780.31,0.25,UPI,Rep-15,8375.24,-208.17
+ORD-00744,2024-09-01,North,Delhi,Consumer,Online,Furniture,Desk,7,406.85,274.07,0.05,Net Banking,Rep-01,2705.55,787.06
+ORD-00745,2024-04-08,North,Lucknow,Consumer,Phone,Technology,Phone,11,684.82,593.32,0.05,Debit Card,Rep-02,7156.37,629.85
+ORD-00746,2025-07-08, WEST ,Pune,Corporate,Online,Furniture,Bookcase,6,₹166.79,126.12,0.05,Debit Card,Rep-07,950.7,193.98
+ORD-00747,2024-08-05,North,Jaipur,Consumer,Online,Furniture,Office Chair,1,202.71,112.29,0.1,UPI,Rep-12,182.44,70.15
+ORD-00748,2024-04-14,North,Lucknow,Small Business,Phone,Technology,Phone,7,446.0,318.83,0.2,Debit Card,Rep-09,2497.6,265.79
+ORD-00749,2024-06-28,North,Lucknow,Small Business,Retail Store,Furniture,Table,11,329.63,195.76,0.25,Net Banking,Rep-03,2719.45,566.09
+ORD-00750,2025-05-30,East,Patna,Small Business,Online,Technology,Printer,8,164.12,130.44,0.25,Debit Card,Rep-01,984.72,-58.8
+ORD-00751,2025-09-26,Central,,Consumer,Online,Office Supplies,Paper,5,8.2,6.56,0.15,UPI,,34.85,2.05
+ORD-00752,04/09/2025,East,Bhubaneswar,Small Business,Retail Store,Technology,Keyboard,4,63.15,53.98,0.05,Debit Card,Rep-09,239.97,24.05
+ORD-00753,2024-10-22,East,Kolkata,Consumer,Phone,Office Supplies,Paper,9,20.42,15.6,0.15,UPI,Rep-11,156.21,15.81
+ORD-00754,2024-08-15,South,Hyderabad,Corporate,Phone,Technology,Laptop,11,1094.77,853.67,0.25,UPI,,9031.85,-358.52
+ORD-00755,2024-05-24,West,Mumbai,Consumer,Online,Office Supplies,Paper,8,4.54,2.58,0.05,Debit Card,Rep-18,34.5,13.86
+ORD-00756,2024-07-21,South,Bengaluru,Corporate,Online,Technology,Laptop,7,976.25,589.82,0.1,Cash,Rep-08,6150.38,2021.64
+ORD-00757,2025-01-03,East,Bhubaneswar,Corporate,Online,Technology,Keyboard,11,30.11,17.36,0.15,Net Banking,Rep-15,281.53,90.57
+ORD-00758,2025-01-25,West,Pune,Consumer,Retail Store,Furniture,Table,3,301.29,167.68,0.15,Cash,Rep-18,768.29,265.25
+ORD-00759,2025-01-19,South,Hyderabad,Small Business,Retail Store,Furniture,Office Chair,5,195.55,136.82,,Credit Card,Rep-11,879.98,195.88
+ORD-00760,2025-05-27,South,Hyderabad,Small Business,Retail Store,Office Supplies,Pen Set,3,16.66,9.23,0.0,Net Banking,Rep-13,49.98,22.29
+ORD-00761,2024-03-13,West,Pune,Consumer,Online,Office Supplies,Storage Box,7,33.46,29.31,0.25,Net Banking,,175.66,-29.51
+ORD-00762,2025-12-06,South,Chennai,Small Business,Online,Office Supplies,Storage Box,12,26.13,18.58,0.25,null,Rep-14,235.17,12.21
+ORD-00763,2025-11-12,South,Hyderabad,Consumer,Retail Store,Technology,Laptop,6,933.93,522.37,0.25,Cash,Rep-15,4202.68,1068.46
+ORD-00764,2024-04-04,South,Hyderabad,Small Business,Retail Store,Technology,Printer,10,289.39,160.34,0.05,Net Banking,Rep-03,2749.2,1145.8
+ORD-00765,2025-05-27,Central,Raipur,Small Business,Retail Store,Office Supplies,Binder,3,16.94,13.18,0.1,Cash,Rep-10,45.74,6.2
+ORD-00766,2024-10-02,West,Ahmedabad,Consumer,Phone,Office Supplies,Paper,2,17.0,13.92,0.1,Net Banking,Rep-10,30.6,2.76
+ORD-00767,2025-03-02,North,Lucknow,Corporate,Phone,Office Supplies,Binder,1,3.74,2.57,0.25,Net Banking,Rep-06,2.81,0.24
+ORD-00768,06-Apr-2025,South,Hyderabad,,Online,Furniture,Office Chair,4,230.54,198.96,0.2,Debit Card,Rep-02,737.73,-58.11
+ORD-00769,2025-10-01,South,Bengaluru,Small Business,Online,Office Supplies,Pen Set,5,17.73,12.33,0.15,Credit Card,Rep-10,75.35,13.7
+ORD-00770,2025-05-11,North,Lucknow,Consumer,Online,Furniture,Bookcase,2,125.01,78.44,0.2,Credit Card,Rep-09,200.02,43.14
+ORD-00771,2025-06-16,North,Jaipur,Corporate,Retail Store,Office Supplies,Paper,2,7.64,5.15,0.0,UPI,Rep-14,15.28,4.98
+ORD-00772,2025-01-22,East,Patna,Consumer,Retail Store,Furniture,Bookcase,6,215.2,165.59,0.1,UPI,Rep-04,1162.08,168.54
+ORD-00773,2024-05-05,North,Lucknow,Corporate,Phone,Furniture,Table,12,305.56,170.65,0.05,Debit Card,Rep-12,3483.38,1435.58
+ORD-00774,2025-10-15,West,,Consumer,Phone,Furniture,Table,9,191.54,105.54,0.05,UPI,Rep-02,1637.67,687.81
+ORD-00775,2024-03-24,East,Bhubaneswar,Corporate,Retail Store,Office Supplies,Pen Set,10,9.75,7.33,0.25,Credit Card,Rep-13,73.12,-0.18
+ORD-00776,2024-05-10,East,Bhubaneswar,Consumer,Retail Store,Furniture,Office Chair,9,359.16,257.35,0.25,Cash,Rep-15,2424.33,108.18
+ORD-00777,2024-06-23,South,Hyderabad,Small Business,Online,Office Supplies,Paper,8,17.58,11.08,0.05,Credit Card,Rep-14,133.61,44.97
+ORD-00778,2025-11-12,North,Jaipur,Small Business,Online,Technology,Monitor,7,291.58,229.57,0.05,Debit Card,Rep-18,1939.01,332.02
+ORD-00779,2024-12-17,West,Pune,Small Business,Phone,Technology,Monitor,4,332.94,190.22,0.2,Net Banking,Rep-18,1065.41,304.53
+ORD-00780,2024-12-14,West,Ahmedabad,Small Business,Online,Office Supplies,Pen Set,5,3.85,2.26,0.0,Credit Card,Rep-12,19.25,7.95
+ORD-00781,2025-07-02,South,Bengaluru,Corporate,Retail Store,Office Supplies,Binder,10,15.26,8.7,0.1,UPI,,137.34,50.34
+ORD-00782,2024-11-19,South,Bengaluru,Corporate,Online,Furniture,Office Chair,2,₹200.45,166.63,0.2,Net Banking,Rep-15,320.72,-12.54
+ORD-00783,2024-11-23,South,Chennai,Small Business,Phone,Furniture,Office Chair,12,289.57,162.55,0.25,Credit Card,Rep-09,2606.13,655.53
+ORD-00784,2024-12-07,Central,Bhopal,Small Business,Online,Furniture,Office Chair,8,166.19,94.63,0.15,Debit Card,Rep-02,1130.09,373.05
+ORD-00785,2024-06-12,South,Bengaluru,Small Business,Retail Store,office supplies,Binder,5,19.72,16.78,0.25,UPI,Rep-14,73.95,-9.95
+ORD-00786,2025-12-14,West,Mumbai,Small Business,Phone,office supplies,Binder,7,3.29,2.12,0.25,Net Banking,Rep-04,17.27,2.43
+ORD-00787,2025-11-01,South,Bengaluru,Small Business,Online,Technology,Printer,1,266.96,173.62,0.25,Net Banking,Rep-16,200.22,26.6
+ORD-00788,2024-01-10,East,Bhubaneswar,Small Business,Phone,Office Supplies,Pen Set,4,14.87,11.79,0.05,Credit Card,Rep-05,56.51,9.35
+ORD-00789,2025-04-30,West,Mumbai,Consumer,Online,Office Supplies,Binder,11,17.15,9.98,0.0,Cash,Rep-11,188.65,78.87
+ORD-00790,2024-09-03,Central,Indore,Corporate,Retail Store,Furniture,Office Chair,11,308.44,173.1,1.25,Cash,Rep-06,3223.2,1319.1
+ORD-00791,2025-10-09,West,Ahmedabad,,Retail Store,Office Supplies,Paper,8,22.03,14.89,0.25,Credit Card,Rep-04,132.18,13.06
+ORD-00792,2025-08-23,North,Lucknow,Small Business,Retail Store,Technology,Keyboard,11,65.16,40.67,0.2,UPI,Rep-04,573.41,126.04
+ORD-00793,2024-04-11,Central,Indore,Consumer,Phone,Technology,Keyboard,11,67.71,50.01,0.1,Cash,Rep-06,670.33,120.22
+ORD-00794,2025-06-26,West,Pune,Consumer,Phone,Office Supplies,Paper,7,15.23,12.31,0.2,Cash,Rep-18,85.29,-0.88
+ORD-00795,2025-12-12,North,Delhi,Consumer,Phone,Office Supplies,Pen Set,11,16.36,13.65,0.05,Net Banking,Rep-11,170.96,20.81
+ORD-00796,2024-02-05,North,Delhi,Consumer,Phone,Technology,Printer,4,223.58,164.47,0.0,UPI,Rep-12,894.32,236.44
+ORD-00797,2024-10-27,Central,Raipur,Small Business,Retail Store,Technology,Laptop,4,785.27,666.32,0.2,Debit Card,Rep-16,2512.86,-152.42
+ORD-00798,2025-11-09,East,Kolkata,Consumer,Online,Furniture,Bookcase,10,162.26,126.08,0.05,Debit Card,Rep-05,1541.47,280.67
+ORD-00799,2024-10-11, EAST ,Kolkata,Small Business,Phone,Office Supplies,Pen Set,3,11.63,8.67,0.05,Net Banking,Rep-03,33.15,7.14
+ORD-00800,2024-09-17,Central,Raipur,Corporate,Phone,technology,Keyboard,11,82.77,57.98,0.15,Debit Card,Rep-18,773.9,136.12
+ORD-00801,2025-07-31,South,Hyderabad,Small Business,Phone,Technology,Monitor,11,274.2,215.46,0.05,Cash,Rep-06,2865.39,495.33
+ORD-00802,2024-10-03,West,Mumbai,Small Business,Online,Office Supplies,Storage Box,7,27.7,17.5,0.2,Cash,Rep-14,155.12,32.62
+ORD-00803,2024-08-19,North,Jaipur,Consumer,Online,Technology,Laptop,6,1059.16,633.68,,Net Banking,Rep-08,5719.46,1917.38
+ORD-00804,2025-05-16,West,,Small Business,Retail Store,Office Supplies,Paper,3,14.58,10.85,0.1,Cash,Rep-10,39.37,6.82
+ORD-00805,2025-11-25,Central,Raipur,Small Business,Phone,Technology,Laptop,1,726.84,443.1,0.15,Net Banking,Rep-16,617.81,174.71
+ORD-00806,2024-05-26,Central,Indore,Small Business,Phone,Technology,Laptop,11,881.1,675.8,0.05,UPI,Rep-02,9207.5,1773.7
+ORD-00807,2025-03-25,East,Bhubaneswar,Corporate,Phone,Office Supplies,Pen Set,11,11.74,8.23,0.25,UPI,Rep-09,96.86,6.33
+ORD-00808,2025-02-20,West,Pune,Consumer,Phone,Furniture,Office Chair,5,279.76,241.34,0.0,Credit Card,Rep-03,1398.8,192.1
+ORD-00809,2025-05-19,South,Bengaluru,Corporate,Phone,Office Supplies,Pen Set,10,2.92,1.88,0.25,Cash,Rep-05,21.9,3.1
+ORD-00810,2024-01-08,West,Ahmedabad,Corporate,Phone,Furniture,Desk,7,105.56,89.79,0.05,Cash,Rep-12,701.97,73.44
+ORD-00811,2025-06-20,South,,Consumer,Online,Office Supplies,Paper,10,12.87,9.94,0.05,UPI,Rep-05,122.26,22.86
+ORD-00812,2024-04-25,Central,Indore,Small Business,Online,Furniture,Desk,7,298.2,200.74,0.05,Cash,,1983.03,577.85
+ORD-00813,2025-02-07,East,Kolkata,Corporate,Phone,Technology,Monitor,5,153.27,116.22,0.25,Cash,Rep-02,574.76,-6.34
+ORD-00814,2024-11-01,West,Pune,Consumer,Online,Office Supplies,Binder,1,8.4,5.9,0.2,UPI,Rep-06,6.72,0.82
+ORD-00815,2024-06-06,West,Pune,Consumer,Retail Store,Furniture,Desk,7,296.82,215.08,0.0,Credit Card,Rep-05,2077.74,572.18
+ORD-00816,2025-07-03,East,Bhubaneswar,Consumer,Retail Store,Technology,Keyboard,6,37.45,31.62,0.15,Net Banking,Rep-06,191.0,1.28
+ORD-00817,2024-07-13,South,Chennai,Consumer,Online,Furniture,Table,1,176.99,108.94,0.25,Net Banking,Rep-14,132.74,23.8
+ORD-00818,2024-09-29,East,Kolkata,Corporate,Retail Store,Office Supplies,Pen Set,11,5.18,4.49,0.15,Cash,Rep-16,48.43,-0.96
+ORD-00819,2025-02-02,South,Bengaluru,Consumer,Online,Technology,Keyboard,9,69.45,57.52,0.25,Credit Card,Rep-05,468.79,-48.89
+ORD-00820,2025-03-15,South,Hyderabad,Small Business,Online,Furniture,Desk,11,194.6,160.32,0.25,Net Banking,Rep-16,1605.45,-158.07
+ORD-00821,2024-07-10,East,Kolkata, Corporate ,Online,Technology,Laptop,7,761.49,602.07,0.05,UPI,Rep-08,5063.91,849.42
+ORD-00822,2025-08-28,West,Ahmedabad,Small Business,Online,technology,Laptop,12,978.71,596.81,0.2,Debit Card,Rep-04,9395.62,2233.9
+ORD-00823,2024-07-23,South,Bengaluru,Consumer,Retail Store,Furniture,Bookcase,4,236.53,131.47,0.15,Net Banking,Rep-17,804.2,278.32
+ORD-00824,2025-03-13,East,Patna,Consumer,Retail Store,Office Supplies,Pen Set,4,7.38,4.21,0.15,Credit Card,Rep-09,25.09,8.25
+ORD-00825,2024-07-05,East,Kolkata,Consumer,Online,Technology,Monitor,12,204.52,172.9,0.1,UPI,Rep-07,2208.82,134.02
+ORD-00826,2024-11-07,East,Kolkata,Consumer,Phone,Furniture,Desk,7,173.94,116.54,0.15,Credit Card,Rep-18,1034.94,219.16
+ORD-00827,2024-08-31,South,Hyderabad,Corporate,Online,Technology,Monitor,12,294.7,220.89,0.2,Cash,Rep-13,2829.12,178.44
+ORD-00828,2025-11-01,North,Delhi,Consumer,Phone,Office Supplies,Pen Set,11,13.88,7.82,0.0,Net Banking,Rep-04,152.68,66.66
+ORD-00829,2024-06-06,North,Delhi,Consumer,Online,Office Supplies,Storage Box,5,45.72,33.2,0.05,Net Banking,Rep-18,217.17,51.17
+ORD-00830,,East,Kolkata,Corporate,Retail Store,Office Supplies,Storage Box,6,31.32,18.44,0.25,Cash,Rep-17,140.94,30.3
+ORD-00831,2025-08-02,North,Delhi,Small Business,Online,Technology,Monitor,12,341.87,193.16,0.1,Net Banking,Rep-16,3692.2,1374.28
+ORD-00832,2025-02-03,Central,Indore,Small Business,Retail Store,Office Supplies,Paper,3,12.63,8.55,0.2,Debit Card,Rep-06,30.31,4.66
+ORD-00833,2025-12-25,North,Lucknow,Small Business,Retail Store,Technology,Phone,10,702.87,492.22,,UPI,Rep-08,5622.96,700.76
+ORD-00834,10/02/2024,East,Patna,Consumer,Retail Store,Office Supplies,Paper,3,7.93,4.98,0.2,Debit Card,Rep-09,19.03,4.09
+ORD-00835,2025-10-09,North,Lucknow,Corporate,Retail Store,Office Supplies,Pen Set,4,10.55,8.06,0.0,Credit Card,Rep-18,42.2,9.96
+ORD-00836,2024-01-11,East,Bhubaneswar,Consumer,Phone,Office Supplies,Binder,10,7.31,5.53,0.0,UPI,Rep-06,73.1,17.8
+ORD-00837,2024-09-20,East,Patna,Small Business,Phone,Office Supplies,Paper,12,19.41,16.73,0.15,Cash,Rep-07,197.98,-2.78
+ORD-00838,2024-08-25,West,Ahmedabad,Small Business,Retail Store,Technology,Monitor,4,245.42,147.59,,UPI,Rep-05,834.43,244.07
+ORD-00839,2025-05-17, WEST ,Ahmedabad,Consumer,Phone,Technology,Phone,8,370.27,226.73,0.05,UPI,Rep-01,2814.05,1000.21
+ORD-00840,2024-03-14,East,Bhubaneswar,Consumer,Retail Store,Technology,Phone,7,696.79,399.2,0.05,Net Banking,Rep-04,4633.65,1839.25
+ORD-00841,2024-01-14,Central,Raipur,Consumer,Online,Technology,Laptop,10,694.88,386.93,0.15,Debit Card,Rep-03,5906.48,2037.18
+ORD-00842,2024-04-18,East,Patna,Small Business,Retail Store,Technology,Printer,1,254.33,220.25,0.0,Credit Card,Rep-07,254.33,34.08
+ORD-00843,2024-02-27,South,Hyderabad,Small Business,Retail Store,Furniture,Table,3,162.99,97.96,0.15,Cash,Rep-04,415.62,121.74
+ORD-00844,2025-03-01,North,Delhi,Consumer,Online,Office Supplies,Paper,9,9.53,8.03,0.2,Credit Card,Rep-08,68.62,-3.65
+ORD-00845,2024-04-25,West,Pune,Consumer,Online,Furniture,Bookcase,11,114.5,77.51,0.25,Debit Card,Rep-04,944.62,92.01
+ORD-00846,2025-09-11,East,Kolkata,Consumer,Retail Store,Furniture,Bookcase,2,128.49,108.64,0.0,Cash,Rep-11,256.98,39.7
+ORD-00847,2024-10-20,Central,Indore,Consumer,Retail Store,Technology,Keyboard,3,81.98,53.25,0.25,Net Banking,Rep-12,184.45,24.7
+ORD-00848,2024-05-30,East,Bhubaneswar,Consumer,Retail Store,Office Supplies,Paper,1,21.96,17.71,0.05,Net Banking,Rep-16,20.86,3.15
+ORD-00849,2024-05-10,North,Delhi,Corporate,Retail Store,Technology,Keyboard,12,35.89,23.57,0.0,UPI,Rep-16,430.68,147.84
+ORD-00850,2025-10-31,West,Mumbai,Corporate,Retail Store,Furniture,Table,10,294.25,175.26,0.1,Cash,Rep-16,2648.25,895.65
+ORD-00851,2025-08-14,Central,Raipur,Small Business,Online,Furniture,Office Chair,7,97.59,67.26,0.25,Credit Card,,512.35,41.53
+ORD-00852,2024-03-02,East,,Corporate,Online,Technology,Laptop,6,901.27,769.59,0.05,UPI,Rep-15,5137.24,519.7
+ORD-00853,2024-05-21,South,Bengaluru,Small Business,Phone,Office Supplies,Binder,4,5.79,3.29,0.05,Debit Card,Rep-13,22.0,8.84
+ORD-00854,2024-03-16,North,Jaipur,Small Business,Online,Office Supplies,Binder,6,2.97,2.28,0.0,Credit Card,Rep-05,17.82,4.14
+ORD-00855,2024-07-05,East,Bhubaneswar,Small Business,Online,Technology,Phone,2,258.11,154.71,0.15,Cash,Rep-10,438.79,129.37
+ORD-00856,2024-04-23,West,Mumbai,Consumer,Phone,Furniture,Bookcase,8,208.47,115.57,0.25,Credit Card,Rep-06,1250.82,326.26
+ORD-00857,2024-09-21,Central,Raipur,Small Business,Retail Store,Technology,Keyboard,7,65.99,48.36,0.15,Debit Card,Rep-14,392.64,54.12
+ORD-00858,2025-02-14,South,Hyderabad,Consumer,Online,Technology,Laptop,9,819.9,652.01,0.05,Net Banking,Rep-06,7010.14,1142.05
+ORD-00859,2025-02-18,Central,Indore, Consumer ,Online,Furniture,Desk,12,287.37,219.95,0.1,UPI,Rep-14,3103.6,464.2
+ORD-00860,2024-10-15,South,Bengaluru,Small Business,Online,Technology,Laptop,2,813.22,454.8,0.1,Credit Card,Rep-07,1463.8,554.2
+ORD-00861,2024-09-03,Central,Indore,Consumer,Phone,Technology,Monitor,4,237.92,203.81,0.25,Cash,Rep-02,713.76,-101.48
+ORD-00862,2024-01-09,Central,Indore,Corporate,Retail Store,Office Supplies,Binder,1,2.86,2.46,0.0,Cash,Rep-07,2.86,0.4
+ORD-00863,2025-05-30,East,Kolkata,Small Business,Online,Office Supplies,Storage Box,3,44.54,29.37,0.0,Credit Card,Rep-13,133.62,45.51
+ORD-00864,2025-10-02,West,Mumbai,Small Business,Online,Furniture,Desk,5,164.49,115.61,0.25,Debit Card,Rep-05,616.84,38.79
+ORD-00865,2025-09-30,South,Chennai,Consumer,Phone,Office Supplies,Storage Box,8,48.84,31.55,0.1,Net Banking,Rep-08,351.65,99.25
+ORD-00866,2024-01-16,South,,Corporate,Phone,Office Supplies,Paper,3,15.47,9.01,0.15,Credit Card,Rep-16,39.45,12.42
+ORD-00867,2024-12-27,North,Delhi,Consumer,Online,Furniture,Office Chair,5,123.29,91.27,0.1,Net Banking,Rep-09,554.81,98.46
+ORD-00868,2025-05-14,West,Mumbai,Corporate,Retail Store,Office Supplies,Binder,11,18.63,16.22,0.0,Net Banking,Rep-14,204.93,26.51
+ORD-00869,2025-01-17,Central,Bhopal,Small Business,Retail Store,Office Supplies,Pen Set,8,7.87,6.8,0.2,Cash,Rep-15,50.37,-4.03
+ORD-00870,2024-09-07,East,Patna,Small Business,Online,Office Supplies,Paper,10,24.5,19.47,0.0,Debit Card,Rep-04,245.0,50.3
+ORD-00871,2024-12-23,East,Bhubaneswar,Corporate,Phone,Furniture,Table,2,140.22,108.08,0.15,Cash,Rep-15,238.37,22.21
+ORD-00872,2024-03-07,North,Jaipur,Corporate,Phone,Technology,Laptop,7,995.7,679.57,0.05,Net Banking,Rep-07,6621.41,1864.42
+ORD-00873,2024-08-06,West,Pune,Small Business,Online,Technology,Keyboard,1,55.88,33.42,0.15,Cash,Rep-13,47.5,14.08
+ORD-00874,2024-01-24,North,Lucknow,Corporate,Retail Store,Office Supplies,Storage Box,7,58.89,33.44,0.05,UPI,Rep-06,391.62,157.54
+ORD-00875,2025-03-05,North,Lucknow,Consumer,Phone,Technology,Monitor,7,120.43,84.18,0.25,UPI,Rep-06,632.26,43.0
+ORD-00876,2024-12-23,North,Jaipur,Corporate,Retail Store,Technology,Keyboard,6,87.25,52.72,0.1,Cash,Rep-06,471.15,154.83
+ORD-00877,2025-11-14,West,Ahmedabad,Small Business,Online,Furniture,Table,1,231.45,142.46,0.2,UPI,Rep-11,185.16,42.7
+ORD-00878,11-21-2025,North,Jaipur,Corporate,Phone,Technology,Keyboard,3,52.46,30.82,0.1,Credit Card,Rep-15,141.64,49.18
+ORD-00879,2025-07-13,South,Bengaluru,Small Business,Retail Store,Office Supplies,Paper,1,7.81,5.38,0.05,Debit Card,Rep-12,7.42,2.04
+ORD-00880,2024-11-10,South,,Consumer,Phone,Office Supplies,Paper,6,20.9,13.58,0.0,Net Banking,Rep-15,125.4,43.92
+ORD-00881,2024-06-29,West,Pune, Corporate ,Retail Store,Furniture,Bookcase,9,140.91,82.77,0.1,Debit Card,Rep-18,1141.37,396.44
+ORD-00882,2025-03-23,Central,Raipur,Corporate,Phone,Technology,Keyboard,7,36.38,28.28,0.25,Cash,Rep-04,191.0,-6.96
+ORD-00883,2024-04-16,North,Jaipur,Small Business,Phone,Office Supplies,Paper,2,17.29,,0.2,Cash,Rep-04,27.66,-2.0
+ORD-00884,2025-04-10,West,Ahmedabad,Corporate,Online,Furniture,Desk,11,215.96,133.88,0.15,Debit Card,Rep-16,2019.23,546.55
+ORD-00885,2025-02-09,North,Delhi,Corporate,Online,Furniture,Table,7,325.16,254.36,0.25,Cash,Rep-10,1707.09,-73.43
+ORD-00886,2024-01-05,East,Bhubaneswar,Consumer,Online,Technology,Office Chair,5,51.6,39.84,0.15,Credit Card,Rep-05,219.3,20.1
+ORD-00887,2024-09-04,East,Patna,Corporate,Online,Office Supplies,Storage Box,6,16.86,14.8,0.2,Cash,Rep-13,80.93,-7.87
+ORD-00888,2024-06-26,North,Jaipur,Corporate,Phone,Office Supplies,Binder,3,18.91,16.5,0.15,Debit Card,Rep-14,48.22,-1.28
+ORD-00889,2025-10-04,South,Chennai,Small Business,Online,Technology,Phone,9,326.94,264.43,0.2,UPI,Rep-07,2353.97,-25.9
+ORD-00890,2025-09-24,North,Lucknow,Small Business,Online,Technology,Keyboard,1,62.17,37.33,0.2,Cash,Rep-13,49.74,12.41
+ORD-00891,2025-10-30,North,Delhi,Corporate,Online,Office Supplies,Pen Set,8,12.15,7.43,0.1,Cash,Rep-08,87.48,28.04
+ORD-00892,2025-10-15,West,Ahmedabad,Consumer,Online,Office Supplies,Paper,5,4.83,3.66,0.05,Net Banking,Rep-04,22.94,4.64
+ORD-00893,2024-07-31,North,Jaipur,Consumer,Retail Store,Technology,Monitor,3,123.19,102.09,0.15,Credit Card,Rep-14,314.13,7.86
+ORD-00894,10-10-2025,North,Jaipur,Consumer,Online,Furniture,Desk,4,374.93,316.29,0.15,UPI,Rep-01,1274.76,9.6
+ORD-00895,2025-09-20,South,Hyderabad,Small Business,Online,Office Supplies,Paper,2,24.47,17.37,0.1,Debit Card,Rep-17,44.05,9.31
+ORD-00896,2024-06-05,East,Kolkata,Corporate,Online,Office Supplies,Pen Set,10,2.47,1.78,0.0,Debit Card,Rep-01,24.7,6.9
+ORD-00897,08-May-2025, EAST ,Kolkata,Consumer,Retail Store,Technology,Laptop,12,961.22,613.55,0.05,Cash,Rep-10,10957.91,3595.31
+ORD-00898,2024-09-13,West,Mumbai,Consumer,Phone,Office Supplies,Binder,7,11.23,9.59,,UPI,Rep-13,66.82,-0.31
+ORD-00899,04-01-2025,North,Jaipur,Small Business,Phone,Furniture,Bookcase,3,210.88,149.93,0.25,UPI,Rep-11,474.48,24.69
+ORD-00900,2025-10-09,Central,Bhopal,Corporate,Online,Technology,Keyboard,7,29.98,20.19,0.1,Credit Card,Rep-17,188.87,47.54
+ORD-00901,2025-06-27,East,Bhubaneswar,Corporate,Online,Furniture,Bookcase,10,217.07,187.47,0.25,Credit Card,Rep-06,1628.02,-246.68
+ORD-00902,2025-01-15,East,Kolkata,Corporate,Online,Furniture,Office Chair,6,150.95,115.75,0.05,Credit Card,Rep-11,860.41,165.91
+ORD-00903,2025-07-29,North,Delhi,Corporate,Retail Store,Office Supplies,Pen Set,8,11.08,9.38,0.1,Cash,Rep-07,79.78,4.74
+ORD-00904,2025-10-23,Central,Indore,Small Business,Retail Store,Technology,Printer,5,237.58,136.54,0.25,UPI,Rep-11,890.93,208.23
+ORD-00905,2024-05-07,South,Chennai,Consumer,Phone,Technology,Keyboard,8,18.51,12.75,0.1,UPI,Rep-13,133.27,31.27
+ORD-00906,2025-04-17,South,Chennai,Consumer,Retail Store,Furniture,Bookcase,1,182.3,159.7,0.2,Credit Card,Rep-18,145.84,-13.86
+ORD-00907,2024-10-08,Central,Indore,Corporate,Retail Store,Technology,Laptop,2,861.45,679.4,0.15,Credit Card,Rep-18,1464.47,105.67
+ORD-00908,2025-10-18,East,Kolkata,Corporate,Phone,Furniture,Desk,7,219.38,156.37,0.15,Credit Card,Rep-01,1305.31,210.72
+ORD-00909,2025-03-22,South,Bengaluru,Consumer,Online,Technology,Laptop,3,697.31,581.74,0.1,Debit Card,Rep-12,1882.74,137.52
+ORD-00910,2024-11-07,Central,Bhopal,Corporate,Retail Store,Office Supplies,Paper,5,22.43,13.16,0.0,Cash,Rep-13,112.15,46.35
+ORD-00911,2024-05-31,East,Patna,Corporate,Phone,Office Supplies,Pen Set,10,9.37,6.14,0.05,Net Banking,Rep-04,89.01,27.61
+ORD-00912,2025-05-09,Central,Bhopal,Consumer,Retail Store,Furniture,Table,11,212.33,139.34,0.1,UPI,Rep-03,2102.07,569.33
+ORD-00913,2024-03-17,East,Bhubaneswar,Consumer,Online,Furniture,Office Chair,11,283.55,220.98,0.05,Credit Card,Rep-07,2963.1,532.32
+ORD-00914,2025-06-24,West,Ahmedabad,Corporate,Retail Store,Office Supplies,Pen Set,8,3.67,3.0,0.05,Net Banking,Rep-05,27.89,3.89
+ORD-00915,2025-09-27,Central,Raipur,Consumer,Retail Store,Technology,Phone,4,845.85,737.39,0.15,Debit Card,Rep-03,2875.89,-73.67
+ORD-00916,2024-04-19,East,Patna,Consumer,Online,Furniture,Bookcase,10,183.19,128.62,0.05,Credit Card,Rep-15,1740.31,454.11
+ORD-00917,2025-07-17,South,Bengaluru,Corporate,Retail Store,Technology,Keyboard,11,54.82,34.96,0.1,Debit Card,Rep-05,542.72,158.16
+ORD-00918,2025-10-26,West,Pune,Small Business,Retail Store,Furniture,Bookcase,1,143.85,83.76,0.1,Debit Card,Rep-10,129.47,45.71
+ORD-00919,2025-11-28,South,Bengaluru,Small Business,Online,Furniture,Bookcase,9,175.42,121.58,0.2,Credit Card,Rep-08,1263.02,168.8
+ORD-00920,2024-10-09,North,Delhi,Small Business,Phone,Technology,Laptop,10,769.78,558.56,0.0,Net Banking,Rep-13,7697.8,2112.2
+ORD-00921,2024-10-21,West,Ahmedabad,Small Business,Retail Store,Technology,Monitor,8,151.43,100.66,0.05,Credit Card,Rep-04,1150.87,345.59
+ORD-00922,2024-11-18,South,Hyderabad,Consumer,Online,Furniture,Table,12,162.44,102.13,0.25,Debit Card,Rep-11,1461.96,236.4
+ORD-00923,2024-09-27,West,Mumbai,Consumer,Phone,Technology,Laptop,11,863.57,480.9,0.1,Credit Card,Rep-12,8549.34,3259.44
+ORD-00924,2025-08-03,West,Ahmedabad,Corporate,Online,Furniture,Table,4,207.59,170.27,0.0,Cash,Rep-17,830.36,149.28
+ORD-00925,2025-05-17,South,Hyderabad,Corporate,Phone,Office Supplies,Paper,2,9.7,6.41,0.25,UPI,Rep-16,14.55,1.73
+ORD-00926,2025-11-10,East,Patna,Corporate,Online,Furniture,Desk,6,220.45,186.09,0.1,UPI,Rep-17,1190.43,73.89
+ORD-00927,2024-02-01,North,Delhi,Small Business,Phone,Technology,Keyboard,4,64.45,43.04,0.05,Net Banking,Rep-12,244.91,72.75
+ORD-00928,2025-11-26,South,Hyderabad,Corporate,Phone,Office Supplies,Pen Set,7,12.22,10.26,0.1,Debit Card,Rep-09,76.99,5.17
+ORD-00929,2024-02-12,East,Patna,Small Business,Phone,Office Supplies,Binder,10,9.51,6.2,0.1,UPI,Rep-04,85.59,23.59
+ORD-00930,2025-12-02,West,Mumbai,Corporate,Phone,Office Supplies,Storage Box,5,13.73,9.81,0.0,Debit Card,Rep-17,68.65,19.6
+ORD-00931,2024-01-16,East,Bhubaneswar,Consumer,Online,Office Supplies,Pen Set,5,9.79,7.97,0.0,UPI,Rep-04,48.95,9.1
+ORD-00932,2024-05-21,North,Jaipur,Corporate,Phone,Furniture,Desk,7,240.9,136.46,0.0,Cash,Rep-05,1686.3,731.08
+ORD-00933,2024-10-24,North,Delhi, Consumer ,Retail Store,Office Supplies,Pen Set,12,5.15,4.39,0.2,UPI,Rep-08,49.44,-3.24
+ORD-00934,2025-07-31,West,Pune,Small Business,Retail Store,Furniture,Desk,5,468.08,305.44,0.2,Cash,Rep-05,1872.32,345.12
+ORD-00935,2025-08-03, SOUTH ,Hyderabad,Corporate,Phone,technology,Keyboard,9,29.96,17.32,0.1,Debit Card,Rep-13,242.68,86.8
+ORD-00936,2025-12-30,West,Pune,Corporate,Retail Store,Technology,Printer,8,232.71,199.78,0.2,Net Banking,Rep-15,1489.34,-108.9
+ORD-00937,2025-03-07,West,Mumbai,Consumer,Phone,Office Supplies,Binder,1,18.43,15.96,0.0,UPI,Rep-08,18.43,2.47
+ORD-00938,2024-02-24,Central,Indore,Consumer,Retail Store,Furniture,Office Chair,10,249.28,209.31,0.2,Credit Card,Rep-15,1994.24,-98.86
+ORD-00939,2025-08-31,Central,Bhopal,Corporate,Phone,Furniture,Desk,2,121.88,71.34,0.25,Net Banking,Rep-11,182.82,40.14
+ORD-00940,2024-07-28,North,Lucknow,Consumer,Phone,Technology,Printer,11,192.38,109.18,0.25,Net Banking,Rep-05,1587.13,386.15
+ORD-00941,2024-01-07,South,Chennai,Small Business,Phone,Office Supplies,Pen Set,5,12.05,10.56,0.25,Debit Card,Rep-04,45.19,-7.61
+ORD-00942,2025-04-30,North,Delhi,Small Business,Retail Store,Technology,Printer,2,194.36,120.0,0.05,Net Banking,,369.28,129.28
+ORD-00943,2025-09-19,North,Lucknow,Corporate,Phone,Technology,Keyboard,3,76.52,48.66,0.2,Cash,Rep-04,183.65,37.67
+ORD-00944,2024-06-23,West,Ahmedabad,Small Business,Phone,Technology,Laptop,3,713.76,547.43,0.25,Cash,Rep-07,1605.96,-36.33
+ORD-00945,2025-11-14,West,Pune,Corporate,Retail Store,Furniture,Bookcase,11,79.0,56.3,0.2,Credit Card,Rep-15,695.2,75.9
+ORD-00946,2024-01-12,West,Ahmedabad,Corporate,Online,Office Supplies,Pen Set,1,6.53,4.81,0.0,Cash,Rep-15,6.53,1.72
+ORD-00947,2024-01-10,North,Delhi,Corporate,Phone,Office Supplies,Storage Box,3,32.33,22.67,0.25,Cash,Rep-07,72.74,4.73
+ORD-00948,2025-11-02,East,Patna,Small Business,Retail Store,Office Supplies,Binder,9,3.13,1.88,0.25,Net Banking,Rep-05,21.13,4.21
+ORD-00949,2025-04-28,East,Patna,Small Business,Online,Office Supplies,Storage Box,7,11.55,8.2,0.25,Cash,Rep-17,60.64,3.24
+ORD-00950,2025-02-17,Central,Bhopal,Consumer,Online,Technology,Monitor,10,338.8,251.69,0.1,Debit Card,Rep-08,3049.2,532.3
+ORD-00951,2024-08-30,North,Delhi,Consumer,Phone,Office Supplies,Binder,11,10.58,9.25,0.05,Net Banking,Rep-14,110.56,8.81
+ORD-00952,2025-01-18,North,Lucknow,Small Business,Online,Technology,Monitor,2,109.35,62.77,0.25,Debit Card,Rep-11,164.02,38.48
+ORD-00953,2024-07-19,North,Jaipur,Corporate,Retail Store,Office Supplies,Binder,3,19.8,14.53,0.2,UPI,Rep-08,47.52,3.93
+ORD-00954,2024-01-25,South,Hyderabad,Small Business,Online,Office Supplies,Binder,9,16.56,9.58,0.05,Debit Card,Rep-02,141.59,55.37
+ORD-00955,2025-11-29,South,Hyderabad,Small Business,Phone,Office Supplies,Storage Box,7,37.55,24.87,0.0,Cash,Rep-16,262.85,88.76
+ORD-00956,2024-05-21,South,Bengaluru,Corporate,Retail Store,Office Supplies,Binder,9,8.34,7.06,0.2,Net Banking,Rep-03,60.05,-3.49
+ORD-00957,2025-09-07,Central,Raipur,Corporate,Online,Technology,Printer,5,102.2,63.99,0.15,Debit Card,Rep-10,434.35,114.4
+ORD-00958,2024-03-17,East,Patna,Small Business,Online,Furniture,Bookcase,2,225.76,196.29,0.05,Cash,Rep-17,428.94,36.36
+ORD-00959,2024-09-26,East,Patna,Consumer,Online,Furniture,Desk,9,379.01,281.34,0.0,UPI,Rep-14,3411.09,879.03
+ORD-00960,2025-11-10,East,Kolkata,Consumer,Retail Store,Technology,Laptop,3,741.9,488.74,0.25,Credit Card,Rep-02,1669.27,203.05
+ORD-00961,2025-05-05,East,Kolkata,Corporate,Phone,Office Supplies,Binder,10,15.31,12.9,0.0,Credit Card,Rep-04,153.1,24.1
+ORD-00962,2024-08-21,North,Delhi,Consumer,Online,Furniture,Office Chair,11,185.59,120.66,0.15,Debit Card,Rep-18,1735.27,408.01
+ORD-00963,2025-12-13,Central,,Corporate,Phone,Office Supplies,Paper,9,13.61,10.92,0.15,Net Banking,Rep-18,104.12,5.84
+ORD-00964,2024-12-17,South,Chennai,Consumer,Online,Technology,Laptop,10,1092.14,727.46,0.1,Debit Card,Rep-03,9829.26,2554.66
+ORD-00965,2024-01-16,Central,Raipur,Consumer,Online,Technology,Keyboard,12,71.44,52.68,0.2,Credit Card,Rep-02,685.82,53.66
+ORD-00966,09-07-2024,South,Chennai,Consumer,Phone,Furniture,Bookcase,1,119.68,91.7,0.2,Net Banking,Rep-16,95.74,4.04
+ORD-00967,2024-12-31,North,Delhi,Corporate,Phone,Office Supplies,Paper,5,23.64,16.86,0.05,UPI,Rep-12,112.29,27.99
+ORD-00968,2025-05-30,Central,Bhopal,Consumer,Retail Store,Technology,Phone,9,830.44,647.96,0.1,Net Banking,Rep-16,6726.56,894.92
+ORD-00969,2024-05-05,East,Bhubaneswar,Small Business,Online,Technology,Phone,9,399.85,292.88,0.25,Credit Card,Rep-08,2698.99,63.07
+ORD-00970,2025-08-25,West,Pune,Corporate,Online,Office Supplies,Binder,2,2.38,1.52,0.0,Credit Card,Rep-09,4.76,1.72
+ORD-00971,2025-01-23, CENTRAL ,Bhopal,Small Business,Retail Store,Furniture,Desk,7,253.87,158.43,0.0,Cash,Rep-02,1777.09,668.08
+ORD-00972,2024-09-25,East,Patna,Consumer,Online,Technology,Monitor,1,327.51,279.85,0.1,UPI,Rep-14,294.76,14.91
+ORD-00973,2024-10-21,West,Ahmedabad,Corporate,Retail Store,Office Supplies,Paper,2,15.17,13.01,0.25,Cash,Rep-17,22.75,-3.27
+ORD-00974,16/01/2024,East,Bhubaneswar,Small Business,Retail Store,technology,Keyboard,8,70.92,42.09,0.05,Credit Card,Rep-08,538.99,202.27
+ORD-00975,2025-11-06,Central,Indore,Small Business,Phone,Technology,Printer,7,₹88.49,59.23,0.1,Credit Card,Rep-04,557.49,142.88
+ORD-00976,2025-03-26,East,Kolkata,Corporate,Online,Furniture,Bookcase,5,221.04,155.32,0.15,UPI,Rep-16,939.42,162.82
+ORD-00977,2025-07-18,Central,Indore,Consumer,Retail Store,Technology,Laptop,10,1072.48,907.34,0.1,Debit Card,Rep-09,9652.32,578.92
+ORD-00978,09-24-2025,East,Patna,Consumer,Online,Technology,Keyboard,3,32.06,19.19,0.05,Credit Card,Rep-02,91.37,33.8
+ORD-00979,2024-03-03,South,Hyderabad,Corporate,Retail Store,Office Supplies,Binder,10,7.71,6.07,0.2,Credit Card,Rep-12,61.68,0.98
+ORD-00980,2025-06-07,Central,Bhopal,Consumer,Online,Office Supplies,Pen Set,6,3.75,2.61,0.2,UPI,Rep-12,18.0,2.34
+ORD-00981,2025-01-03,West,Pune,Corporate,Phone,Technology,Keyboard,5,25.73,19.31,0.1,UPI,Rep-16,115.79,19.24
+ORD-00982,2024-01-27,East,Kolkata,Small Business,Online,Office Supplies,Pen Set,6,2.71,2.31,0.05,UPI,Rep-17,15.45,1.59
+ORD-00983,2024-06-02,Central,Indore,Small Business,Online,Office Supplies,Storage Box,4,27.7,15.53,0.2,Credit Card,Rep-08,88.64,26.52
+ORD-00984,2025-09-13,Central,Indore,Small Business,Phone,Furniture,Table,9,277.92,226.06,0.2,Cash,Rep-15,2001.02,-33.52
+ORD-00985,2025-01-05,East,Kolkata,Corporate,Retail Store,Technology,Printer,5,280.44,176.74,0.1,Credit Card,Rep-08,1261.98,378.28
+ORD-00986,2025-01-05,West,Ahmedabad,Corporate,Phone,Office Supplies,Binder,6,3.43,2.46,0.2,Debit Card,Rep-15,16.46,1.7
+ORD-00987,2025-11-12,West,Mumbai,Small Business,Retail Store,Technology,Phone,9,409.21,316.1,0.15,UPI,Rep-11,3130.46,285.56
+ORD-00988,2025-10-09,East,Kolkata,Consumer,Retail Store,Technology,Keyboard,7,52.88,39.14,0.05,Credit Card,Rep-06,351.65,77.67
+ORD-00989,2024-01-25,North,Lucknow,Consumer,Online,Furniture,Table,12,107.27,88.52,0.0,Debit Card,Rep-17,1287.24,225.0
+ORD-00990,2025-12-30,Central,Indore,Consumer,Retail Store,Office Supplies,Binder,6,4.29,3.15,0.25,UPI,Rep-04,19.3,0.4
+ORD-00991,2025-03-22,North,Jaipur,Corporate,Phone,Technology,Monitor,8,327.67,228.85,0.25,Debit Card,Rep-06,1966.02,135.22
+ORD-00992,2025-11-21, CENTRAL ,Raipur,Corporate,Retail Store,Office Supplies,Paper,3,22.7,16.93,0.2,UPI,Rep-15,54.48,3.69
+ORD-00993,2025-07-31,South,Hyderabad,Small Business,Phone,Furniture,Bookcase,2,104.13,68.99,0.15,Cash,Rep-14,177.02,39.04
+ORD-00994,2024-08-03,East,Bhubaneswar,Small Business,Retail Store,Technology,Monitor,3,338.38,277.0,0.0,Cash,Rep-11,1015.14,184.14
+ORD-00995,2024-06-22,North,Jaipur,Corporate,Phone,Furniture,Office Chair,2,164.99,114.64,0.15,Credit Card,Rep-08,280.48,51.2
+ORD-00996,2024-02-10,East,Patna,Small Business,Online,Technology,Phone,9,795.21,444.54,0.05,Credit Card,Rep-16,6799.05,2798.19
+ORD-00997,2025-04-09,North,Jaipur,Consumer,Phone,Furniture,Bookcase,10,141.04,101.82,0.15,Credit Card,Rep-15,1198.84,180.64
+ORD-00998,2024-12-28,West,Mumbai,Small Business,Online,Furniture,Desk,3,497.23,383.2,0.25,Credit Card,Rep-11,1118.77,-30.83
+ORD-00999,2024-03-16,South,Hyderabad,Small Business,Retail Store,Furniture,Bookcase,-8,179.82,138.78,0.2,Credit Card,Rep-14,1150.85,40.61
+ORD-01000,31/31/2024,North,Delhi,Small Business,Phone,Office Supplies,Storage Box,4,51.75,42.77,0.25,Credit Card,Rep-08,155.25,-15.83
+ORD-00545,2024-08-13,East,Kolkata,Corporate,Phone,Technology,Phone,12,518.19,349.22,0.05,Net Banking,Rep-02,5907.37,1716.73
+ORD-00516,2024-08-29,Central,Indore,Consumer,Phone,Office Supplies,Binder,6,16.54,13.37,0.1,Credit Card,Rep-11,89.32,9.1
+ORD-00194,2024-02-29,Central,Raipur,Corporate,Retail Store,Furniture,Office Chair,5,352.99,288.01,0.05,Cash,Rep-17,1676.7,236.65
+ORD-00012,2025-06-27,Central,Bhopal,Small Business,Retail Store,Furniture,Office Chair,6,321.63,278.1,0.2,Net Banking,Rep-01,1543.82,-124.78
+ORD-00280,2025-08-04,South,Hyderabad,Consumer,Phone,Furniture,Bookcase,10,65.36,43.53,0.25,Debit Card,Rep-16,490.2,54.9
+ORD-00654,2025-06-03,West,Mumbai,Small Business,Phone,Technology,Monitor,12,148.05,102.83,0.1,UPI,Rep-15,1598.94,364.98
+ORD-00644,2024-04-06,East,Bhubaneswar,Small Business,Phone,Furniture,Desk,1,305.37,210.77,0.2,Cash,Rep-09,244.3,33.53
+ORD-00764,2024-04-04,South,Hyderabad,Small Business,Retail Store,Technology,Printer,10,289.39,160.34,0.05,Net Banking,Rep-03,2749.2,1145.8
+ORD-00199,2024-08-14,West,Ahmedabad, Consumer ,Online,Office Supplies,Storage Box,4,27.28,15.42,0.15,UPI,Rep-18,92.75,31.07
+ORD-00722,2024-11-20,Central,Indore,Corporate,Online,Technology,Keyboard,8,47.44,38.69,0.1,Debit Card,Rep-15,341.57,32.05
+ORD-00237,2024-04-14,Central,Raipur,Small Business,Online,Office Supplies,Paper,12,12.71,11.14,0.05,UPI,Rep-02,144.89,11.21
+ORD-00501,2024-03-20,West,Ahmedabad,Small Business,Phone,Furniture,Bookcase,9,191.89,147.5,0.05,Net Banking,Rep-04,1640.66,313.16

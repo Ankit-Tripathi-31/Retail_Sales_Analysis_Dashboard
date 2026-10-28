@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Interactive retail sales and profit dashboard">
+  <title>Retail Sales | Performance Dashboard</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17231f;
+      --muted: #718078;
+      --line: #e6ece8;
+      --paper: #f5f8f6;
+      --card: #fff;
+      --control: #fff;
+      --green: #17865c;
+      --green-soft: #e6f4ec;
+      --insight-line: #d5e9dd;
+      --insight-ink: #295a43;
+      --insight-strong: #174b33;
+      --chart-grid: #e9efeb;
+      --track: #edf2ef;
+      --orange: #e59b51;
+      --red: #c65a51;
+      --shadow: 0 8px 26px rgba(27, 55, 42, .055);
+    }
+    :root[data-theme="dark"] {
+      color-scheme: dark;
+      --ink: #e5eee9;
+      --muted: #a0b0a8;
+      --line: #33443c;
+      --paper: #141d19;
+      --card: #1d2923;
+      --control: #17221c;
+      --green: #55c58b;
+      --green-soft: #203a2d;
+      --insight-line: #355a44;
+      --insight-ink: #c1e3cf;
+      --insight-strong: #e0f5e8;
+      --chart-grid: #3a4b42;
+      --track: #2b3a32;
+      --orange: #f0ad68;
+      --red: #f08076;
+      --shadow: 0 8px 26px rgba(0, 0, 0, .18);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 14px/1.5 "Segoe UI", Arial, sans-serif;
+    }
+    button, select, input { font: inherit; }
+    .shell { max-width: 1440px; margin: auto; padding: 32px 38px 44px; }
+    .topbar { display: flex; justify-content: space-between; gap: 20px; align-items: flex-start; }
+    .eyebrow { color: var(--green); font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+    h1 { margin: 6px 0 4px; font-size: clamp(26px, 3vw, 36px); letter-spacing: -.04em; }
+    .subtitle { margin: 0; color: var(--muted); }
+    .top-actions { display: flex; gap: 9px; flex-wrap: wrap; }
+    .button {
+      border: 1px solid var(--line); border-radius: 9px; background: var(--control); color: var(--ink);
+      padding: 9px 13px; cursor: pointer; font-weight: 650;
+    }
+    .button:hover { border-color: #a9cdb8; }
+    .button:focus-visible, .field select:focus-visible, .field input:focus-visible {
+      outline: 2px solid var(--green); outline-offset: 2px;
+    }
+    .button.primary { border-color: var(--green); background: var(--green); color: white; }
+    :root[data-theme="dark"] .button.primary { color: #102017; }
+    .filters {
+      display: grid; grid-template-columns: repeat(5, minmax(130px, 1fr)) auto;
+      gap: 12px; align-items: end; margin: 25px 0 15px; padding: 16px;
+      background: var(--card); border: 1px solid var(--line); border-radius: 13px;
+      box-shadow: var(--shadow);
+    }
+    .field label { display: block; margin: 0 0 5px; color: var(--muted); font-size: 11px; font-weight: 700; }
+    .field select, .field input {
+      width: 100%; height: 38px; border: 1px solid var(--line); border-radius: 8px;
+      background: var(--control); color: var(--ink); padding: 0 10px;
+    }
+    .filter-note { grid-column: 1 / -1; color: var(--muted); font-size: 12px; }
+    .kpis { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 14px 0; }
+    .card { background: var(--card); border: 1px solid var(--line); border-radius: 13px; box-shadow: var(--shadow); }
+    .kpi { padding: 17px 19px; }
+    .kpi-label { color: var(--muted); font-size: 12px; font-weight: 650; }
+    .kpi-value { margin-top: 7px; font-size: clamp(22px, 2.5vw, 31px); font-weight: 750; letter-spacing: -.035em; }
+    .kpi-foot { margin-top: 3px; color: var(--muted); font-size: 11px; }
+    .grid { display: grid; grid-template-columns: 1.65fr 1fr; gap: 14px; margin-top: 14px; }
+    .grid.equal { grid-template-columns: 1fr 1fr; }
+    .panel { min-width: 0; padding: 19px; }
+    .panel-head { display: flex; justify-content: space-between; gap: 12px; align-items: baseline; margin-bottom: 12px; }
+    h2 { margin: 0; font-size: 15px; letter-spacing: -.015em; }
+    .panel-sub { color: var(--muted); font-size: 11px; }
+    .chart { width: 100%; height: 230px; overflow: visible; }
+    .chart text { fill: var(--muted); font: 10px "Segoe UI", Arial, sans-serif; }
+    .bar-list { display: grid; gap: 16px; padding: 8px 0; }
+    .bar-label { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 5px; font-size: 12px; }
+    .bar-track { height: 9px; overflow: hidden; border-radius: 9px; background: var(--track); }
+    .bar-fill { height: 100%; border-radius: inherit; background: var(--green); transition: width .25s ease; }
+    .bar-fill.alt { background: #67b792; }
+    .donut-wrap { display: flex; align-items: center; justify-content: center; gap: 25px; min-height: 220px; }
+    .donut { width: 156px; height: 156px; border-radius: 50%; position: relative; flex: 0 0 auto; }
+    .donut::after {
+      content: ""; position: absolute; inset: 34px; border-radius: 50%;
+      background: var(--card); box-shadow: inset 0 0 0 1px var(--line);
+    }
+    .donut-center { position: absolute; z-index: 1; inset: 0; display: grid; align-content: center; text-align: center; }
+    .donut-center strong { font-size: 20px; }
+    .donut-center span { color: var(--muted); font-size: 10px; }
+    .legend { display: grid; gap: 10px; }
+    .legend-row { display: grid; grid-template-columns: 9px 1fr auto; gap: 8px; align-items: center; font-size: 11px; }
+    .swatch { width: 9px; height: 9px; border-radius: 50%; }
+    .legend-row span:last-child { color: var(--muted); }
+    .table-wrap { overflow-x: auto; }
+    table { width: 100%; border-collapse: collapse; white-space: nowrap; text-align: left; }
+    th { padding: 9px 10px; color: var(--muted); font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+    td { padding: 10px; border-top: 1px solid var(--line); font-size: 12px; }
+    td.num, th.num { text-align: right; }
+    .positive { color: var(--green); }
+    .negative { color: var(--red); }
+    .empty { color: var(--muted); text-align: center; padding: 30px; }
+    .insight {
+      margin-top: 14px; padding: 14px 16px; border: 1px solid var(--insight-line); border-radius: 11px;
+      background: var(--green-soft); color: var(--insight-ink); font-size: 12px;
+    }
+    .insight strong { color: var(--insight-strong); }
+    .footnote { margin: 16px 2px 0; color: var(--muted); font-size: 11px; }
+    @media (max-width: 950px) {
+      .shell { padding: 25px 20px 34px; }
+      .filters { grid-template-columns: repeat(3, 1fr); }
+      .grid, .grid.equal { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 620px) {
+      .shell { padding: 20px 13px 28px; }
+      .topbar { flex-direction: column; }
+      .filters { grid-template-columns: repeat(2, 1fr); gap: 10px; padding: 12px; }
+      .kpis { grid-template-columns: repeat(2, 1fr); gap: 9px; }
+      .kpi { padding: 14px; }
+      .panel { padding: 15px; }
+      .donut-wrap { gap: 14px; }
+      .donut { width: 135px; height: 135px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">Retail performance</div>
+        <h1>Sales dashboard</h1>
+        <p class="subtitle">Explore sales, profitability, and order mix across the cleaned dataset.</p>
+      </div>
+      <div class="top-actions">
+        <button class="button" id="reset">Reset filters</button>
+        <button class="button" id="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">Night mode</button>
+        <button class="button primary" id="download">Download filtered CSV</button>
+      </div>
+    </header>
+
+    <section class="filters" aria-label="Dashboard filters">
+      <div class="field"><label for="region">Region</label><select id="region"></select></div>
+      <div class="field"><label for="category">Product category</label><select id="category"></select></div>
+      <div class="field"><label for="segment">Customer segment</label><select id="segment"></select></div>
+      <div class="field"><label for="channel">Sales channel</label><select id="channel"></select></div>
+      <div class="field"><label for="from">Order date from</label><input id="from" type="date"></div>
+      <div class="field"><label for="to">Order date to</label><input id="to" type="date"></div>
+      <div class="filter-note" id="filter-note" aria-live="polite"></div>
+    </section>
+
+    <section class="kpis" aria-label="Key metrics">
+      <article class="card kpi"><div class="kpi-label">Sales</div><div class="kpi-value" id="sales-kpi">—</div><div class="kpi-foot">Sum of source-reported sales</div></article>
+      <article class="card kpi"><div class="kpi-label">Profit</div><div class="kpi-value" id="profit-kpi">—</div><div class="kpi-foot">Sum of source-reported profit</div></article>
+      <article class="card kpi"><div class="kpi-label">Profit margin</div><div class="kpi-value" id="margin-kpi">—</div><div class="kpi-foot">Profit ÷ sales</div></article>
+      <article class="card kpi"><div class="kpi-label">Orders</div><div class="kpi-value" id="orders-kpi">—</div><div class="kpi-foot" id="average-kpi">Average sales per order —</div></article>
+    </section>
+
+    <section class="grid">
+      <article class="card panel">
+        <div class="panel-head"><h2>Monthly sales trend</h2><span class="panel-sub">Sales by order month</span></div>
+        <svg id="trend" class="chart" role="img" aria-label="Monthly sales trend chart"></svg>
+      </article>
+      <article class="card panel">
+        <div class="panel-head"><h2>Sales by product category</h2><span class="panel-sub">Ranked by sales</span></div>
+        <div id="categories" class="bar-list"></div>
+      </article>
+    </section>
+
+    <section class="grid equal">
+      <article class="card panel">
+        <div class="panel-head"><h2>Sales channel mix</h2><span class="panel-sub">Share of sales</span></div>
+        <div id="channels" class="donut-wrap"></div>
+      </article>
+      <article class="card panel">
+        <div class="panel-head"><h2>Regional performance</h2><span class="panel-sub">Sales and margin</span></div>
+        <div class="table-wrap">
+          <table><thead><tr><th>Region</th><th class="num">Orders</th><th class="num">Sales</th><th class="num">Profit</th><th class="num">Margin</th></tr></thead><tbody id="regions"></tbody></table>
+        </div>
+      </article>
+    </section>
+
+    <section class="card panel" style="margin-top:14px">
+      <div class="panel-head"><h2>Largest orders in current selection</h2><span class="panel-sub">Top 10 by reported sales</span></div>
+      <div class="table-wrap">
+        <table><thead><tr><th>Order</th><th>Date</th><th>Region</th><th>Category</th><th class="num">Sales</th><th class="num">Profit</th></tr></thead><tbody id="orders"></tbody></table>
+      </div>
+    </section>
+    <div id="insight" class="insight" role="status"></div>
+    <p class="footnote">Amounts are shown in dataset units; no currency is specified in the source. Nine orders have no usable date and are omitted from monthly trends. Negative sales, quantities, and profits are retained as recorded.</p>
+  </main>
+
+  <script>
+    const data = __DATA_JSON__;
+    const fields = ["Order_ID", "Order_Date", "Region", "City", "Customer_Segment", "Sales_Channel", "Product_Category", "Product_Name", "Quantity", "Unit_Price", "Unit_Cost", "Discount_Rate", "Payment_Method", "Sales_Rep", "Sales_Amount", "Profit"];
+    const colors = ["#17865c", "#e59b51", "#6d83c4", "#58a9a0", "#b975a8", "#8c9a92"];
+    const number = new Intl.NumberFormat("en-IN", { maximumFractionDigits: 0 });
+    const precise = new Intl.NumberFormat("en-IN", { maximumFractionDigits: 2 });
+    const $ = (id) => document.getElementById(id);
+    const amount = (value) => precise.format(value);
+    const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[char]));
+    const valueOf = (row, key) => Number(row[key]) || 0;
+    const sum = (rows, key) => rows.reduce((total, row) => total + valueOf(row, key), 0);
+
+    function setupSelect(id, key) {
+      const options = [...new Set(data.map((row) => row[key]))].sort((a, b) => a.localeCompare(b));
+      $(id).innerHTML = '<option value="">All</option>' + options.map((item) => `<option value="${escapeHtml(item)}">${escapeHtml(item)}</option>`).join("");
+    }
+
+    ["region", "category", "segment", "channel"].forEach((id, index) => {
+      setupSelect(id, ["Region", "Product_Category", "Customer_Segment", "Sales_Channel"][index]);
+      $(id).addEventListener("change", render);
+    });
+    ["from", "to"].forEach((id) => $(id).addEventListener("change", render));
+
+    function selectedRows() {
+      const from = $("from").value;
+      const to = $("to").value;
+      return data.filter((row) =>
+        (!$("region").value || row.Region === $("region").value) &&
+        (!$("category").value || row.Product_Category === $("category").value) &&
+        (!$("segment").value || row.Customer_Segment === $("segment").value) &&
+        (!$("channel").value || row.Sales_Channel === $("channel").value) &&
+        (!from && !to || row.Order_Date && (!from || row.Order_Date >= from) && (!to || row.Order_Date <= to))
+      );
+    }
+
+    function grouped(rows, key) {
+      const groups = new Map();
+      rows.forEach((row) => {
+        const label = row[key] || "Unknown";
+        if (!groups.has(label)) groups.set(label, []);
+        groups.get(label).push(row);
+      });
+      return [...groups.entries()].map(([label, items]) => ({
+        label, rows: items, sales: sum(items, "Sales_Amount"), profit: sum(items, "Profit")
+      }));
+    }
+
+    function renderTrend(rows) {
+      const monthly = new Map();
+      rows.forEach((row) => {
+        if (!row.Order_Date) return;
+        const month = row.Order_Date.slice(0, 7);
+        monthly.set(month, (monthly.get(month) || 0) + valueOf(row, "Sales_Amount"));
+      });
+      const entries = [...monthly.entries()].sort(([a], [b]) => a.localeCompare(b));
+      const svg = $("trend");
+      const width = Math.max(svg.clientWidth || 640, 320);
+      const height = 230, left = 43, right = 12, top = 14, bottom = 35;
+      svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+      if (!entries.length) {
+        svg.innerHTML = `<text x="${width / 2}" y="112" text-anchor="middle">No dated orders in this selection</text>`;
+        return;
+      }
+      const values = entries.map((entry) => entry[1]);
+      const max = Math.max(...values, 1);
+      const plotWidth = width - left - right, plotHeight = height - top - bottom;
+      const x = (index) => left + (entries.length === 1 ? plotWidth / 2 : index * plotWidth / (entries.length - 1));
+      const y = (value) => top + plotHeight - value / max * plotHeight;
+      const ticks = [0, .5, 1].map((fraction) => {
+        const tickY = top + plotHeight * fraction;
+        return `<line x1="${left}" y1="${tickY}" x2="${width - right}" y2="${tickY}" stroke="var(--chart-grid)"/><text x="${left - 7}" y="${tickY + 3}" text-anchor="end">${amount(max * (1 - fraction))}</text>`;
+      }).join("");
+      const path = entries.map((entry, index) => `${index ? "L" : "M"}${x(index)},${y(entry[1])}`).join(" ");
+      const step = entries.length > 12 ? 2 : 1;
+      const labels = entries.map(([month], index) => index % step === 0 || index === entries.length - 1
+        ? `<text transform="translate(${x(index)},${height - 8}) rotate(-35)" text-anchor="end">${month.slice(2)}</text>` : "").join("");
+      const dots = entries.map(([month, sales], index) =>
+        `<circle cx="${x(index)}" cy="${y(sales)}" r="3" fill="var(--green)"><title>${month}: ${precise.format(sales)}</title></circle>`).join("");
+      svg.innerHTML = `${ticks}<path d="${path}" fill="none" stroke="var(--green)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>${dots}${labels}`;
+    }
+
+    function renderCategories(rows) {
+      const items = grouped(rows, "Product_Category").sort((a, b) => b.sales - a.sales);
+      const max = Math.max(...items.map((item) => item.sales), 1);
+      $("categories").innerHTML = items.length ? items.map((item, index) => `
+        <div>
+          <div class="bar-label"><span>${escapeHtml(item.label)}</span><strong>${amount(item.sales)}</strong></div>
+          <div class="bar-track"><div class="bar-fill ${index ? "alt" : ""}" style="width:${Math.max(0, item.sales / max * 100)}%"></div></div>
+        </div>`).join("") : '<div class="empty">No orders to display</div>';
+    }
+
+    function renderChannels(rows) {
+      const items = grouped(rows, "Sales_Channel").sort((a, b) => b.sales - a.sales);
+      const total = items.reduce((value, item) => value + item.sales, 0);
+      if (!items.length || total <= 0) {
+        $("channels").innerHTML = '<div class="empty">No positive sales to display</div>';
+        return;
+      }
+      let cursor = 0;
+      const stops = items.map((item, index) => {
+        const start = cursor;
+        cursor += Math.max(item.sales, 0) / total * 100;
+        return `${colors[index % colors.length]} ${start}% ${cursor}%`;
+      });
+      $("channels").innerHTML = `
+        <div class="donut" style="background:conic-gradient(${stops.join(",")})">
+          <div class="donut-center"><strong>${amount(total)}</strong><span>total sales</span></div>
+        </div>
+        <div class="legend">${items.map((item, index) => `
+          <div class="legend-row"><i class="swatch" style="background:${colors[index % colors.length]}"></i>
+            <span>${escapeHtml(item.label)}</span><span>${total ? (item.sales / total * 100).toFixed(1) : "0.0"}%</span>
+          </div>`).join("")}
+        </div>`;
+    }
+
+    function renderRegions(rows) {
+      const items = grouped(rows, "Region").sort((a, b) => b.sales - a.sales);
+      $("regions").innerHTML = items.length ? items.map((item) => `
+        <tr><td>${escapeHtml(item.label)}</td><td class="num">${number.format(item.rows.length)}</td>
+        <td class="num">${amount(item.sales)}</td><td class="num ${item.profit < 0 ? "negative" : ""}">${amount(item.profit)}</td>
+        <td class="num">${item.sales ? (item.profit / item.sales * 100).toFixed(1) : "—"}%</td></tr>`).join("")
+        : '<tr><td colspan="5" class="empty">No orders to display</td></tr>';
+    }
+
+    function renderOrders(rows) {
+      const items = [...rows].sort((a, b) => valueOf(b, "Sales_Amount") - valueOf(a, "Sales_Amount")).slice(0, 10);
+      $("orders").innerHTML = items.length ? items.map((row) => `
+        <tr><td>${escapeHtml(row.Order_ID)}</td><td>${escapeHtml(row.Order_Date || "Unknown")}</td>
+        <td>${escapeHtml(row.Region)}</td><td>${escapeHtml(row.Product_Category)}</td>
+        <td class="num">${amount(valueOf(row, "Sales_Amount"))}</td>
+        <td class="num ${valueOf(row, "Profit") < 0 ? "negative" : "positive"}">${amount(valueOf(row, "Profit"))}</td></tr>`).join("")
+        : '<tr><td colspan="6" class="empty">No orders to display</td></tr>';
+    }
+
+    function render() {
+      const rows = selectedRows();
+      const sales = sum(rows, "Sales_Amount"), profit = sum(rows, "Profit");
+      $("sales-kpi").textContent = amount(sales);
+      $("profit-kpi").textContent = amount(profit);
+      $("margin-kpi").textContent = `${sales ? (profit / sales * 100).toFixed(1) : "—"}%`;
+      $("orders-kpi").textContent = number.format(rows.length);
+      $("average-kpi").textContent = `Average sales per order ${rows.length ? amount(sales / rows.length) : "—"}`;
+      const noDate = rows.filter((row) => !row.Order_Date).length;
+      $("filter-note").textContent = `${number.format(rows.length)} of ${number.format(data.length)} orders shown${noDate ? ` · ${noDate} without usable dates` : ""}`;
+      renderTrend(rows);
+      renderCategories(rows);
+      renderChannels(rows);
+      renderRegions(rows);
+      renderOrders(rows);
+
+      const region = grouped(rows, "Region").sort((a, b) => b.sales - a.sales);
+      const category = grouped(rows, "Product_Category").sort((a, b) => b.sales - a.sales);
+      const bestMargin = grouped(rows, "Region").filter((item) => item.sales > 0).sort((a, b) => b.profit / b.sales - a.profit / a.sales)[0];
+      $("insight").innerHTML = rows.length
+        ? `<strong>Selection snapshot:</strong> ${region[0] ? `${escapeHtml(region[0].label)} leads sales` : "No leading region"}${category[0] ? `; ${escapeHtml(category[0].label)} is the top category` : ""}${bestMargin ? `; ${escapeHtml(bestMargin.label)} has the highest regional margin (${(bestMargin.profit / bestMargin.sales * 100).toFixed(1)}%)` : ""}.`
+        : "<strong>No orders match the selected filters.</strong>";
+    }
+
+    $("reset").addEventListener("click", () => {
+      ["region", "category", "segment", "channel", "from", "to"].forEach((id) => { $(id).value = ""; });
+      render();
+    });
+    $("theme-toggle").addEventListener("click", (event) => {
+      const button = event.currentTarget;
+      const isDark = document.documentElement.dataset.theme !== "dark";
+      document.documentElement.dataset.theme = isDark ? "dark" : "light";
+      button.textContent = isDark ? "Day mode" : "Night mode";
+      button.setAttribute("aria-label", `Switch to ${isDark ? "light" : "dark"} mode`);
+      button.setAttribute("aria-pressed", String(isDark));
+    });
+    $("download").addEventListener("click", () => {
+      const rows = selectedRows();
+      const quote = (value) => `"${String(value ?? "").replace(/"/g, '""')}"`;
+      const csv = [fields.join(","), ...rows.map((row) => fields.map((field) => quote(row[field])).join(","))].join("\r\n");
+      const link = document.createElement("a");
+      const url = URL.createObjectURL(new Blob(["\ufeff", csv], { type: "text/csv;charset=utf-8" }));
+      link.href = url;
+      link.download = "filtered_retail_sales.csv";
+      link.click();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    });
+    window.addEventListener("resize", render);
+    render();
+  </script>
+</body>
+</html>
