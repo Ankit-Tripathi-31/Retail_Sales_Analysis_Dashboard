@@ -1,6 +1,10 @@
 # Retail Sales Analysis Dashboard
 
-An interactive, standalone dashboard built from `Retail_Sales_Raw_Dataset.csv`. The project includes a reproducible cleaning script, a cleaned CSV, a written business analysis, and a concise insights summary.
+🚀 **[View Live Dashboard](https://ankit-tripathi-31.github.io/Retail_Sales_Analysis_Dashboard/dashboard.html)**
+
+An interactive retail sales dashboard built using HTML, CSS, and JavaScript.
+
+---
 
 ## Get started
 
@@ -19,15 +23,15 @@ The script uses only the Python standard library. It reads the raw CSV from the 
 
 ## Project files
 
-| File | Purpose |
-|---|---|
-| `Retail_Sales_Raw_Dataset.csv` | Original input dataset; left unchanged |
-| `cleaned_retail_sales.csv` | Deduplicated and normalized data used by the dashboard |
-| `dashboard.html` | Interactive dashboard with embedded cleaned data |
-| `dashboard_template.html` | Source template for the generated dashboard |
-| `prepare_dashboard.py` | Reproducible cleaning and dashboard-generation script |
-| `business_analysis.md` | Methodology, results, caveats, and recommendations |
-| `insights.md` | Executive summary of the key findings |
+| File                           | Purpose                                                |
+| ------------------------------ | ------------------------------------------------------ |
+| `Retail_Sales_Raw_Dataset.csv` | Original input dataset; left unchanged                 |
+| `cleaned_retail_sales.csv`     | Deduplicated and normalized data used by the dashboard |
+| `dashboard.html`               | Interactive dashboard with embedded cleaned data       |
+| `dashboard_template.html`      | Source template for the generated dashboard            |
+| `prepare_dashboard.py`         | Reproducible cleaning and dashboard-generation script  |
+| `business_analysis.md`         | Methodology, results, caveats, and recommendations     |
+| `insights.md`                  | Executive summary of the key findings                  |
 
 ## Data notes
 
